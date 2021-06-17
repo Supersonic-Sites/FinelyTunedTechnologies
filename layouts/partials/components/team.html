@@ -1,0 +1,28 @@
+<section class="pb-12 md:pb-24">
+    <div class="container max-w-7xl mx-auto px-4">
+    <h2 class="font-bold text-3xl md:text-5xl capitalize mt-12 mb-12 lg:mt-24 lg:mb-24">{{ .team.title }}</h2>
+
+{{ range .team.members }}
+<div class="grid grid-cols-12 lg:gap-12 mb-20" data-aos="fade-right" data-aos-duration="800">
+    <div class="col-span-12 md:col-span-3">
+        <img
+        src="https://ik.imagekit.io/supersonicsites/tr:ar-3-4,w-auto,bl-30,q-50,/{{ .img }}"
+        sizes="100vw"
+        data-srcset="
+        https://ik.imagekit.io/supersonicsites/tr:ar-3-4,w-auto,/{{ .img }} 400w,
+        https://ik.imagekit.io/supersonicsites/tr:ar-3-4,w-auto,/{{ .img }} 768w,
+        https://ik.imagekit.io/supersonicsites/tr:ar-3-4,w-auto,/{{ .img }} 1024w"
+        data-src="https://ik.imagekit.io/supersonicsites/tr:ar-3-4,w-auto,/{{ .img }} 768w"
+        class="lazyload shadow-xl" />
+    </div>
+    <div class="col-span-12 lg:col-span-9 flex flex-col">
+        <h2 class="text-3xl md:text-5xl mt-3 md:mt-0 font-bold">{{ .title }} </h2>
+        <p class="text-xl font-bold py-3">{{ .position }}</p>
+        <p class="is-size-3"></p>
+        <p class="text-xl">{{ .desc }}</p>
+    </div>
+</div>
+{{ end }}
+
+</div>
+</section>

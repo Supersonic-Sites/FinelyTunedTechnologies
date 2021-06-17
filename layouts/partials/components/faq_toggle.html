@@ -1,0 +1,68 @@
+<section class="">
+    <div class="max-w-7xl mx-auto px-4">
+    
+      <div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+        <dl class="space-y-6 divide-y divide-gray-200">
+            <div x-data="{ open: true }" class="pt-6">
+                <dt class="text-xl">
+                  <button type="button" x-description="Expand/collapse question button" 
+                  class="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none" 
+                  aria-controls="faq-0" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
+                    <span class="font-bold text-2xl text-gray-900">
+                      {{ .question }}
+                    </span>
+                    <span class="ml-6 h-7 flex items-center">
+                      <svg class="h-6 w-6 transform rotate-0" 
+                      x-description="Expand/collapse icon" 
+                      x-state:on="Open" x-state:off="Closed" 
+                      :class="{ '-rotate-180': open, 'rotate-0': !(open) }" 
+                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </span>
+                  </button>
+                </dt>
+                <dd class="mt-2 pr-12" id="faq-0" x-show="open" style="display: none;">
+                  <p class="text-xl text-gray-500">
+                    {{ .answer }}
+                  </p>
+                </dd>
+              </div>
+
+        </dl>
+      </div>
+      
+      {{ range .faqs }}
+      <div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+        <dl class="space-y-6 divide-y divide-gray-200">
+            <div x-data="{ open: false }" class="pt-6">
+                <dt class="text-xl">
+                  <button type="button" x-description="Expand/collapse question button" 
+                  class="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none" 
+                  aria-controls="faq-0" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
+                    <span class="font-bold text-2xl text-gray-900">
+                      {{ .question }}
+                    </span>
+                    <span class="ml-6 h-7 flex items-center">
+                      <svg class="h-6 w-6 transform rotate-0" 
+                      x-description="Expand/collapse icon" 
+                      x-state:on="Open" x-state:off="Closed" 
+                      :class="{ '-rotate-180': open, 'rotate-0': !(open) }" 
+                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </span>
+                  </button>
+                </dt>
+                <dd class="mt-2 pr-12" id="faq-0" x-show="open" style="display: none;">
+                  <p class="text-xl text-gray-500">
+                    {{ .answer }}
+                  </p>
+                </dd>
+              </div>
+
+        </dl>
+      </div>
+      {{ end }}
+    </div>
+  </section>

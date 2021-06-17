@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+<header class="h-52 md:h-96 md:pb-6 flex flex-col justify-center md:mt-0 bg-cover"
+style="background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://ik.imagekit.io/supersonicsites/tr:ar-45-9,w-1600,c_scale,f_auto,q_auto,dpr_auto,/Condesa/03-Jacaranda-Textura_8Lrc2lvC5n.jpg');">
+    <div class="container max-w-7xl mx-auto flex flex-col px-4">
+        <h1 class="font-bold  tracking-widest capitalize text-4xl md:text-7xl text-center sm:text-left text-white">{{ .Title }}</h1>
+    </div>
+
+</header>
+
+
+<div class="py-8 md:py-12 bg-white"></div>
+
+
+<section class="">
+    <div class="container max-w-7xl mx-auto px-4">
+
+        <img
+        src="https://ik.imagekit.io/supersonicsites/tr:ar-16-9,w-auto,bl-30,q-50,/{{ .Params.img}}"
+        sizes="100vw"
+        data-srcset="
+        https://ik.imagekit.io/supersonicsites/tr:ar-16-9,w-400,/{{ .Params.img}} 400w,
+        https://ik.imagekit.io/supersonicsites/tr:ar-16-9,w-768,/{{ .Params.img}} 768w,
+        https://ik.imagekit.io/supersonicsites/tr:ar-16-9,w-1400,/{{ .Params.img}} 1024w"
+        data-src="https://ik.imagekit.io/supersonicsites/tr:ar-16-9,w-768,/{{ .Params.img}} 768w"
+        alt="{{ .Title }}"
+        class="lazyload shadow-lg" />
+
+        <nav class="py-2">
+            <a href="{{ $.Site.BaseURL }}" class="capitalize underline hover:text-gray-400 transition duration-500">Home</a> > <a href="{{ $.Site.BaseURL }}articles" class="capitalize underline hover:text-gray-400 transition duration-500">articles</a> > <a href="{{ .Permalink }}" class="capitalize underline hover:text-gray-400 transition duration-500">{{ .Title }}</a>
+        </nav>
+
+        <article class="pt-12 max-w-4xl mx-auto prose-xl">
+        {{ .Content }}
+    </article>
+    </div>
+</section>
+
+<div class="py-8 md:py-12 bg-white"></div>
+
+<section class="py-20 bg-black">
+    <div class="container max-w-7xl mx-auto px-4">
+        <div class="flex flex-col justify-center items-center">
+
+            <h2 class="font-bold text-4xl md:text-5xl capitalize tracking-wider mb-4 text-center text-white">
+                We're Here To Help. Reach Out With Any Questions.
+            </h2>
+
+            <div class="mt-6 rounded-md shadow sm:mt-8">
+
+                <a href="{{ $.Site.BaseURL | absURL }}contact" class="w-full flex items-center justify-center btn_secondary">
+                    Contact Us Today
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+{{ end }}

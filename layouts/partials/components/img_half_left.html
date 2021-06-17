@@ -1,0 +1,67 @@
+<section class="bg-{{ .bg_color }}">
+ 
+  <div class="container max-w-7xl mx-auto px-4">
+
+
+    <div class="grid grid-cols-12 md:gap-12 lg:gap-20">
+
+      <div class="col-span-12 md:col-span-6">
+        <img
+                    class="lazyload w-full mb-6 shadow-xl" 
+                    alt="{{ .img_alt }}"
+                    {{ if .aos_select }}
+                    data-aos="{{ .aos }}" data-aos-duration="800"
+                    {{ end }}
+                    width="584px"
+                    height="584px" 
+                    data-srcset="
+                        {{ .img }}?nf_resize=smartcrop&w=400&h=400 400w,
+                        {{ .img }}?nf_resize=smartcrop&w=584&h=584 584w,
+                        {{ .img }}?nf_resize=smartcrop&w=728&h=728 728w"
+                    sizes="(max-width: 468px) 400px, 584px"
+                    data-src="{{ .img }}?nf_resize=smartcrop&w=584&h=584"
+                     />
+
+          
+
+      </div>
+
+      <div class="col-span-12 md:col-span-6 ">
+        <div class="flex flex-col justify-between h-full">
+          <div class="mb-6">
+            {{ if eq .bg_color "white" }}
+            <h2
+              class="font-bold text-black capitalize text-3xl md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6">
+              {{ .title }}
+            </h2>
+            <p class="text-xl text-black">{{ .desc | safeHTML }}</p>
+          </div>
+          {{ else }}
+          <h2
+          class="font-bold text-white capitalize text-3xl md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6">
+          {{ .title }}
+          </h2>
+          <p class="text-xl text-white">{{ .desc | safeHTML }}</p>
+          </div>
+          {{ end }}
+          
+          {{ if .cta_select }}
+
+          
+            <a href="{{ .Site.BaseURL}}{{ .cta_link }}"
+              class="transition duration-500 btn_primary md:w-72">
+              {{ .cta }}
+            </a>
+          
+          {{ else }}
+          <span></span>
+          {{ end }}
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section>

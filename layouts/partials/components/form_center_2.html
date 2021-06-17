@@ -1,0 +1,88 @@
+<section class="bg-{{ .bg_color }} mt-5">
+  <div class="container max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-12">
+      
+        <div class="col-span-12 lg:col-span-8 lg:col-start-3 w-full shadow-md p-2 md:p-12 bg-{{ .form_bg_color }}">
+
+          <form id="contact-form" method="POST" action="{{ .usebasin }}"
+          class="" role="form">
+
+          <div class="grid grid-cols-12 md:gap-6">
+          <div class="field col-span-12 lg:col-span-6">
+
+            {{ if eq .form_bg_color "white" }}
+            <label for="form_name" class="font-bold text-white mb-3">Full Name *</label>
+            {{ else }}
+            <label for="form_name" class="font-bold text-black mb-3">Full Name *</label>
+            {{ end }}
+
+            <div class="my-2">
+              <input id="form_name" class="border py-2 px-3 text-grey-darkest w-full" placeholder="e.g Alex Smith" type="text" name="Full Name"
+                required="required" data-error="Firstname is required." />
+            </div>
+          </div>
+    
+          <div class="field col-span-12 lg:col-span-6">
+            {{ if eq .form_bg_color "white" }}
+            <label class="font-bold mb-3 text-white" for="email">Email *</label>
+            {{ else }}
+            <label class="font-bold mb-3 text-black" for="email">Email *</label>
+            {{ end }}
+
+            <div class="my-2">
+              <input id="email" name="email" class="border py-2 px-3 text-grey-darkest w-full" type="email" placeholder="e.g. alexsmith@gmail.com" required="required"
+                data-error="Valid email is required." />
+            </div>
+          </div>
+    
+          <div class="field col-span-12 lg:col-span-6">
+            {{ if eq .form_bg_color "white" }}
+            <label class="font-bold mb-3 text-white" for="phone">Phone Number</label>
+            {{ else }}
+            <label class="font-bold mb-3 text-black" for="phone">Phone Number</label>
+            {{ end }}
+            <div class="my-2">
+              <input id="phone" name="phone" class="border py-2 px-3 text-grey-darkest w-full" type="tel" placeholder="e.g. +1-234-567-7890" />
+            </div>
+          </div>
+
+          <div class="field col-span-12 lg:col-span-6">
+            {{ if eq .form_bg_color "white" }}
+            <label class="font-bold mb-3 text-white" for="topic">Topic</label>
+            {{ else }}
+            <label class="font-bold mb-3 text-black" for="topic">Topic</label>
+            {{ end }}
+            <div class="my-2">
+              <select id="topic" name="Topic" class="w-full">
+                <option value="Jewelry Restauration">Jewelry Restauration</option>
+                <option value="Ring Fitting">Ring Fitting</option>
+                <option value="Chain Repair">Chain Repair</option>
+                <option value="Vintage Jewelry">Vintage Jewelry</option>
+                <option value="Gemstone Replacement">Gemstone Replacement</option>
+                <option value="Special Items">Special Items</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field col-span-12">
+            {{ if eq .form_bg_color "white" }}
+            <label for="form_message" class="font-bold mb-3 text-white">Message *</label>
+            {{ else }}
+            <label for="form_message" class="font-bold mb-3 text-black">Message *</label>
+            {{ end }}
+            <div class="my-2">
+            <textarea id="form_message" name="message" class="border py-2 px-3 text-grey-darkest w-full" rows="4" required
+              data-error="Please,leave us a message."></textarea>
+            </div>
+          </div>
+          </div>
+          <div class="flex justify-center items-center">
+            <input type="submit" class="cursor-pointer transition uppercase duration-500 w-auto mt-5 btn_primary text-base tracking-widest" value="{{ .cta }}">
+          </div>
+        </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </section>

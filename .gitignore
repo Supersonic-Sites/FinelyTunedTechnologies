@@ -1,0 +1,8 @@
+public/
+resources/
+node_modules/*
+!node_modules/aos/
+!node_modules/lazysizes/
+!node_modules/alpinejs/
+# Local Netlify folder
+.netlify

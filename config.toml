@@ -1,0 +1,104 @@
+baseURL = "/"
+title = "Supersonic"
+description = "Lorem Ipsum"
+languageCode = "en-ca"
+DefaultContentLanguage = "en"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+
+[build]
+writeStats = true
+enableRobotsTXT = true
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = "1"
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = "2"
+
+[[menu.main]]
+name = "Gallery"
+url = "gallery/"
+weight = "3"
+
+[[menu.main]]
+name = "Services"
+url = "services/"
+weight = "4"
+
+[[menu.main]]
+name = "Contact"
+url = "contact/"
+weight = "5"
+
+[[menu.main]]
+name = "Appointment"
+url = "/"
+weight = "6"
+
+[params]
+gtm = "#"
+servicename = "WebDesign"
+googlemap = "#"
+sitename = "Supersonic Template"
+usebasin = "#"
+videoOn = false
+description = "Lorem ipsum"
+
+[params.schema]
+ogimage = "/img/supersonicsites-logo-final-750x450-1.png"
+logofooter = "/img/supersonicsites-logo-final-750x450-1.png"
+city = "Vancouver"
+logo = "/img/supersonicsites-1.png"
+reservation = true
+phone = "+1-888-321-BOOM"
+priceRange = "$$$"
+region = "BC"
+country = "Canada"
+postalcode = "V5V 3N5"
+type = "WebDesign"
+openinghour = "Mo-Sa: 10-6"
+email = "hello@supersonicsites.com"
+address1 = "3622 Main Street"
+address2 = "#"
+address_toggle = true
+
+[params.social]
+facebook = "#"
+twitter = "#"
+pinterest = "#"
+instagram = "/"
+linkedin = "#"
+
+[[params.hours]]
+hours = "Mon to Sat: 10AM to 6PM"
+
+[[params.hours]]
+hours = "Sun: CLOSED"
+
+[module]
+
+    [[module.mounts]]
+        source = "assets"
+        target = "assets"
+
+    [[module.mounts]]
+        source = "./node_modules/alpinejs/dist/alpine.js"
+        target = "assets/js/alpine.js"
+
+    [[module.mounts]]
+        source = "./node_modules/lazysizes/lazysizes.js"
+        target = "assets/js/lazysizes.js"
+
+    [[module.mounts]]
+        source = "./node_modules/aos/dist/aos.js"
+        target = "assets/js/aos.js"

@@ -1,0 +1,35 @@
+
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-white">
+
+  <main class="lg:relative">
+    <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left px-4">
+      <div class="lg:w-1/2 xl:pr-20">
+        <h1 class="text-5xl sm:text-5xl md:text-6xl tracking-tight font-extrabold text-gray-900">
+          <span class="block xl:inline">{{ .hero_half_img.title1 }}</span>
+          <span class="block text-primary xl:inline">{{ .hero_half_img.title2 }}</span>
+        </h1>
+        <p class="mt-3 max-w-md mx-auto text-xl text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
+          {{ .hero_half_img.desc }}
+        </p>
+        <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
+          <div class="rounded-md shadow">
+            <a href="{{ .hero_half_img.cta_link }}" class="w-full flex items-center justify-center btn_primary">
+              {{ .hero_half_img.cta }}
+            </a>
+          </div>
+          {{ if .hero_half_img.cta2 }}
+          <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 ">
+            <a href="{{ .hero_half_img.cta2_link }}" class="w-full flex items-center justify-center btn_secondary">
+              {{ .hero_half_img.cta2 }}
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+      <img class="absolute inset-0 w-full h-full object-cover" src="https://ik.imagekit.io/supersonicsites/{{ .hero_half_img.img }}" alt="{{ .hero_half_img.img_alt }}">
+    </div>
+  </main>
+</div>
