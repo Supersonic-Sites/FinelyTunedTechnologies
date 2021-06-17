@@ -11,7 +11,7 @@ filename = "sitemap.xml"
 
 [build]
 writeStats = true
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 [menu]
 
