@@ -5,7 +5,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
   aliquam at ut neque.
 components:
   - cta2: Call To Action
-    img: /img/supersonicsites-logo-final-750x450-1.png
+    img: /img/background.jpg
     cta_link: contact/
     cta: Call To Action
     desc: Lorem
@@ -38,21 +38,21 @@ components:
         title: Test
         desc: Test
         aos: fade
-        img: /img/supersonicsites-logo-final-750x450-1.png
+        img: /img/background.jpg
       - img_alt: Please type in a description of the image
         cta: Call To Action
         cta_link: contact/
         title: Test
         desc: test
         aos: fade
-        img: /img/supersonicsites-logo-final-750x450-1.png
+        img: /img/background.jpg
       - img_alt: Please type in a description of the image
         cta: Call To Action
         cta_link: contact/
         title: Test
         desc: test
         aos: fade
-        img: /img/supersonicsites-logo-final-750x450-1.png
+        img: /img/background.jpg
   - type: divider
     bg_color: white
 ---
