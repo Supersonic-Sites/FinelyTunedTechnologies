@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://finelytunedtechnologies.netlify.app/"
 title = "Supersonic"
 description = "Lorem Ipsum"
 languageCode = "en-ca"
@@ -98,7 +98,3 @@ hours = "Sun: CLOSED"
     [[module.mounts]]
         source = "./node_modules/lazysizes/lazysizes.js"
         target = "assets/js/lazysizes.js"
-
-    [[module.mounts]]
-        source = "./node_modules/aos/dist/aos.js"
-        target = "assets/js/aos.js"
