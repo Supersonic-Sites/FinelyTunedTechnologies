@@ -1,0 +1,110 @@
+<header class="relative bg-white">
+  <div class="relative z-50" x-data="{ isOpen: false }">
+    <nav class="relative mx-auto flex items-center justify-between" aria-label="Global">
+      <div class="flex items-center justify-between w-full 2xl:w-auto py-2 pl-2 md:pl-0">
+        <div class="flex items-center">
+        <a class="md:ml-4" href="{{ .Site.BaseURL | absURL }}">
+          
+          <img class="" 
+          width="150px"
+          height="100px" 
+          src="{{ .Site.Params.schema.logo }}?nf_resize=fit&w=200" alt="{{ .Site.Params.sitename }}">
+
+
+
+        </a>
+        
+      </div>
+        
+
+        <!-- Mobile Menu Open Button -->
+
+        <div class="mr-2 flex items-center 2xl:hidden">
+          <button type="button" @click="isOpen = !isOpen" class="bg-light-blue-800 bg-opacity-0 rounded-md p-2 flex-col justify-center items-center justify-center text-cyan-100 hover:bg-opacity-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <!-- Heroicon name: outline/menu -->
+            <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <p>Menu</p>
+          </button>
+        </div>
+
+        <!-- End of Menu Open Button -->
+      </div>
+      <div class="hidden space-x-10 2xl:flex 2xl:ml-10">
+          <ul id="desktop_menu" class="flex">
+              {{ range .Site.Menus.main -}}
+              <li class="py-12 px-4  transition duration-500 border-b-4 border-transparent hover:border-primary hover:text-secondary active:text-primary">        
+              <a class="text-2xl  font-bold" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            </li>
+              {{ end }}
+
+            </ul>
+      </div>
+    </nav>
+
+    <div class="absolute top-0 inset-x-0 transition transform origin-top 2xl:hidden"
+
+    x-show="isOpen"
+    x-transition:enter="duration-100 ease-out"
+    x-transition:enter-start="opacity-0 scale-100"
+    x-transition:enter-end="opacity-100 scale-100"
+    x-transition:leave="duration-100 ease-in"
+    x-transition:leave-start="opacity-100 scale-100"
+    x-transition:leave-end="opacity-0 scale-100"
+    class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg"
+  
+    >
+
+      <div 
+      class="rounded-sm shadow-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+        <div class="p-2 flex items-start justify-between">
+          <div class="flex flex-row items-center">
+          <a class="md:ml-4" href="{{ .Site.BaseURL | absURL }}">
+          
+          <img class="" 
+          width="150px"
+          height="100px" 
+          src="{{ .Site.Params.schema.logo }}?nf_resize=fit&w=200" alt="{{ .Site.Params.sitename }}">
+
+
+
+        </a>
+        
+          </div>
+          
+
+          <!-- Mobile Menu Close Button -->
+
+          <div class="-mr-1">
+            <button type="button" @click="isOpen = !isOpen" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-transparent">
+              <span class="sr-only">Close menu</span>
+              <!-- Heroicon name: outline/x -->
+              <svg class="h-8 w-8 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+
+          <!-- End of Mobile Menu Close Button -->
+
+        </div>
+        <div class="pt-5 pb-12">
+          <div class="px-2 space-y-1">
+              <ul class="flex flex-col items-center justify-center space-y-2">
+                  {{ range .Site.Menus.main -}}
+                  <li class="py-2 px-4 transition duration-500 border-b-4 border-transparent font-extrabold hover:border-secondary hover:text-secondary focus:text-primary">        
+                  <a class="text-xl font-bold" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                </li>
+                  {{ end }}
+                  
+                  <li class="text-base my-12 transition duration-500 py-4 px-10 my-6 md:text-xl rounded-sm shadow-2xl hover:shadow-2xl text-center shadow-sm font-bold bg-primary text-white border-2 border-primary hover:border-primary hover:bg-white hover:text-primary"><a href="tel:{{ .Site.Params.schema.phone }}" class="">{{ i18n "callme" }}</a></li>
+                
+                </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

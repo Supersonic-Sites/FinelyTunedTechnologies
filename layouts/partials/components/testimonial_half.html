@@ -1,0 +1,54 @@
+<section class="py-16 bg-{{ .bg_color }}">
+  <div class="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
+    {{ range .testimonials }}
+    <div class="px-4 py-8 sm:px-6 md:flex md:flex-col md:py-10 md:pl-0 md:pr-10 lg:pr-16" data-aos="fade-up" data-aos-duration="800">
+      <blockquote class=" md:flex-grow flex flex-col">
+        <div class="relative text-xl font-medium text-black md:flex-grow">
+          <svg class="mx-auto md:mx-0 md:absolute md:top-0 md:left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-black"
+            fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+            <path
+              d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+          </svg>
+          <p class="relative pt-8 text-xl text-center md:text-left">
+            {{ .desc }}
+          </p>
+        </div>
+        <div class="mt-8">
+          <div class="flex items-center md:items-start flex-col md:flex-row">
+            {{ if .image_toggle }}
+            <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+              <img class="h-20 w-20 rounded-full lazyload"
+                src="{{ .img }}?nf_resize=fit&w=125&h=125"
+                alt="{{ .img_alt }}"
+                width="5rem"
+                height="5rem"
+                >
+            </div>
+            {{ end }}
+            <div class="md:ml-4 mt-4">
+              <div class="text-xl text-black">{{ .name }}</div>
+              <div class="flex flex-row justify-center md:justify-start">
+                <svg class="h-4 w-4 star-fill" viewBox="0 0 24 24" aria-hidden="true">
+                  <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#star"></use>
+                </svg>
+                <svg class="h-4 w-4 star-fill" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#star"></use>
+                </svg>
+                <svg class="h-4 w-4 star-fill" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#star"></use>
+                </svg>
+                <svg class="h-4 w-4 star-fill" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#star"></use>
+                </svg>
+                <svg class="h-4 w-4 star-fill" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#star"></use>
+                </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+      </blockquote>
+    </div>
+    {{ end }}
+  </div>
+</section>

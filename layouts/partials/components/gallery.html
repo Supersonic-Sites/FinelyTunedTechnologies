@@ -1,0 +1,18 @@
+<section id="gallery" class="grid grid-cols-12 gap-0">
+    {{ range .images }}
+    <div class="col-span-6 md:col-span-4 3xl:col-span-2">
+        <img
+        class="lazyload w-full" 
+        alt="{{ .img_alt }}"
+        width="600px"
+        height="600px" 
+        sizes="(max-width: 1440px) 400px, 600px"
+        data-srcset="
+            {{ .img }}?nf_resize=smartcrop&w=200&h=200 200w,
+            {{ .img }}?nf_resize=smartcrop&w=400&h=400 400w,
+            {{ .img }}?nf_resize=smartcrop&w=600&h=600 600w"
+        data-src="{{ .img }}?nf_resize=smartcrop&w=400&h=400"
+         />
+    </div>
+    {{ end }}
+</section>

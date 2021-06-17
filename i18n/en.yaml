@@ -1,0 +1,38 @@
+- id: hours
+  translation: "Business Hours"
+- id: closed
+  translation: "CLOSED"
+- id: tagline
+  translation: "Enjoy professional one-on-one care and noticeable results in the comfort of a private home care salon."
+- id: testimonials
+  translation: "Testimonials"
+- id: faq
+  translation: "Frequently Asked Questions"
+- id: appointment
+  translation: "Schedule An Appointment"
+- id: fullname
+  translation: "Your Full Name"
+- id: lastname
+  translation: "Last Name"
+- id: callme
+  translation: "Call Now"
+- id: phone
+  translation: "Phone"
+- id: email
+  translation: "Email"
+- id: contactus
+  translation: "Contact Me"
+- id: contactdetail
+  translation: "Informations"
+- id: send
+  translation: "Send Message"
+- id: navigate
+  translation: "navigate"
+- id: company
+  translation: "company"
+- id: aboutus
+  translation: "About Us"
+- id: credit
+  translation: "Handcrafted with ❤️ by"
+- id: privacypolicy
+  translation: "Privacy Policy"

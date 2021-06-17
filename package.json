@@ -1,0 +1,35 @@
+{
+ "comments": {
+  "devDependencies": {
+   "@tailwindcss/typography": "project",
+   "autoprefixer": "project",
+   "postcss": "project",
+   "postcss-cli": "project",
+   "postcss-purgecss": "project",
+   "tailwindcss": "project"
+  }
+ },
+ "dependencies": {
+  "@tailwindcss/forms": "^0.3.2",
+  "alpinejs": "^2.8.2",
+  "aos": "^2.3.4",
+  "lazysizes": "^5.3.2",
+  "netlify-cms-proxy-server": "^1.3.16"
+ },
+ "devDependencies": {
+  "@tailwindcss/typography": "^0.4.1",
+  "autoprefixer": "^10.2.5",
+  "netlify-cli": "^3.31.3",
+  "postcss": "^8.3.0",
+  "postcss-cli": "^8.3.1",
+  "postcss-purgecss": "^2.0.3",
+  "tailwindcss": "^2.1.2"
+ },
+ "license": "MIT",
+ "name": "supersonic-tailwind",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/supersonicsites"
+ },
+ "version": "0.1.0"
+}

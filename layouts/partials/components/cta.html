@@ -1,0 +1,30 @@
+<section class="py-20 bg-{{ .bg_color }}">
+    <div class="container max-w-7xl mx-auto px-4">
+        <div class="flex flex-col justify-center items-center">
+            {{ if eq .bg_color "white" }}
+            <h2 class="font-bold text-4xl md:text-5xl capitalize tracking-widest mb-4 text-center text-black">
+                {{ .title }}
+            </h2>
+
+            <div class="mt-6 rounded-md shadow sm:mt-8">
+
+                <a href="{{ .cta_link | absURL }}" class="w-full flex items-center justify-center btn_secondary">
+                    {{ .cta }}
+                </a>
+            </div>
+            
+            {{ else }}
+            <h2 class="font-bold text-4xl md:text-5xl capitalize tracking-wider mb-4 text-center text-white">
+                {{ .title }}
+            </h2>
+
+            <div class="mt-6 rounded-md shadow sm:mt-8">
+
+                <a href="{{ .cta_link | absURL }}" class="w-full flex items-center justify-center btn_secondary">
+                    {{ .cta }}
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

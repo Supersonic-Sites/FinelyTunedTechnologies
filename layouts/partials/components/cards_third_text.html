@@ -1,0 +1,57 @@
+<section class="bg-{{ .bg_color }}">
+
+    <div class="container max-w-7xl mx-auto px-4">
+
+        <div class="grid grid-cols-12 md:gap-6">
+            {{ range .cards }}
+            {{ if .shadow_select  }}
+            <div class="col-span-12 md:col-span-4 bg-white p-6 md:p-8 lg:p-10 mb-10 md:mb-0 shadow-xl" {{ if .aos_select }}
+                data-aos="{{ .aos }}" data-aos-duration="800" {{ end }}>
+            {{ else }}
+            <div class="col-span-12 md:col-span-4 bg-white p-6 md:p-8 lg:p-10 mb-10 md:mb-0" {{ if .aos_select }}
+                data-aos="{{ .aos }}" data-aos-duration="800" {{ end }}>
+            {{ end }}
+                <div class="flex flex-col items-center">
+
+                    {{ if .title_select }}
+
+                    {{ if eq .title_size "big" }}
+                    <h2 class="font-bold text-center text-{{ .title_color }} text-5xl lg:text-6xl mb-6 ">{{ .title }}</h2>
+                    {{ end }}
+
+                    {{ if eq .title_size "medium" }}
+                    <h2 class="font-bold text-center text-{{ .title_color }} text-4xl lg:text-5xl mb-6">{{ .title }}</h2>
+                    {{ end }}
+
+                    {{ if eq .title_size "small" }}
+                    <h2 class="font-bold text-center text-{{ .title_color }} text-3xl lg:text-4xl mb-6">{{ .title }}</h2>
+                    {{ end }}
+
+                    {{ end }}
+                    {{ if .subtitle_select }}
+                    <h3 class="font-bold text-center text-xl md:text-2xl text-black mb-6">
+                        {{ .subtitle }}
+                    </h3>
+                    {{ end }}
+                    {{ if .divider_select }}
+                    <div class="w-1/2 mb-8 border-b-4 border-{{ .divider_color }}"></div>
+                    {{ end }}
+
+                    <p class="text-center mb-6 md:mb-8 md:text-base">
+                        {{ .desc }}
+                    </p>
+                    {{ if .cta_select}}
+                    <a href="{{ .Site.BaseURL}}{{ .cta_link }}"
+                        class="transition duration-500 text-center w-full py-2 px-4 text-xl font-bold btn_primary">
+                        {{ .cta }}
+                    </a>
+                    {{ else }}
+                    <span></span>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+
+        </div>
+    </div>
+</section>

@@ -1,0 +1,20 @@
+<section class="bg-{{ .bg_color }} pb-8 md:pb-12 md:hidden">
+ 
+  <div class="container max-w-7xl mx-auto px-4 flex flex-col items-center">
+        
+          <img src="https://ik.imagekit.io/supersonicsites/tr:w-768,bl-30,q-50,/{{ .img }}"
+          sizes="100vw"
+          data-srcset="
+          https://ik.imagekit.io/supersonicsites/tr:w-640,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 640w,
+          https://ik.imagekit.io/supersonicsites/tr:w-768,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 768w,
+          https://ik.imagekit.io/supersonicsites/tr:w-1280,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1280w"
+          data-src="https://ik.imagekit.io/supersonicsites/tr:w-1536,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1536w"
+          width="1280px"
+          height="960px"
+          {{ if .aos_select }}
+          data-aos="{{ .aos }}" data-aos-duration="800"
+          {{ end }}
+          class="lazyload shadow-2xl" alt="{{ .img_alt }}" />
+         
+  </div>
+</section>

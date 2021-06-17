@@ -1,0 +1,612 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+media_folder: static/img
+public_folder: /img
+collections:
+  - label: "Settings"
+    name: "settings"
+    files:
+      - name: "config"
+        label: "Master Config File"
+        file: "config.toml"
+        fields:
+          - { label: 'BaseURL', name: 'baseURL', widget: 'string', default: "/" }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - { label: "Language Code", name: "languageCode", widget: "string"}
+          - { label: "DefaultContentLanguage", name: "DefaultContentLanguage", widget: "hidden"}
+          - { label: "disableKinds", name: "disabledKinds", widget: "hidden"}
+          - { label: "sitemap", name: "sitemap", widget: "hidden"}
+          - { label: "build", name: "build", widget: "hidden"}
+          - { label: "enableRobotsTXT", name: "enableRobotsTXT", widget: "hidden"}
+          
+          - label: "Menu"
+            name: "menu"
+            widget: "object"
+            fields:
+              - label: 'Menu Items'
+                name: 'main'
+                widget: list
+                fields:
+                  - { label: 'Name', name: 'name', widget: 'string' }
+                  - { label: 'URL', name: 'url', widget: 'string' }
+                  - { label: 'Weight', name: 'weight', widget: 'string' }
+          - label: "Parameters"
+            name: "params"
+            widget: "object"
+            fields:
+              - { label: 'Site Name', name: 'sitename', widget: 'string' }
+              - { label: 'Service Name', name: 'servicename', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: "Video On Website", name: "videoOn", widget: "boolean", required: false }
+              - { label: 'UseBasin Endpoint', name: 'usebasin', widget: 'string' }
+              - { label: 'Google Map', name: 'googlemap', widget: 'string' }
+              - { label: 'Tag Manager ID', name: 'gtm', widget: 'string' }
+              - label: "Social Media"
+                name: "social"
+                widget: "object"
+                fields:
+                  - { label: 'Facebook', name: 'facebook', widget: 'string', default: "#" }
+                  - { label: 'Twitter', name: 'twitter', widget: 'string', default: "#" }
+                  - { label: 'Pinterest', name: 'pinterest', widget: 'string', default: "#" }
+                  - { label: 'Instagram', name: 'instagram', widget: 'string', default: "#" }
+                  - { label: 'LinkedIn', name: 'linkedin', widget: 'string', default: "#" }
+              - label: "Schema Info"
+                name: "schema"
+                widget: "object"
+                fields:
+                  - { label: 'type', name: 'type', widget: 'string' }
+                  - { label: 'priceRange', name: 'priceRange', widget: 'string' }
+                  - { label: 'Reservation', name: 'reservation', widget: 'boolean', required: false }
+                  - { label: 'Opening Hours', name: 'openinghour', widget: 'string' }
+                  - { label: 'Logo in Footer', name: 'logofooter', widget: 'image' }
+                  - { label: 'Logo', name: 'logo', widget: 'image' }
+                  - { label: 'OpenGraph Image', name: 'ogimage', widget: 'image' }
+                  - { label: 'Show Address Publicly?', name: 'address_toggle', widget: 'boolean', required: false }
+                  - { label: 'Address Line 1', name: 'address1', widget: 'string' }
+                  - { label: 'Address Line 2', name: 'address2', widget: 'string' }
+                  - { label: 'Phone Number', name: 'phone', widget: 'string', default: "+1-" }
+                  - { label: 'Email Address', name: 'email', widget: 'string' }
+              - label: "Business Hours"
+                name: "hours"
+                widget: list
+                fields:
+                  - { label: 'Enter Hour', name: 'hours', widget: 'string' }
+
+  - name: 'pages'
+    label: 'Pages'
+    folder: 'content/'
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "SEO Title Max 45 characters", name: "title", widget: "string" }
+      - { label: "SEO Description Max 120 characters", name: "description", widget: "string" }
+      - label: "Components"
+        label_singular: "component"
+        name: "components"
+        widget: "list"
+        types:
+          - label: "Divider"
+            name: "divider"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+
+          - label: "Large Divider"
+            name: "divider2x"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+
+          - label: "Small Divider"
+            name: "divider_half"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+
+          - label: "Article Index"
+            name: "article_index"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+
+          - label: "4 Columns Text Cards"
+            name: "cards_fourth_text"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "SHADOW ON/OFF", name: "shadow_select", widget: "boolean", required: false }
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Title ON/OFF", name: "title_select", widget: "boolean", required: false }
+                    - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Title Color", name: "title_color", widget: "string", default: "black" }
+                    - { label: "Subtitle ON/OFF", name: "subtitle_select", widget: "boolean", required: false }
+                    - { label: "Subtitle", name: "subtitle", widget: "string" }
+                    - { label: "Divider ON/OFF", name: "divider_select", widget: "boolean", required: false }
+                    - { label: "Divider Color", name: "divider_color", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string" }
+
+          - label: "4 Columns Icon Cards"
+            name: "cards_fourth_icon"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Icon", name: "icon", widget: "string" }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string" }
+
+          - label: "4 Columns Image Cards"
+            name: "cards_fourth_img"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Image", name: "img", widget: "image" }
+                    - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+          
+          - label: "Pricing Cards"
+            name: "pricing"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Title", name: "title", widget: "string", default: "Pricing Plans" } 
+              - { label: "Description", name: "desc", widget: "text", default: "Start building for free, then add a site plan to go live. Account plans unlock additional features." }
+              - label: "Cards"
+                name: "pricing_cards"
+                label_singular: "Pricing Card"
+                widget: "list"
+                fields: 
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "string" }
+                  - { label: "Price", name: "price", widget: "string" }
+                  - { label: "Price per month?", name: "price_monthly", widget: "boolean", required: false }
+                  - { label: "Call to Action", name: "cta", widget: "string", default: "Let's Talk" }
+                  - { label: "Call to Action Link", name: "cta_link", widget: "string", default: "contact/" }
+                  - label: "Features"
+                    name: features
+                    label_singular: "Feature"
+                    widget: "list"
+                    fields: 
+                      - { label: "Feature", name: "feature", widget: "string", default: "Potenti felis, in cras at at ligula nunc." }
+                    
+
+          - label: "3 Columns Text Cards"
+            name: "cards_third_text"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "SHADOW ON/OFF", name: "shadow_select", widget: "boolean", required: false }
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Title ON/OFF", name: "title_select", widget: "boolean", required: false }
+                    - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Title Color", name: "title_color", widget: "string", default: "black" }
+                    - { label: "Subtitle ON/OFF", name: "subtitle_select", widget: "boolean", required: false }
+                    - { label: "Subtitle", name: "subtitle", widget: "string" }
+                    - { label: "Divider ON/OFF", name: "divider_select", widget: "boolean", required: false }
+                    - { label: "Divider Color", name: "divider_color", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string" }
+
+          - label: "3 Columns Icon Cards"
+            name: "cards_third_icon"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Icon", name: "icon", widget: "string" }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
+          - label: "3 Columns Image Cards"
+            name: "cards_third_img"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Image", name: "img", widget: "image" }
+                    - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
+          - label: "2 Columns Text Cards"
+            name: "cards_half_text"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "SHADOW ON/OFF", name: "shadow_select", widget: "boolean", required: false }
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Title ON/OFF", name: "title_select", widget: "boolean", required: false }
+                    - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Title Color", name: "title_color", widget: "string", default: "black" }
+                    - { label: "Subtitle ON/OFF", name: "subtitle_select", widget: "boolean", required: false }
+                    - { label: "Subtitle", name: "subtitle", widget: "string" }
+                    - { label: "Divider ON/OFF", name: "divider_select", widget: "boolean", required: false }
+                    - { label: "Divider Color", name: "divider_color", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string" }
+
+          - label: "2 Columns Icon Cards"
+            name: "cards_half_icon"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Icon", name: "icon", widget: "string" }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string" }
+
+          - label: "2 Columns Image Cards"
+            name: "cards_half_img"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Image", name: "img", widget: "image" }
+                    - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
+          - label: "Testimonial Half"
+            name: "testimonial_half"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "primary" }
+              - label: "Testimonials"
+                name: "testimonials"
+                label_singular: "Testimonial"
+                widget: "list"
+                fields: 
+                  - { label: "First and Last Name", name: "name", widget: "string", default: "Erica Bailey" }
+                  - { label: "Testimonial Text", name: "desc", widget: "text" }
+                  - { label: "Image ON/OFF", name: "image_toggle", widget: "boolean", required: false }
+                  - { label: "Image", name: "img", widget: "string", default: "DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png" }
+                  - { label: "Image", name: "img_alt", widget: "string", default: "Description of the picture here" }
+                  - { label: "Position", name: "position", widget: "string", default: "CEO at Tulip.com" }
+
+
+          - label: "Video Full"
+            name: "video_full"
+            widget: "object"
+            fields:
+              - { label: "Video ID", name: "VideoID", widget: "string", default: "dQw4w9WgXcQ" }
+
+          - label: "Video Half Left"
+            name: "video_half_left"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Video ID", name: "VideoID", widget: "string", default: "dQw4w9WgXcQ" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Video Half Right"
+            name: "video_half_right"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Video ID", name: "VideoID", widget: "string", default: "dQw4w9WgXcQ" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Gallery"
+            name: "gallery"
+            widget: "object"
+            fields:
+                - label: "Images"
+                  name: "images"
+                  label_singular: "image"
+                  widget: "list"
+                  fields: 
+                    - { label: "Image", name: "img", widget: "image" }
+                    - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
+
+          - label: "Gallery Lightbox"
+            name: "gallery_lightbox"
+            widget: "object"
+            fields:
+                - label: "Images"
+                  name: "images"
+                  label_singular: "image"
+                  widget: "list"
+                  fields: 
+                    - { label: "Image", name: "img", widget: "image" }
+                    - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
+
+          - label: "Image Fullwidth"
+            name: "img_full"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+              - { label: "AOS", name: "aos", widget: "string" }
+              - { label: "Image", name: "img", widget: "image" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
+
+          - label: "Half Image Left"
+            name: "img_half_left"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+              - { label: "AOS", name: "aos", widget: "string" }
+              - { label: "Image", name: "img", widget: "image" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+              - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+              - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
+          - label: "Half Image Right"
+            name: "img_half_right"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+              - { label: "AOS", name: "aos", widget: "string" }
+              - { label: "Image", name: "img", widget: "image" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+              - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+              - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
+          - label: "Third Image Left"
+            name: "img_third_left"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+              - { label: "AOS", name: "aos", widget: "string" }
+              - { label: "Image", name: "img", widget: "image" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+              - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+              - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
+          - label: "Third Image Right"
+            name: "img_third_right"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+              - { label: "AOS", name: "aos", widget: "string" }
+              - { label: "Image", name: "img", widget: "image" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+              - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+              - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
+          - label: "Subheader"
+            name: "header_sub"
+            widget: "object"
+            fields:
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "BG Color (Override Image)", name: "bg_toggle", widget: "boolean", required: false }
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "primary" }
+                - { label: "Image", name: "img", widget: "image" }
+          
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+                - { label: "Pre Title", name: "pre_title", widget: "string" }
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "Description", name: "desc", widget: "text" }
+                - { label: "Image", name: "img", widget: "image", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+                - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+                - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+                - { label: "CTA 2 ON/OFF", name: "cta2_select", widget: "boolean", required: false }
+                - { label: "CTA #2", name: "cta2", widget: "string", default: "Call To Action" }
+                - { label: "CTA Link #2", name: "cta2_link", widget: "string", default: "contact/" }
+
+          - label: "Hero Half Form"
+            name: "hero_half_form"
+            widget: "object"
+            fields:
+              - { label: "BG Color (Override Image)", name: "bg_toggle", widget: "boolean", required: false }
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "primary" }
+              - { label: "Image", name: "img", widget: "image" }
+              - { label: "Title", name: "title1", widget: "string" }
+              - { label: "Colored Part Of The Title", name: "title2", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Form Title", name: "form_title", widget: "string" }
+              - { label: "UseBasin Endpoint", name: "usebasin", widget: "string" }
+              - { label: "Call to Action", name: "cta", widget: "string" }
+
+          - label: "Hero Diagonal"
+            name: "hero_half_img_diagonal"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "img", widget: "image" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string" }
+              - { label: "Title", name: "title1", widget: "string" }
+              - { label: "Colored Part Of The Title", name: "title2", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "CTA", name: "cta", widget: "string" }
+              - { label: "CTA Link", name: "cta_link", widget: "string" }
+              - { label: "CTA 2 ON/OFF", name: "cta2_select", widget: "boolean", required: false }
+              - { label: "CTA #2", name: "cta2", widget: "string", default: "Call To Action" }
+              - { label: "CTA Link #2", name: "cta2_link", widget: "string", default: "contact/" }
+
+
+          - label: "Heading Fullwidth"
+            name: "heading_full"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "ID ON/OFF", name: "id_select", widget: "boolean", required: false }
+              - { label: "ID", name: "id", widget: "string", default: "none" }
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
+              - { label: "Align", name: "align", widget: "select", options: ["left", "center"], default: "center" }
+              - { label: "Description ON/OFF", name: "desc_select", widget: "boolean", required: false }
+              - { label: "Description", name: "desc", widget: "text" }                
+
+          - label: "Call to Action Bar"
+            name: "cta"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "Call to Action Text", name: "cta", widget: "string" }
+                - { label: "Call to Action Link", name: "cta_link", widget: "string" }
+
+          - label: "Contact Form"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Title", name: "title", widget: "desc", default: "Get In Touch" }
+              - { label: "Sub Text", name: "desc", widget: "text", default: "Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu." }
+              - { label: "Physical Address ON/OFF", name: "address_toggle", widget: "boolean", required: false }
+              - { label: "Address Line 1", name: "address1", widget: "string", default: "742 Evergreen Terrace" }
+              - { label: "Address Line 2", name: "address2", widget: "string", default: "Springfield, OR 12345" }
+              - { label: "Phone Number", name: "phone", widget: "string", default: "+1 (555) 123-4567" }
+              - { label: "Email", name: "email", widget: "string", default: "support@example.com" }
+              - { label: "UseBasin Endpoint", name: "usebasin", widget: "string" }
+              - { label: "CTA Button", name: "cta", widget: "string", default: "Submit" }
+
+          - label: "Centered Form"
+            name: "form_center"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Form Background Color", name: "form_bg_color", widget: "string", default: "white" }
+              - { label: "Usebasin Endpoint", name: "usebasin", widget: "string" }
+              - { label: "CTA Button", name: "cta", widget: "string", default: "Submit" }
+
+              
+          - label: "Centered Form Repair"
+            name: "form_center_2"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Form Background Color", name: "form_bg_color", widget: "string", default: "white" }
+              - { label: "Usebasin Endpoint", name: "usebasin", widget: "string" }
+              - { label: "CTA Button", name: "cta", widget: "string", default: "Submit" }
+
+          - label: "FAQ One Third"
+            name: "faq_third"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string", default: "Frequently asked questions" }
+              - { label: "Description", name: "desc", widget: "string", default: "Can’t find the answer you’re looking for? Reach out to our" }
+              - { label: "CTA Text", name: "cta", widget: "string", default: "customer support." }
+              - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+              - label: "Frequently Asked Questions"
+                name: "faqs"
+                label_singular: "faq"
+                widget: "list"
+                fields: 
+                  - { label: "Question", name: "question", widget: "string", default: "How to you make holy water?" }
+                  - { label: "Answer", name: "answer", widget: "text", default: "You boil the hell out of it. orem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat." }
+          
+          - label: "FAQ Toggle"
+            name: "faq_toggle"
+            widget: "object"
+            fields:
+              - { label: "Top Question", name: "question", widget: "string", default: "How to you make holy water?" }
+              - { label: "Top Answer", name: "answer", widget: "string", default: "You boil the hell out of it. orem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat." }
+              - label: "Frequently Asked Questions"
+                name: "faqs"
+                label_singular: "faq"
+                widget: "list"
+                fields: 
+                  - { label: "Question", name: "question", widget: "string", default: "How to you make holy water?" }
+                  - { label: "Answer", name: "answer", widget: "text", default: "You boil the hell out of it. orem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat." }

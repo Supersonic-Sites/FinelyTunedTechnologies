@@ -1,0 +1,6 @@
+<!-- Main Script -->
+
+{{ if $.Site.Params.VideoOn}}
+{{ $script := resources.Get "js/video.js" | minify}}
+<script src="{{ $script.Permalink }}" defer></script>
+{{ end }}

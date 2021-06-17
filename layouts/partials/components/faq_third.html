@@ -1,0 +1,30 @@
+<div class="">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="lg:grid lg:grid-cols-3 lg:gap-8">
+        <div>
+            <h2 class="text-3xl tracking-widest font-extrabold text-black">
+              {{ .title }}
+            </h2>
+            <p class="mt-4 text-xl tracking-widest text-black">{{ .desc }} <a href="{{ .cta_link }}" class="text-primary hover:text-lila transition duration-500 text-xl font-bold hover:bg-opacity-90 underline">{{ .cta }}</a></p>
+          </div>
+        
+        <div class="mt-12 lg:mt-0 lg:col-span-2">
+          <dl class="space-y-12">
+            {{ range .faqs }}
+            <div>
+                
+              <dt class="text-2xl font-bold tracking-widest leading-6 font-medium text-black">
+                {{ .question }}
+              </dt>
+
+              <dd class="mt-2 text-xl tracking-widest text-gray-700">
+                {{ .answer }}
+              </dd>
+            </div>
+            
+            {{ end }}
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
