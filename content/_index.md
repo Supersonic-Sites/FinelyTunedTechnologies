@@ -92,6 +92,20 @@ components:
         img: /img/boardroom-automation.jpg
   - type: divider
     bg_color: white
+  - img: /img/roberto-nickson-rejxpbskj3q-unsplash.jpg
+    aos: fade
+    cta_link: contact/
+    bg_color: white
+    cta_select: true
+    img_alt: Picture of someone in their home enjoying home automation
+    cta: Call To Action
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+      libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+      pharetra lacus, nec egestas augue gravida nec.
+    title: What can home automation do for you?
+    type: img_half_right
+  - type: divider2x
+    bg_color: white
   - type: heading_full
     id: none
     bg_color: white
