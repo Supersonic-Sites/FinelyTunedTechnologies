@@ -5,13 +5,13 @@
         class="lazyload w-full" 
         alt="{{ .img_alt }}"
         width="600px"
-        height="600px" 
+        height="400px" 
         sizes="(max-width: 1440px) 400px, 600px"
         data-srcset="
-            {{ .img }}?nf_resize=smartcrop&w=200&h=200 200w,
-            {{ .img }}?nf_resize=smartcrop&w=400&h=400 400w,
-            {{ .img }}?nf_resize=smartcrop&w=600&h=600 600w"
-        data-src="{{ .img }}?nf_resize=smartcrop&w=400&h=400"
+            {{ .img }}?nf_resize=smartcrop&w=300&h=200 200w,
+            {{ .img }}?nf_resize=smartcrop&w=600&h=400 400w,
+            {{ .img }}?nf_resize=smartcrop&w=800&h=600 600w"
+        data-src="{{ .img }}?nf_resize=smartcrop&w=600&h=400"
          />
     </div>
     {{ end }}
