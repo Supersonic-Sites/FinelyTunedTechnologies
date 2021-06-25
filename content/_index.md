@@ -80,16 +80,18 @@ components:
         desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
           libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
           pharetra lacus, nec egestas augue gravida nec.
-  - type: divider_half
+  - type: divider
     bg_color: white
   - type: gallery
     images:
       - img_alt: Home Development Automation
         img: /img/gallery-image-2.jpg
       - img_alt: Commercial Building Automation
-        img: /img/harry-shelton-ppxhm0crzl4-unsplash.jpg
+        img: /img/lycs-architecture-u2bi3gmnsse-unsplash.jpg
       - img_alt: Residential Automation
-        img: /img/ralph-ravi-kayden-2d4laqalbda-unsplash.jpg
+        img: /img/digital-marketing-agency-ntwrk-g39p1kdjvsy-unsplash.jpg
+  - type: divider
+    bg_color: white
   - type: heading_full
     id: none
     bg_color: white
@@ -97,8 +99,6 @@ components:
     title: Certified Expert
     title_size: small
     desc: none
-  - type: divider_half
-    bg_color: white
   - type: cards_fourth_img
     bg_color: white
     cards:
