@@ -75,8 +75,8 @@ components:
       - cta: Call To Action
         cta_link: contact/
         aos: fade
-        icon: "#square-info"
-        title: Ongoing Support
+        icon: "#film"
+        title: Home Theater
         desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
           libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
           pharetra lacus, nec egestas augue gravida nec.
@@ -84,12 +84,12 @@ components:
     bg_color: white
   - type: gallery
     images:
-      - img_alt: Home Development Automation
-        img: /img/gallery-image-2.jpg
-      - img_alt: Commercial Building Automation
-        img: /img/lycs-architecture-u2bi3gmnsse-unsplash.jpg
+      - img_alt: Home Theater and Audio Visual Automation for Smart Homes
+        img: /img/chauhan-moniz-3a0bs74t8zc-unsplash.jpg
+      - img_alt: Commercial Buildings and Office Space Automation
+        img: /img/office-automation.jpg
       - img_alt: Residential Automation
-        img: /img/digital-marketing-agency-ntwrk-g39p1kdjvsy-unsplash.jpg
+        img: /img/boardroom-automation.jpg
   - type: divider
     bg_color: white
   - type: heading_full
