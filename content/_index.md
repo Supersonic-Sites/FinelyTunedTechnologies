@@ -80,7 +80,16 @@ components:
         desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
           libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
           pharetra lacus, nec egestas augue gravida nec.
-  - type: divider
+  - type: divider_half
+    bg_color: white
+  - type: heading_full
+    id: none
+    bg_color: white
+    align: center
+    title: Certified Expert
+    title_size: small
+    desc: none
+  - type: divider_half
     bg_color: white
   - type: cards_fourth_img
     bg_color: white
@@ -107,5 +116,12 @@ components:
         title: Imaging Science Foundation Certified Video Calibrator and Trainer
         desc: Imaging Science Foundation Certified
         aos: none
-        img: /img/400_5f4dc6f778a34.jpg
+        img: /img/isf_certified.jpg
+      - img_alt: THX Certified Expert
+        cta: Call To Action
+        cta_link: contact/
+        title: THX Certified Expert
+        aos: fade
+        desc: THX Certified Expert
+        img: /img/thx-certification.jpg
 ---
