@@ -19,8 +19,8 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Lorem Ipsum
-    title_size: big
+    title: Smart Home That Are Helpful
+    title_size: small
     desc_select: true
     desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris
       sapien. Ut semper maximus pulvinar. Quisque lacinia, elit eget bibendum
@@ -82,6 +82,14 @@ components:
           pharetra lacus, nec egestas augue gravida nec.
   - type: divider_half
     bg_color: white
+  - type: gallery
+    images:
+      - img_alt: Home Development Automation
+        img: /img/gallery-image-2.jpg
+      - img_alt: Commercial Building Automation
+        img: /img/harry-shelton-ppxhm0crzl4-unsplash.jpg
+      - img_alt: Residential Automation
+        img: /img/ralph-ravi-kayden-2d4laqalbda-unsplash.jpg
   - type: heading_full
     id: none
     bg_color: white
