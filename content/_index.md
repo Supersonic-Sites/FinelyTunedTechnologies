@@ -8,11 +8,11 @@ components:
     img: /img/background.jpg
     cta_link: contact/
     cta: Call To Action
-    desc: Lorem
+    desc: Smart Home Automation Services
     cta2_link: contact/
-    title: Lorem
+    title: Finely Tuned Technologies
     type: hero
-    pre_title: Lorem
+    pre_title: Upgrade Your Home With
   - type: divider
     bg_color: white
   - type: heading_full
@@ -29,30 +29,83 @@ components:
       lacinia odio risus ut lacus. Morbi finibus maximus dolor.
   - type: divider
     bg_color: white
-  - type: cards_third_img
+  - type: cards_third_icon
     bg_color: white
     cards:
-      - img_alt: Please type in a description of the image
-        cta: Call To Action
+      - cta: Call To Action
         cta_link: contact/
-        title: Test
-        desc: Test
         aos: fade
-        img: /img/background.jpg
-      - img_alt: Please type in a description of the image
-        cta: Call To Action
+        icon: "#lightbulb-on"
+        title: Lighting
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+          pharetra lacus, nec egestas augue gravida nec.
+      - cta: Call To Action
         cta_link: contact/
-        title: Test
-        desc: test
-        aos: fade
-        img: /img/background.jpg
-      - img_alt: Please type in a description of the image
-        cta: Call To Action
+        aos: none
+        icon: "#lock"
+        title: Security
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+          pharetra lacus, nec egestas augue gravida nec.
+      - cta: Call To Action
         cta_link: contact/
-        title: Test
-        desc: test
+        aos: none
+        icon: "#heat"
+        title: Heating
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+          pharetra lacus, nec egestas augue gravida nec.
+      - cta: Call To Action
+        cta_link: contact/
+        aos: none
+        icon: "#computer-speaker"
+        title: Audio Visual
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+          pharetra lacus, nec egestas augue gravida nec.
+      - cta: Call To Action
+        cta_link: contact/
         aos: fade
-        img: /img/background.jpg
+        icon: "#wifi"
+        title: Network & Wifi
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+          pharetra lacus, nec egestas augue gravida nec.
+      - cta: Call To Action
+        cta_link: contact/
+        aos: fade
+        icon: "#square-info"
+        title: Ongoing Support
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+          pharetra lacus, nec egestas augue gravida nec.
   - type: divider
     bg_color: white
+  - type: cards_fourth_img
+    bg_color: white
+    cards:
+      - img_alt: Smart Home Without The Struggle  Effortlessly control all of your smart
+          home devices from one, easy to access and easy to use, control panel
+          on your wall or a single app on your phone.
+        cta: Call To Action
+        cta_link: contact/
+        title: Brilliant Certified Expert
+        aos: none
+        img: /img/400_crop_5f5006ecedd87_5f4dbddf3ec3d.webp
+        desc: Brilliant Certified Expert
+      - img_alt: ButterflyMX Certified Installer
+        cta: Call To Action
+        cta_link: contact/
+        title: ButterflyMX Certified Installer
+        img: /img/butterflymx-certification.jpg
+        desc: ButterflyMX Certified Installer
+        aos: none
+      - img_alt: Imaging Science Foundation Certified
+        cta: Call To Action
+        cta_link: contact/
+        title: Imaging Science Foundation Certified Video Calibrator and Trainer
+        desc: Imaging Science Foundation Certified
+        aos: none
+        img: /img/400_5f4dc6f778a34.jpg
 ---

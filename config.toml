@@ -1,9 +1,63 @@
-baseURL = "https://finelytunedtechnologies.netlify.app/"
 title = "Supersonic"
 description = "Lorem Ipsum"
 languageCode = "en-ca"
+baseURL = "https://finelytunedtechnologies.netlify.app/"
 DefaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+[params]
+gtm = "GTM-T2757SM"
+servicename = "Home Automation Specialist"
+googlemap = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.174078753291!2d-123.17132518425437!3d49.32992297534308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54866f7ea187d183%3A0xa531c5ca655e8aba!2sFinely%20Tuned%20Technologies!5e0!3m2!1sen!2sca!4v1624565464925!5m2!1sen!2sca"
+sitename = "Finely Tuned Technologies"
+usebasin = "https://usebasin.com/f/72a7b6ac08d4"
+videoOn = false
+description = "Custom design and installation of home automation systems. Audio, video, temperature, security and everything in between."
+
+[params.schema]
+ogimage = "/img/home-automation-og.jpg"
+logofooter = "/img/400_5f43538e75d83.png"
+city = "Vancouver"
+logo = "/img/finely-tuned-technologies-navigation.jpg"
+reservation = true
+phone = "+1-604-619-3323"
+priceRange = "$$$"
+region = "BC"
+country = "Canada"
+postalcode = "V7V 1K3"
+type = "ProfessionalService"
+openinghour = "Mo-Sa: 9-17"
+email = "richard@fttech.ca"
+address1 = "2 - 2130 Marine Drive, "
+address2 = "#"
+address_toggle = true
+
+[params.social]
+facebook = "#"
+twitter = "#"
+pinterest = "#"
+instagram = "/"
+linkedin = "#"
+
+[[params.hours]]
+hours = "Mon to Sat: 9AM to 5PM"
+
+[[params.hours]]
+hours = "Sun: CLOSED"
+
+[module]
+
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
+source = "./node_modules/alpinejs/dist/alpine.js"
+target = "assets/js/alpine.js"
+
+[[module.mounts]]
+source = "./node_modules/lazysizes/lazysizes.js"
+target = "assets/js/lazysizes.js"
 
 [sitemap]
 changefreq = "monthly"
@@ -26,8 +80,8 @@ url = "about/"
 weight = "2"
 
 [[menu.main]]
-name = "Gallery"
-url = "gallery/"
+name = "Portfolio"
+url = "portfolio/"
 weight = "3"
 
 [[menu.main]]
@@ -44,57 +98,3 @@ weight = "5"
 name = "Appointment"
 url = "/"
 weight = "6"
-
-[params]
-gtm = "#"
-servicename = "WebDesign"
-googlemap = "#"
-sitename = "Supersonic Template"
-usebasin = "#"
-videoOn = false
-description = "Lorem ipsum"
-
-[params.schema]
-ogimage = "/img/supersonicsites-logo-final-750x450-1.png"
-logofooter = "/img/supersonicsites-logo-final-750x450-1.png"
-city = "Vancouver"
-logo = "/img/supersonicsites-1.png"
-reservation = true
-phone = "+1-888-321-BOOM"
-priceRange = "$$$"
-region = "BC"
-country = "Canada"
-postalcode = "V5V 3N5"
-type = "WebDesign"
-openinghour = "Mo-Sa: 10-6"
-email = "hello@supersonicsites.com"
-address1 = "3622 Main Street"
-address2 = "#"
-address_toggle = true
-
-[params.social]
-facebook = "#"
-twitter = "#"
-pinterest = "#"
-instagram = "/"
-linkedin = "#"
-
-[[params.hours]]
-hours = "Mon to Sat: 10AM to 6PM"
-
-[[params.hours]]
-hours = "Sun: CLOSED"
-
-[module]
-
-    [[module.mounts]]
-        source = "assets"
-        target = "assets"
-
-    [[module.mounts]]
-        source = "./node_modules/alpinejs/dist/alpine.js"
-        target = "assets/js/alpine.js"
-
-    [[module.mounts]]
-        source = "./node_modules/lazysizes/lazysizes.js"
-        target = "assets/js/lazysizes.js"

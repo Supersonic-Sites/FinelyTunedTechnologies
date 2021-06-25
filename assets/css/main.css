@@ -4,13 +4,32 @@
 @tailwind forms;
 @tailwind typography;
 
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/open-sans-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/open-sans-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-800 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+       url('/fonts/open-sans-v20-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/open-sans-v20-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 @media only screen and (max-width: 768px) {
   .herobg {
     background-image: url('img/background-mobile.jpg');
   }
 }
 .herobg {
-  background-image: linear-gradient(180deg, rgb(238,241,234,0.05) 0%, rgba(238,241,234,0.75) 100%), url('/img/background.jpg');
+  background-image: linear-gradient(180deg, rgb(0,0,0,0.35) 0%, rgba(0,0,0,0.55) 100%), url('/img/home-automation-og.jpg');
 }
 .cover {
   background-image: linear-gradient(180deg, rgb(238,241,234,0.05) 0%, rgba(238,241,234,0.75) 100%), url('/img/banner.jpg');
@@ -21,10 +40,10 @@
 }
 
 .btn_primary {
-  @apply transition duration-500 py-3 px-6 rounded-sm shadow-2xl text-xl md:text-2xl hover:shadow-sm text-center hover:shadow-sm font-bold bg-primary text-white border-2 border-primary hover:border-primary hover:bg-white hover:text-black text-base md:text-2xl;
+  @apply transition duration-500 py-3 px-6 rounded-sm shadow-2xl text-xl md:text-2xl hover:shadow-sm text-center hover:shadow-sm bg-primary text-white border-2 border-primary hover:border-gray-600 hover:bg-gray-600 hover:text-white text-base md:text-2xl;
 }
 .btn_secondary {
-  @apply transition text-base md:text-lg duration-500 py-3 px-6 rounded-sm shadow-2xl text-xl md:text-2xl hover:shadow-sm text-center hover:shadow-sm font-bold bg-white text-primary border-2 border-white hover:border-gray-100 hover:bg-black hover:text-white text-base md:text-2xl;
+  @apply transition text-base md:text-lg duration-500 py-3 px-6 rounded-sm shadow-2xl text-xl md:text-2xl hover:shadow-sm text-center hover:shadow-sm bg-white text-primary border-2 border-white hover:border-gray-100 hover:bg-black hover:text-white text-base md:text-2xl;
 }
 
 .stars {

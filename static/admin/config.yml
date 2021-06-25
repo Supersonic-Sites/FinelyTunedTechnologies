@@ -68,6 +68,10 @@ collections:
                   - { label: 'Show Address Publicly?', name: 'address_toggle', widget: 'boolean', required: false }
                   - { label: 'Address Line 1', name: 'address1', widget: 'string' }
                   - { label: 'Address Line 2', name: 'address2', widget: 'string' }
+                  - { label: 'City', name: 'city', widget: 'string' }
+                  - { label: 'Region', name: 'region', widget: 'string' }
+                  - { label: 'Postal Code', name: 'postalcode', widget: 'string' }
+                  - { label: 'Country', name: 'country', widget: 'string' }
                   - { label: 'Phone Number', name: 'phone', widget: 'string', default: "+1-" }
                   - { label: 'Email Address', name: 'email', widget: 'string' }
               - label: "Business Hours"
@@ -136,7 +140,7 @@ collections:
                     - { label: "Subtitle", name: "subtitle", widget: "string" }
                     - { label: "Divider ON/OFF", name: "divider_select", widget: "boolean", required: false }
                     - { label: "Divider Color", name: "divider_color", widget: "string" }
-                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "text" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string" }
                     - { label: "CTA Link", name: "cta_link", widget: "string" }
@@ -151,11 +155,11 @@ collections:
                   label_singular: "card"
                   widget: "list"
                   fields: 
+                    - { label: "Title", name: "title", widget: "string" }
                     - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
                     - { label: "AOS", name: "aos", widget: "string" }
                     - { label: "Icon", name: "icon", widget: "string" }
-                    - { label: "Title", name: "title", widget: "string" }
-                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "text" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string" }
                     - { label: "CTA Link", name: "cta_link", widget: "string" }
@@ -170,12 +174,12 @@ collections:
                   label_singular: "card"
                   widget: "list"
                   fields: 
+                    - { label: "Title", name: "title", widget: "string" }
                     - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
                     - { label: "AOS", name: "aos", widget: "string" }
                     - { label: "Image", name: "img", widget: "image" }
                     - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
-                    - { label: "Title", name: "title", widget: "string" }
-                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "text" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
                     - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
@@ -193,7 +197,7 @@ collections:
                 widget: "list"
                 fields: 
                   - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Description", name: "desc", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
                   - { label: "Price", name: "price", widget: "string" }
                   - { label: "Price per month?", name: "price_monthly", widget: "boolean", required: false }
                   - { label: "Call to Action", name: "cta", widget: "string", default: "Let's Talk" }
@@ -227,7 +231,7 @@ collections:
                     - { label: "Subtitle", name: "subtitle", widget: "string" }
                     - { label: "Divider ON/OFF", name: "divider_select", widget: "boolean", required: false }
                     - { label: "Divider Color", name: "divider_color", widget: "string" }
-                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "text" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string" }
                     - { label: "CTA Link", name: "cta_link", widget: "string" }
@@ -242,11 +246,11 @@ collections:
                   label_singular: "card"
                   widget: "list"
                   fields: 
+                    - { label: "Title", name: "title", widget: "string" }
                     - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
                     - { label: "AOS", name: "aos", widget: "string" }
                     - { label: "Icon", name: "icon", widget: "string" }
-                    - { label: "Title", name: "title", widget: "string" }
-                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "text" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
                     - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
@@ -262,7 +266,7 @@ collections:
                   widget: "list"
                   fields: 
                     - { label: "Title", name: "title", widget: "string" }
-                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "text" }
                     - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
                     - { label: "AOS", name: "aos", widget: "string" }
                     - { label: "Image", name: "img", widget: "image" }
@@ -292,7 +296,7 @@ collections:
                     - { label: "Subtitle", name: "subtitle", widget: "string" }
                     - { label: "Divider ON/OFF", name: "divider_select", widget: "boolean", required: false }
                     - { label: "Divider Color", name: "divider_color", widget: "string" }
-                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "text" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string" }
                     - { label: "CTA Link", name: "cta_link", widget: "string" }
@@ -311,7 +315,7 @@ collections:
                     - { label: "AOS", name: "aos", widget: "string" }
                     - { label: "Icon", name: "icon", widget: "string" }
                     - { label: "Title", name: "title", widget: "string" }
-                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "text" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string" }
                     - { label: "CTA Link", name: "cta_link", widget: "string" }
@@ -331,7 +335,7 @@ collections:
                     - { label: "Image", name: "img", widget: "image" }
                     - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
                     - { label: "Title", name: "title", widget: "string" }
-                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "text" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
                     - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
