@@ -19,8 +19,8 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Smart Home That Are Helpful
-    title_size: small
+    title: Maximizing Living Space with Smart Technologies
+    title_size: medium
     desc_select: true
     desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris
       sapien. Ut semper maximus pulvinar. Quisque lacinia, elit eget bibendum
@@ -85,7 +85,7 @@ components:
   - type: gallery
     images:
       - img_alt: Home Theater and Audio Visual Automation for Smart Homes
-        img: /img/chauhan-moniz-3a0bs74t8zc-unsplash.jpg
+        img: /img/gallery-image-2.jpg
       - img_alt: Commercial Buildings and Office Space Automation
         img: /img/office-automation.jpg
       - img_alt: Residential Automation
