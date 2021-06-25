@@ -90,7 +90,7 @@ components:
         img: /img/office-automation.jpg
       - img_alt: Residential Automation
         img: /img/boardroom-automation.jpg
-  - type: divider
+  - type: divider2x
     bg_color: white
   - img: /img/roberto-nickson-rejxpbskj3q-unsplash.jpg
     aos: fade
@@ -104,7 +104,7 @@ components:
       pharetra lacus, nec egestas augue gravida nec.
     title: What can home automation do for you?
     type: img_half_right
-  - type: divider2x
+  - type: divider
     bg_color: white
   - type: heading_full
     id: none

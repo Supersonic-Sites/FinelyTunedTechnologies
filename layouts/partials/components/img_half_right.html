@@ -37,20 +37,20 @@
 
       <div class="col-span-12 md:col-span-6 order-1 md:order-2">
         <img
-          src="https://ik.imagekit.io/supersonicsites/tr:ar-13-10,w-584,bl-30,q-50,/{{ .img }}"
-          sizes="100vw"
-          width="584px"
-          height="584px"
-          data-srcset="
-          https://ik.imagekit.io/supersonicsites/tr:ar-13-10,w-584,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 640w,
-          https://ik.imagekit.io/supersonicsites/tr:ar-13-10,w-584,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 768w,
-          https://ik.imagekit.io/supersonicsites/tr:ar-13-10,w-584,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1280w"
-          data-src="https://ik.imagekit.io/supersonicsites/tr:ar-13-10,w-584,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1536w"
-          {{ if .aos_select }}
-          data-aos="{{ .aos }}" data-aos-duration="800"
-          {{ end }}
-          class="lazyload shadow-2xl"
-          alt="{{ .img_alt }}" />
+                    class="lazyload w-full mb-6 shadow-xl" 
+                    alt="{{ .img_alt }}"
+                    {{ if .aos_select }}
+                    data-aos="{{ .aos }}" data-aos-duration="800"
+                    {{ end }}
+                    width="584px"
+                    height="584px" 
+                    data-srcset="
+                        {{ .img }}?nf_resize=smartcrop&w=400&h=400 400w,
+                        {{ .img }}?nf_resize=smartcrop&w=584&h=584 584w,
+                        {{ .img }}?nf_resize=smartcrop&w=728&h=728 728w"
+                    sizes="(max-width: 468px) 400px, 584px"
+                    data-src="{{ .img }}?nf_resize=smartcrop&w=584&h=584"
+                     />
       </div>
 
     </div>
