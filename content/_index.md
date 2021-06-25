@@ -96,9 +96,53 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Certified Expert
+    title: Testimonials
+    title_size: medium
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+      libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+      pharetra lacus, nec egestas augue gravida nec.
+  - type: testimonial_half
+    bg_color: white
+    testimonials:
+      - name: Erica Bailey
+        img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
+        img_alt: Description of the picture here
+        position: CEO at Tulip.com
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+          pharetra lacus, nec egestas augue gravida nec.
+      - name: Erica Bailey
+        img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
+        img_alt: Description of the picture here
+        position: CEO at Tulip.com
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+          pharetra lacus, nec egestas augue gravida nec.
+      - name: Erica Bailey
+        img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
+        img_alt: Description of the picture here
+        position: CEO at Tulip.com
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+          pharetra lacus, nec egestas augue gravida nec.
+      - name: Erica Bailey
+        img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
+        img_alt: Description of the picture here
+        position: CEO at Tulip.com
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+          pharetra lacus, nec egestas augue gravida nec.
+  - type: divider
+    bg_color: white
+  - type: heading_full
+    id: none
+    bg_color: white
+    align: center
+    title: Our Certifications
     title_size: small
     desc: none
+  - type: divider
+    bg_color: white
   - type: cards_fourth_img
     bg_color: white
     cards:
