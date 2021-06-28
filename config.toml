@@ -80,14 +80,14 @@ url = "about/"
 weight = "2"
 
 [[menu.main]]
-name = "Testimonials"
-url = "testimonials/"
-weight = "3"
-
-[[menu.main]]
 name = "Services"
 url = "services/"
 weight = "4"
+
+[[menu.main]]
+name = "Testimonials"
+url = "testimonials/"
+weight = "3"
 
 [[menu.main]]
 name = "Contact"

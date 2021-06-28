@@ -23,9 +23,10 @@ components:
     bg_color: white
     cards:
       - divider_select: true
-        subtitle_select: true
+        title_select: true
+        subtitle_select: false
         aos: none
-        title_size: medium
+        title_size: small
         cta_link: none
         cta: none
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel nisi
@@ -33,13 +34,14 @@ components:
           et urna eu, rhoncus cursus quam. Proin congue ante sed sapien commodo
           cursus. "
         subtitle: Residential
-        title: none
+        title: Residential
         title_color: black
         divider_color: primary
       - divider_select: true
-        subtitle_select: true
+        title_select: true
+        subtitle_select: false
         aos: none
-        title_size: medium
+        title_size: small
         cta_link: contact
         cta: contact
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel nisi
@@ -47,13 +49,14 @@ components:
           et urna eu, rhoncus cursus quam. Proin congue ante sed sapien commodo
           cursus. "
         subtitle: Commercial
-        title: none
+        title: Commercial
         title_color: black
         divider_color: primary
       - divider_select: true
-        subtitle_select: true
+        title_select: true
+        subtitle_select: false
         aos: none
-        title_size: medium
+        title_size: small
         cta_link: none
         cta: none
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel nisi
@@ -61,7 +64,8 @@ components:
           et urna eu, rhoncus cursus quam. Proin congue ante sed sapien commodo
           cursus. "
         subtitle: Large Projects
-        title: none
+        title: Large Projects
+        shadow_select: false
         title_color: black
         divider_color: primary
   - type: divider
