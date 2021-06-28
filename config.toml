@@ -16,7 +16,7 @@ description = "Custom design and installation of home automation systems. Audio,
 
 [params.schema]
 ogimage = "/img/home-automation-og.jpg"
-logofooter = "/img/400_5f43538e75d83.png"
+logofooter = "/img/400_5f43538e75d83.jpg"
 city = "West Vancouver"
 logo = "/img/finely-tuned-technologies-navigation.jpg"
 reservation = true
