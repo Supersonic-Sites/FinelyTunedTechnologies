@@ -35,7 +35,7 @@
       <div class="hidden space-x-10 2xl:flex 2xl:ml-10">
           <ul id="desktop_menu" class="flex">
               {{ range .Site.Menus.main -}}
-              <li class="py-12 px-4  transition duration-500 border-b-4 border-transparent hover:border-primary hover:text-secondary active:text-primary">        
+              <li class="py-12 px-6 font-bold  transition duration-500 border-b-4 border-transparent hover:border-primary hover:text-secondary active:text-primary">        
               <a class="text-xl" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
             </li>
               {{ end }}

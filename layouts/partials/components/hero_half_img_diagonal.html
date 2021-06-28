@@ -6,14 +6,14 @@
           <polygon points="50,0 100,0 50,100 0,100" />
         </svg>
   
-        <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+        <div class="relative pt-6 px-4 sm:px-6 lg:px-6">
 
         </div>
   
   
-        <main class="max-w-7xl mt-20 md:mt-20 lg:mt-20 xl:mt-28 lg:mr-14">
+        <main class="max-w-7xl mt-20 md:mt-20 lg:mt-20 xl:mt-28 lg:mr-8">
           <div class="sm:text-center lg:text-left">
-            <h1 class="text-5xl sm:text-5xl md:text-6xl font-extrabold text-gray-900">
+            <h1 class="text-5xl sm:text-5xl md:text-7xl font-extrabold text-gray-900" style="line-height: 1.1 !important;">
               <span class="block xl:inline ">{{ .title1 }}</span>
               <span class="block text-primary xl:inline">{{ .title2 }}</span>
             </h1>
@@ -27,13 +27,13 @@
                   {{ .cta }}
                 </a>
               </div>
-              {{ if .cta2_toggle }}
+              
               <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a href="{{ .cta2_link }}" class="w-full flex items-center justify-center btn_secondary">
                   {{ .cta2 }}
                 </a>
               </div>
-              {{ end }}
+              
             </div>
           </div> 
         </main>
@@ -41,17 +41,17 @@
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 
-      <img src="https://ik.imagekit.io/supersonicsites/tr:ar-4-3,w-1280,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }}"
+      <img src="{{ .img }}"
       sizes="100vw"
-      width="1280px"
-      height="960px"
+      width="7280px"
+      height="728px"
       data-srcset="
-      https://ik.imagekit.io/supersonicsites/tr:ar-4-3,w-1280,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 640w,
-      https://ik.imagekit.io/supersonicsites/tr:ar-4-3,w-1280,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 768w,
-      https://ik.imagekit.io/supersonicsites/tr:ar-4-3,w-1280,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1280w"
-      data-src="https://ik.imagekit.io/supersonicsites/tr:ar-4-3,w-1280,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1536w"
-      alt="{{ .img }}"
-      class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full lazyload" alt="{{ .img_alt }}" />
+      {{ .img }}?nf_resize=smartcrop&w=400 400w,
+      {{ .img }}?nf_resize=smartcrop&w=584 584w,
+      {{ .img }}?nf_resize=smartcrop&w=728 728w"
+      sizes="(max-width: 468px) 400px, 584px"
+      data-src="{{ .img }}?nf_resize=smartcrop&w=584"
+      class="h-56 w-full object-fit sm:h-72 md:h-96 lg:w-full lg:h-full lazyload" alt="{{ .img_alt }}" />
 
     </div>
   </div>

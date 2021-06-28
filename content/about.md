@@ -11,7 +11,7 @@ components:
   - type: divider
     bg_color: white
   - img: /img/richard-stokes-1-.jpg
-    aos: none
+    aos: none1
     cta_link: services/
     bg_color: white
     cta_select: true

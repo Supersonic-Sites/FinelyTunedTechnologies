@@ -31,7 +31,7 @@
   }
 }
 .herobg {
-  background-image: linear-gradient(180deg, rgb(0,0,0,0.35) 0%, rgba(0,0,0,0.55) 100%), url('/img/home-automation.jpg');
+  background-image: linear-gradient(180deg, rgba(238,241,234,1) 0%, rgba(238,241,234,0.75) 15%, rgba(238,241,234,0.75) 85%, rgba(238,241,234,0.75) 100%), url('/img/texture.jpg');
 }
 .cover {
   background-image: linear-gradient(180deg, rgb(238,241,234,0.05) 0%, rgba(238,241,234,0.75) 100%), url('/img/banner.jpg');
@@ -45,7 +45,7 @@
   @apply transition duration-500 py-3 px-6 rounded-sm shadow-2xl text-xl md:text-2xl hover:shadow-sm text-center hover:shadow-sm bg-primary text-white border-2 border-primary hover:border-gray-600 hover:bg-gray-600 hover:text-white text-base md:text-2xl;
 }
 .btn_secondary {
-  @apply transition text-base md:text-lg duration-500 py-3 px-6 rounded-sm shadow-2xl text-xl md:text-2xl hover:shadow-sm text-center hover:shadow-sm bg-white text-primary border-2 border-white hover:border-gray-100 hover:bg-transparent hover:text-white text-base md:text-2xl;
+  @apply transition text-base md:text-lg duration-500 py-3 px-6 rounded-sm shadow-2xl text-xl md:text-2xl hover:shadow-sm text-center hover:shadow-sm bg-white text-primary border-2 border-white hover:border-gray-100 hover:bg-white text-base md:text-2xl;
 }
 
 

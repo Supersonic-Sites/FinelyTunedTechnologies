@@ -4,15 +4,18 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
   aliquam nibh, quis tincidunt ante. Vivamus sit amet diam et velit aliquam
   aliquam at ut neque.
 components:
-  - cta2: Call To Action
-    img: /img/background.jpg
-    cta_link: contact/
-    cta: Call To Action
-    desc: Smart Home Automation Services
+  - cta2: Contact Us
+    img: /img/gallery-image-1.jpg
+    cta_link: quote/
+    img_alt: Smart Home Automation Services
+    cta: Get A Quote
+    desc: Vancouver's top certified professional smart automation services. Over 30
+      years of experience. Commercial, residential & large scale projects.
     cta2_link: contact/
-    title: Finely Tuned Technologies
-    type: hero
-    pre_title: Upgrade Your Home With
+    title1: Make Life Better With Smart
+    cta2_select: true
+    title2: Automation
+    type: hero_half_img_diagonal
   - type: divider
     bg_color: white
   - type: heading_full
