@@ -1,5 +1,5 @@
 ---
-title: Welcome to {{Business_Name}}
+title: Home Automation Services & Packages
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
   aliquam nibh, quis tincidunt ante. Vivamus sit amet diam et velit aliquam
   aliquam at ut neque.
@@ -84,13 +84,13 @@ components:
     bg_color: white
   - type: gallery
     images:
-      - img_alt: Home Theater and Audio Visual Automation for Smart Homes
+      - img_alt: Please type in a description of the image
         img: /img/gallery-image-2.jpg
-      - img_alt: Commercial Buildings and Office Space Automation
+      - img_alt: Please type in a description of the image
         img: /img/office-automation.jpg
-      - img_alt: Residential Automation
+      - img_alt: Please type in a description of the image
         img: /img/boardroom-automation.jpg
-  - type: divider2x
+  - type: divider
     bg_color: white
   - img: /img/roberto-nickson-rejxpbskj3q-unsplash.jpg
     aos: fade
@@ -102,8 +102,39 @@ components:
     desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
       libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
       pharetra lacus, nec egestas augue gravida nec.
-    title: What can home automation do for you?
+    title: What Can A Smart Home or Smart Building Do For You?
     type: img_half_right
+  - type: divider2x
+    bg_color: white
+  - type: heading_full
+    id: none
+    bg_color: white
+    align: center
+    title: FAQ
+    title_size: medium
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
+      libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
+      pharetra lacus, nec egestas augue gravida nec.
+    desc_select: true
+  - type: divider_half
+    bg_color: white
+  - type: faq_toggle
+    question: How to you make holy water?
+    answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+      adipisicing elit. Quas cupiditate laboriosam fugiat.
+    faqs:
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
   - type: divider
     bg_color: white
   - type: heading_full
@@ -155,7 +186,7 @@ components:
     title: Our Certifications
     title_size: small
     desc: none
-  - type: divider
+  - type: divider_half
     bg_color: white
   - type: cards_fourth_img
     bg_color: white
@@ -190,4 +221,22 @@ components:
         aos: fade
         desc: THX Certified Expert
         img: /img/thx-certification.jpg
+  - type: divider
+    bg_color: white
+  - address4: Canada
+    bg_color: white
+    phone: +1-604-619-3323
+    cta: Send
+    desc: Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa
+      dictumst amet. Sapien tortor lacus arcu.
+    usebasin: https://usebasin.com/f/72a7b6ac08d4
+    title: Get In Touch
+    type: contact
+    email: info@fttech.ca
+    address1: 2 - 2130 Marine Drive,
+    address2: West Vancouver, BC
+    address_toggle: true
+    address3: V7V 1K3
+  - type: divider
+    bg_color: white
 ---

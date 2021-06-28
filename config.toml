@@ -17,7 +17,7 @@ description = "Custom design and installation of home automation systems. Audio,
 [params.schema]
 ogimage = "/img/home-automation-og.jpg"
 logofooter = "/img/400_5f43538e75d83.png"
-city = "Vancouver"
+city = "West Vancouver"
 logo = "/img/finely-tuned-technologies-navigation.jpg"
 reservation = true
 phone = "+1-604-619-3323"
@@ -27,7 +27,7 @@ country = "Canada"
 postalcode = "V7V 1K3"
 type = "ProfessionalService"
 openinghour = "Mo-Sa: 9-17"
-email = "richard@fttech.ca"
+email = "info@fttech.ca"
 address1 = "2 - 2130 Marine Drive, "
 address2 = "#"
 address_toggle = true
@@ -36,7 +36,7 @@ address_toggle = true
 facebook = "#"
 twitter = "#"
 pinterest = "#"
-instagram = "/"
+instagram = "#"
 linkedin = "#"
 
 [[params.hours]]
@@ -80,8 +80,8 @@ url = "about/"
 weight = "2"
 
 [[menu.main]]
-name = "Portfolio"
-url = "portfolio/"
+name = "Testimonials"
+url = "testimonials/"
 weight = "3"
 
 [[menu.main]]
@@ -93,8 +93,3 @@ weight = "4"
 name = "Contact"
 url = "contact/"
 weight = "5"
-
-[[menu.main]]
-name = "Appointment"
-url = "/"
-weight = "6"

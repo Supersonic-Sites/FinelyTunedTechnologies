@@ -43,7 +43,7 @@
   @apply transition duration-500 py-3 px-6 rounded-sm shadow-2xl text-xl md:text-2xl hover:shadow-sm text-center hover:shadow-sm bg-primary text-white border-2 border-primary hover:border-gray-600 hover:bg-gray-600 hover:text-white text-base md:text-2xl;
 }
 .btn_secondary {
-  @apply transition text-base md:text-lg duration-500 py-3 px-6 rounded-sm shadow-2xl text-xl md:text-2xl hover:shadow-sm text-center hover:shadow-sm bg-white text-primary border-2 border-white hover:border-gray-100 hover:bg-black hover:text-white text-base md:text-2xl;
+  @apply transition text-base md:text-lg duration-500 py-3 px-6 rounded-sm shadow-2xl text-xl md:text-2xl hover:shadow-sm text-center hover:shadow-sm bg-white text-primary border-2 border-white hover:border-gray-100 hover:bg-transparent hover:text-white text-base md:text-2xl;
 }
 
 

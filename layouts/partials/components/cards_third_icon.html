@@ -22,7 +22,7 @@
                         {{ .desc }}
                     </p>
                     {{ if .cta_select }}
-                    <a href="{{ .Site.BaseURL}}{{ .cta_link }}"
+                    <a href="{{ $.Site.BaseURL | absURL}}{{ .cta_link }}"
                         class="transition duration-500 text-center w-full py-2 px-4 text-xl font-bold btn_primary">
                         {{ .cta }}
                     </a>

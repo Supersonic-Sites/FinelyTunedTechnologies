@@ -14,13 +14,13 @@
 <meta property="og:description" content="{{ .Params.description }}" />
 <meta name="twitter:description" content="{{ .Params.description }}" />
 
-<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" />
+<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ $.Site.BaseURL }}sitemap.xml" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL | absURL }}apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL | absURL }}favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL | absURL }}favicon-16x16.png">
-<link rel="manifest" href="{{ .Site.BaseURL | absURL }}site.webmanifest">
-<link rel="mask-icon" href="{{ .Site.BaseURL | absURL }}safari-pinned-tab.svg" color="#5bbad5">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ $.Site.BaseURL | absURL }}apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ $.Site.BaseURL | absURL }}favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ $.Site.BaseURL | absURL }}favicon-16x16.png">
+<link rel="manifest" href="{{ $.Site.BaseURL | absURL }}site.webmanifest">
+<link rel="mask-icon" href="{{ $.Site.BaseURL | absURL }}safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
@@ -35,12 +35,12 @@
 <meta name="twitter:image" content="{{ .Site.Params.schema.ogimage | absURL }}" />
 <meta name="twitter:image:src" content="{{ .Site.Params.schema.ogimage | absURL }}" />
 
-<link rel="canonical" href="{{ .Site.BaseURL | absURL }}{{ .Permalink | absURL }}" />
+<link rel="canonical" href="{{ $.Site.BaseURL | absURL }}{{ .Permalink | absURL }}" />
 <meta name="robots" content="index, follow" />
 <meta name="googlebot" content="index, follow" />
 
 <!-- Manifest File -->
-<link rel="manifest" href="{{ .Site.BaseURL }}site.webmanifest" />
+<link rel="manifest" href="{{ $.Site.BaseURL }}site.webmanifest" />
 
 <meta property="og:locale" content="{{ .Language.Lang }}" />
 <meta name="language" content="{{ .Language.LanguageName }}" />
@@ -64,7 +64,7 @@
                 "streetAddress": "{{ $.Site.Params.schema.address }}, {{ $.Site.Params.schema.address2 }}" 
             },
             "priceRange": "{{ $.Site.Params.schema.priceRange }}",
-            "url":"{{.Site.BaseURL}}",
+            "url":"{{$.Site.BaseURL}}",
             "openingHours": [
             "{{ $.Site.Params.schema.openinghour }}"],
             "potentialAction":"Schedule Appointment",

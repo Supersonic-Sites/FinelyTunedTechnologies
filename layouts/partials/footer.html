@@ -16,7 +16,7 @@
             class="text-black hover:text-secondary transition duration-500 mr-3 md:mr-0" target="_blank" rel="noopener noreferrer">
             <span class="sr-only">Facebook</span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#facebook"></use>
+              <use xlink:href="{{$.Site.BaseURL | absURL }}icons/brands.svg#facebook"></use>
             </svg>
           </a>
           {{ end }}
@@ -27,7 +27,7 @@
             class="text-black hover:text-secondary transition duration-500" target="_blank" rel="noopener noreferrer">
             <span class="sr-only">Instagram</span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#instagram"></use>
+              <use xlink:href="{{$.Site.BaseURL | absURL }}icons/brands.svg#instagram"></use>
             </svg>
           </a>
           {{ end }}
@@ -38,7 +38,7 @@
             class="text-black hover:text-secondary transition duration-500" target="_blank" rel="noopener noreferrer">
             <span class="sr-only">Twitter</span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#twitter"></use>
+              <use xlink:href="{{$.Site.BaseURL | absURL }}icons/brands.svg#twitter"></use>
             </svg>
           </a>
           {{ end }}
@@ -49,7 +49,7 @@
             class="text-black hover:text-secondary transition duration-500" target="_blank" rel="noopener noreferrer">
             <span class="sr-only">linkedin</span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#linkedin"></use>
+              <use xlink:href="{{$.Site.BaseURL | absURL }}icons/brands.svg#linkedin"></use>
             </svg>
           </a>
           {{ end }}
@@ -144,7 +144,7 @@
     </div>
     <div class="mt-12 border-t border-gray-200 pt-8 lg:flex lg:flex-row lg:justify-between">
       <p class="text-base text-black text-center">
-        Copyright &copy; {{ dateFormat "2006" now }} - <a href="{{ .Site.BaseURL | relLangURL }}privacy-policy"
+        Copyright &copy; {{ dateFormat "2006" now }} - <a href="{{ $.Site.BaseURL | absURL | relLangURL }}privacy-policy"
           class="underline hover:text-secondary transition duration-500">{{ i18n "privacypolicy" }}</a>
       </p>
       <div class="flex flex-col lg:flex-row items-center">

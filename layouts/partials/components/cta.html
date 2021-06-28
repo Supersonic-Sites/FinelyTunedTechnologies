@@ -2,7 +2,7 @@
     <div class="container max-w-7xl mx-auto px-4">
         <div class="flex flex-col justify-center items-center">
             {{ if eq .bg_color "white" }}
-            <h2 class="font-bold text-4xl md:text-5xl capitalize tracking-widest mb-4 text-center text-black">
+            <h2 class="font-bold text-4xl md:text-5xl capitalize tracking-widest mb-4 text-center text-black" style="line-height: 1.2 !important;">
                 {{ .title }}
             </h2>
 
@@ -14,7 +14,7 @@
             </div>
             
             {{ else }}
-            <h2 class="font-bold text-4xl md:text-5xl capitalize tracking-wider mb-4 text-center text-white">
+            <h2 class="font-bold text-3xl md:text-4xl capitalize tracking-wider mb-4 text-center text-white" style="line-height: 1.2 !important;">
                 {{ .title }}
             </h2>
 

@@ -6,19 +6,20 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
 components:
   - type: header_sub
     bg_color: primary
-    img: /img/banner.jpg
+    img: /img/finelytunedbanner.jpg
     title: Contact Us
-    bg_toggle: false
   - bg_color: white
-    phone: +1 (604) 874-1879
-    cta: "Send "
+    phone: +1-604-619-3323
+    cta: Send
     desc: Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa
       dictumst amet. Sapien tortor lacus arcu.
-    usebasin: https://usebasin.com/
+    usebasin: https://usebasin.com/f/72a7b6ac08d4
     title: Get In Touch
     type: contact
-    email: hello@supersonicsites.com
-    address1: 3622 Main Street
-    address2: Vancouver, BC
-    address_toggle: false
+    email: info@fttech.ca
+    address1: 2 - 2130 Marine Drive,
+    address2: West Vancouver, BC
+    address3: V7V 1K3
+    address4: Canada
+    address_toggle: true
 ---

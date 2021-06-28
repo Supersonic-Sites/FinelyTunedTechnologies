@@ -1,10 +1,8 @@
 ---
 title: Privacy Policy
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-  aliquam nibh, quis tincidunt ante. Vivamus sit amet diam et velit aliquam
-  aliquam at ut neque.
-companyname: Supersonic Sites
-companyemail: hello@supersonicsites.com
+description: We care about your privacy. Read our document to learn more.
+companyname: Fined Tuned Techonologies
+companyemail: info@fttech.ca
 layout: privacy_policy
 ---
 

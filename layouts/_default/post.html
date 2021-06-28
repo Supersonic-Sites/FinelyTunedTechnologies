@@ -27,7 +27,7 @@ style="background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         class="lazyload shadow-lg" />
 
         <nav class="py-2">
-            <a href="{{ $.Site.BaseURL }}" class="capitalize underline hover:text-gray-400 transition duration-500">Home</a> > <a href="{{ $.Site.BaseURL }}articles" class="capitalize underline hover:text-gray-400 transition duration-500">articles</a> > <a href="{{ .Permalink }}" class="capitalize underline hover:text-gray-400 transition duration-500">{{ .Title }}</a>
+            <a href="{{ $.Site.BaseURL | absURL }}" class="capitalize underline hover:text-gray-400 transition duration-500">Home</a> > <a href="{{ $.Site.BaseURL | absURL }}articles" class="capitalize underline hover:text-gray-400 transition duration-500">articles</a> > <a href="{{ .Permalink }}" class="capitalize underline hover:text-gray-400 transition duration-500">{{ .Title }}</a>
         </nav>
 
         <article class="pt-12 max-w-4xl mx-auto prose-xl">
@@ -48,7 +48,7 @@ style="background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 
             <div class="mt-6 rounded-md shadow sm:mt-8">
 
-                <a href="{{ $.Site.BaseURL | absURL }}contact" class="w-full flex items-center justify-center btn_secondary">
+                <a href="{{ $.Site.BaseURL | absURL | absURL }}contact" class="w-full flex items-center justify-center btn_secondary">
                     Contact Us Today
                 </a>
             </div>

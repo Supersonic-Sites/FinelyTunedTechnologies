@@ -1,6 +1,6 @@
 <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-{{ if not (in (.Site.BaseURL | string) "localhost") }}
+{{ if not (in ($.Site.BaseURL | string) "localhost") }}
 {{ if $.Site.Params.gtm }}
   <!-- Google Tag Manager -->
   <!-- create dataLayer -->

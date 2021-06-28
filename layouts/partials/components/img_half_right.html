@@ -9,7 +9,7 @@
           <div class="mb-6">
             {{ if eq .bg_color "white" }}
             <h2
-              class="font-bold text-black capitalize text-3xl md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6">
+              class="font-bold text-black capitalize text-3xl md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6" style="line-height: 1.2 !important;">
               {{ .title }}
             </h2>
             <p class="text-xl tracking-wide text-black">{{ .desc | safeHTML }}</p>
@@ -24,7 +24,7 @@
           {{ end }}
         {{ if .cta_select }}
 
-          <a href="{{ .Site.BaseURL}}{{ .imgbox3.box3_cta_link }}"
+          <a href="{{ $.Site.BaseURL | absURL}}{{ .imgbox3.box3_cta_link }}"
             class="transition duration-500 btn_primary md:w-72">
             {{ .cta }}
           </a>
@@ -37,7 +37,7 @@
 
       <div class="col-span-12 md:col-span-6 order-1 md:order-2">
         <img
-                    class="lazyload w-full mb-6 shadow-xl" 
+                    class="lazyload w-full mb-6 md:mb-0 shadow-xl" 
                     alt="{{ .img_alt }}"
                     {{ if .aos_select }}
                     data-aos="{{ .aos }}" data-aos-duration="800"

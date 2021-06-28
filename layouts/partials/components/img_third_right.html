@@ -9,7 +9,7 @@
           <div class="mb-6">
             {{ if eq .bg_color "white" }}
             <h2
-              class="font-bold text-black tracking-wider capitalize text-3xl md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6">
+              class="font-bold text-black tracking-wider capitalize text-3xl md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6" style="line-height: 1.2 !important;">
               {{ .title }}
             </h2>
             <p class="text-black text-xl tracking-wider">{{ .desc | safeHTML }}</p>
@@ -24,7 +24,7 @@
           {{ end }}
         {{ if .cta_select }}
 
-          <a href="{{ .Site.BaseURL}}{{ .imgbox3.box3_cta_link }}"
+          <a href="{{ $.Site.BaseURL | absURL}}{{ .imgbox3.box3_cta_link }}"
             class="transition duration-500 btn_primary md:w-72 ">
             {{ .cta }}
           </a>
@@ -36,19 +36,21 @@
       </div>
 
       <div class="col-span-12 md:col-span-4 order-1 md:order-2">
-        <img src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-480,bl-30,q-50,/{{ .img }}"
-          width="480px"
-          height="480x"
-          sizes="100vw"
-          data-srcset="
-          https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-480,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 640w,
-          https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-480,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 768w,
-          https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-480,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1280w"
-          data-src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-480,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1536w"
-          {{ if .aos_select }}
-          data-aos="{{ .aos }}" data-aos-duration="800"
-          {{ end }}
-          class="lazyload shadow-2xl" alt="{{ .img_alt }}" />
+        <img
+        class="lazyload w-full mb-6 md:mb-0 shadow-xl" 
+        alt="{{ .img_alt }}"
+        {{ if .aos_select }}
+        data-aos="{{ .aos }}" data-aos-duration="800"
+        {{ end }}
+        width="484px"
+        height="484px" 
+        data-srcset="
+            {{ .img }}?nf_resize=smartcrop&w=300&h=300 300w,
+            {{ .img }}?nf_resize=smartcrop&w=484&h=484 484w,
+            {{ .img }}?nf_resize=smartcrop&w=528&h=528 528w"
+        sizes="(max-width: 468px) 400px, 484px"
+        data-src="{{ .img }}?nf_resize=smartcrop&w=484&h=484"
+         />
       </div>
 
     </div>

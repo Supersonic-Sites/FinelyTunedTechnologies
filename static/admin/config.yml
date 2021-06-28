@@ -220,18 +220,18 @@ collections:
                   label_singular: "card"
                   widget: "list"
                   fields: 
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "text" }
                     - { label: "SHADOW ON/OFF", name: "shadow_select", widget: "boolean", required: false }
                     - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
                     - { label: "AOS", name: "aos", widget: "string" }
                     - { label: "Title ON/OFF", name: "title_select", widget: "boolean", required: false }
                     - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
-                    - { label: "Title", name: "title", widget: "string" }
                     - { label: "Title Color", name: "title_color", widget: "string", default: "black" }
                     - { label: "Subtitle ON/OFF", name: "subtitle_select", widget: "boolean", required: false }
                     - { label: "Subtitle", name: "subtitle", widget: "string" }
                     - { label: "Divider ON/OFF", name: "divider_select", widget: "boolean", required: false }
                     - { label: "Divider Color", name: "divider_color", widget: "string" }
-                    - { label: "Description", name: "desc", widget: "text" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string" }
                     - { label: "CTA Link", name: "cta_link", widget: "string" }
@@ -561,6 +561,8 @@ collections:
               - { label: "Physical Address ON/OFF", name: "address_toggle", widget: "boolean", required: false }
               - { label: "Address Line 1", name: "address1", widget: "string", default: "742 Evergreen Terrace" }
               - { label: "Address Line 2", name: "address2", widget: "string", default: "Springfield, OR 12345" }
+              - { label: "Address Line 3", name: "address3", widget: "string", default: "12345, BC " }
+              - { label: "Address Line 4", name: "address4", widget: "string", default: "Canada" }
               - { label: "Phone Number", name: "phone", widget: "string", default: "+1 (555) 123-4567" }
               - { label: "Email", name: "email", widget: "string", default: "support@example.com" }
               - { label: "UseBasin Endpoint", name: "usebasin", widget: "string" }
