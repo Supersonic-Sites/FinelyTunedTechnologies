@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
 components:
   - type: header_sub
     bg_color: primary
-    img: /img/finelytunedbanner.jpg
+    img: /img/finelytunedbanner1.jpg
     title: Services
   - type: divider
     bg_color: white

@@ -7,7 +7,7 @@ slug: testimonials
 components:
   - type: header_sub
     bg_color: primary
-    img: /img/finelytunedbanner.jpg
+    img: /img/finelytunedbanner1.jpg
     title: Testimonials
   - type: divider
     bg_color: white
@@ -18,7 +18,7 @@ components:
     title: What Our Clients Have To Say...
     title_size: medium
     desc_select: false
-    desc: lorem
+    desc: lorem ipsum
   - type: divider_half
     bg_color: white
   - type: testimonial_half

@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
 components:
   - type: header_sub
     bg_color: primary
-    img: /img/finelytunedbanner.jpg
+    img: /img/finelytunedbanner1.jpg
     title: About Us
   - type: divider
     bg_color: white
@@ -15,7 +15,7 @@ components:
     cta_link: services/
     bg_color: white
     cta_select: true
-    img_alt: Picture of the founder of Finely Tuned Technologies
+    img_alt: Picture of the founder of Finely Tuned Technologies Richard Stokes
     cta: Our Services
     desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus
       velit quis metus fringilla, auctor suscipit dui aliquam. Vivamus sodales

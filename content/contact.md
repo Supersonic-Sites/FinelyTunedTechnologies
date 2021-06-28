@@ -6,9 +6,10 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
 components:
   - type: header_sub
     bg_color: primary
-    img: /img/finelytunedbanner.jpg
+    img: /img/finelytunedbanner1.jpg
     title: Contact Us
-  - bg_color: white
+  - address4: Canada
+    bg_color: white
     phone: +1-604-619-3323
     cta: Send
     desc: Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa
@@ -19,7 +20,6 @@ components:
     email: info@fttech.ca
     address1: 2 - 2130 Marine Drive,
     address2: West Vancouver, BC
-    address3: V7V 1K3
-    address4: Canada
     address_toggle: true
+    address3: V7V 1K3
 ---
