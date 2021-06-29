@@ -7,10 +7,9 @@
 
 </header>
 {{ else }}
-<header class="h-52 md:h-96 md:pb-6 flex flex-col justify-center md:mt-0 cover bg-right"
-style="background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('{{ .img |absURL }}');">
+<header class="h-52 md:h-96 md:pb-6 flex flex-col justify-center md:mt-0" id="svgbg">
     <div class="container max-w-7xl mx-auto flex flex-col px-4">
-        <h1 class="font-bold  tracking-widest capitalize text-4xl md:text-7xl text-center sm:text-left text-white">{{ .title }}</h1>
+        <h1 class="font-bold  tracking-widest capitalize text-4xl md:text-7xl text-center sm:text-left text-primary drop-shadow-lg">{{ .title }}</h1>
     </div>
 
 </header>
