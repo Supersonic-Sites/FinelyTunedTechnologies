@@ -45,10 +45,11 @@ components:
         title_size: small
         cta_link: contact
         cta: contact
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel nisi
-          eleifend, egestas tortor id, pharetra turpis. Ut risus justo, sodales
-          et urna eu, rhoncus cursus quam. Proin congue ante sed sapien commodo
-          cursus. "
+        desc: We are professionals here to help professionals. Automate your building
+          and manage your property from wherever you are. Enjoy smart property
+          access through video intercom with ButterflyMX technology. This
+          cloud-based software and touchscreen hardware provides secure,
+          convenient, and affordable property access from a smartphone.
         subtitle: Commercial
         title: Commercial
         title_color: black
