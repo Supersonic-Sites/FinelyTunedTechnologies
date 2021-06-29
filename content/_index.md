@@ -10,7 +10,8 @@ components:
     img_alt: Smart Home Automation Services
     cta: Get A Quote
     desc: Vancouver's top certified professional smart automation services. Over 30
-      years of experience. Commercial, residential & large scale projects.
+      years of experience. Serving commercial, residential & large scale
+      projects.
     cta2_link: contact/
     title1: Make Life Better With Smart
     cta2_select: true
