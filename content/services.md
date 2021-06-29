@@ -18,58 +18,39 @@ components:
     desc: lorem
   - type: divider_half
     bg_color: white
-  - type: cards_third_text
+  - type: cards_third_icon
     bg_color: white
     cards:
-      - divider_select: true
-        title_select: true
-        subtitle_select: false
+      - cta: Call To Action
+        cta_link: contact/
+        title: Residential
         aos: none
-        title_size: small
-        cta_link: none
-        cta: none
+        icon: "#house-chimney"
         desc: "Your home is the place to take care of yourself. A place for comfort and
           relaxation. Why not personalize and perfect your environment? Our home
           automation system allows you to control music, entertainment,
           temperature, mood lighting, you name it, with ease. Rest knowing
           you’re in a secure and safely monitored home. "
-        subtitle: Residential
-        title: Residential
-        title_color: black
-        divider_color: primary
-      - divider_select: true
-        title_select: true
-        subtitle_select: false
+      - cta: Call To Action
+        cta_link: contact/
+        title: Commercial
         aos: none
-        title_size: small
-        cta_link: contact
-        cta: contact
+        icon: "#building"
         desc: We are professionals here to help professionals. Automate your building
           and manage your property from wherever you are. Enjoy smart property
           access through video intercom. This cloud-based software and
           touchscreen hardware provides secure, convenient, and affordable
           property access from a smartphone.
-        subtitle: Commercial
-        title: Commercial
-        title_color: black
-        divider_color: primary
-      - divider_select: true
-        title_select: true
-        subtitle_select: false
+      - cta: Call To Action
+        cta_link: contact/
+        title: Large Projects
         aos: none
-        title_size: small
-        cta_link: none
-        cta: none
+        icon: "#city"
         desc: "Our goal is to provide a service that will maximize your time and
           lifestyle. We ensure that all your smart home systems are under one
           app for utmost convenience. A maximum return on investment is
           guaranteed. No matter how large your project, we pledge to offer the
           best products to realize your perfect environment. "
-        subtitle: Large Projects
-        title: Large Projects
-        shadow_select: false
-        title_color: black
-        divider_color: primary
   - type: divider
     bg_color: white
   - img: /img/lighting.jpg
