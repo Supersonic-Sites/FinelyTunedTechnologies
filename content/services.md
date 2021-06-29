@@ -1,8 +1,7 @@
 ---
 title: Services
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-  aliquam nibh, quis tincidunt ante. Vivamus sit amet diam et velit aliquam
-  aliquam at ut neque.
+description: "Our convenient and reliable home automation services extend from
+  residential, to commercial, to large projects. "
 components:
   - type: header_sub
     bg_color: primary
@@ -29,10 +28,11 @@ components:
         title_size: small
         cta_link: none
         cta: none
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel nisi
-          eleifend, egestas tortor id, pharetra turpis. Ut risus justo, sodales
-          et urna eu, rhoncus cursus quam. Proin congue ante sed sapien commodo
-          cursus. "
+        desc: "Your home is the place to take care of yourself. A place for comfort and
+          relaxation. Why not personalize and perfect your environment? Our home
+          automation system allows you to control music, entertainment,
+          temperature, mood lighting, you name it, with ease. Rest knowing
+          you’re in a secure and safely monitored home. "
         subtitle: Residential
         title: Residential
         title_color: black
@@ -44,10 +44,11 @@ components:
         title_size: small
         cta_link: contact
         cta: contact
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel nisi
-          eleifend, egestas tortor id, pharetra turpis. Ut risus justo, sodales
-          et urna eu, rhoncus cursus quam. Proin congue ante sed sapien commodo
-          cursus. "
+        desc: We are professionals here to help professionals. Automate your building
+          and manage your property from wherever you are. Enjoy smart property
+          access through video intercom. This cloud-based software and
+          touchscreen hardware provides secure, convenient, and affordable
+          property access from a smartphone.
         subtitle: Commercial
         title: Commercial
         title_color: black
@@ -59,10 +60,11 @@ components:
         title_size: small
         cta_link: none
         cta: none
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel nisi
-          eleifend, egestas tortor id, pharetra turpis. Ut risus justo, sodales
-          et urna eu, rhoncus cursus quam. Proin congue ante sed sapien commodo
-          cursus. "
+        desc: "Our goal is to provide a service that will maximize your time and
+          lifestyle. We ensure that all your smart home systems are under one
+          app for utmost convenience. A maximum return on investment is
+          guaranteed. No matter how large your project, we pledge to offer the
+          best products to realize your perfect environment. "
         subtitle: Large Projects
         title: Large Projects
         shadow_select: false
@@ -77,11 +79,11 @@ components:
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
     cta: Contact Us
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
-      lacus mi. Aenean purus leo, facilisis et consectetur auctor, tempus id
-      dui. Curabitur ac massa metus. Donec placerat elit eros. Praesent tempor
-      elit ut magna viverra gravida. Donec rhoncus condimentum congue. Vivamus
-      consequat in ex et rhoncus.
+    desc: Say goodbye to lightswitches and wires and say hello to a wireless
+      dream-come-true lighting system. Within hours, witness your home
+      transformed into an easy to use and reliable smart home based on
+      award-winning technology. From now on, immediate, perfect mood lighting is
+      only a voice command away.
     title: Smart Lighting Automation
     type: img_third_right
   - type: divider2x
@@ -94,11 +96,11 @@ components:
     img_alt: Security Camera connected to an a smart grid system with finely tuned
       technologies
     cta: Contact Us
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
-      lacus mi. Aenean purus leo, facilisis et consectetur auctor, tempus id
-      dui. Curabitur ac massa metus. Donec placerat elit eros. Praesent tempor
-      elit ut magna viverra gravida. Donec rhoncus condimentum congue. Vivamus
-      consequat in ex et rhoncus.
+    desc: "Feel safe and secure at all times with our automated security system.
+      Stay connected with anyone in the house whether at home or away through
+      two-way talk. Check on any room through Live View video to keep an eye on
+      what matters most. Converse clearly and safely with people at the front
+      door without opening the door. "
     title: Security System Automation
     type: img_third_right
   - type: divider2x
@@ -110,11 +112,10 @@ components:
     cta_select: true
     img_alt: Automated Heating System for Smart Home and Offices
     cta: Contact Us
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
-      lacus mi. Aenean purus leo, facilisis et consectetur auctor, tempus id
-      dui. Curabitur ac massa metus. Donec placerat elit eros. Praesent tempor
-      elit ut magna viverra gravida. Donec rhoncus condimentum congue. Vivamus
-      consequat in ex et rhoncus.
+    desc: "No more fiddling with the thermostat. Control your ideal environment with
+      our automated heating systems. Easily manage a comfortable room
+      temperature. Remotely set the temperature even if you’re not at home.
+      Enjoy the ease of simple and reliable technology.  "
     title: Automated Heating Systems
     type: img_third_right
   - type: divider2x
@@ -126,11 +127,11 @@ components:
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
     cta: Contact Us
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
-      lacus mi. Aenean purus leo, facilisis et consectetur auctor, tempus id
-      dui. Curabitur ac massa metus. Donec placerat elit eros. Praesent tempor
-      elit ut magna viverra gravida. Donec rhoncus condimentum congue. Vivamus
-      consequat in ex et rhoncus.
+    desc: "Wake up every morning to your favourite playlist or the news channel on
+      the tv. Podcasts, audiobooks, music, or video entertainment are readily
+      available throughout the day from the family room to the kitchen. We
+      calibrate audio and video systems to the ideal settings so you can get the
+      most out of the sensory experience. "
     title: Audio Visual System
     type: img_third_right
   - type: divider2x
@@ -158,11 +159,10 @@ components:
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
     cta: Contact Us
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
-      lacus mi. Aenean purus leo, facilisis et consectetur auctor, tempus id
-      dui. Curabitur ac massa metus. Donec placerat elit eros. Praesent tempor
-      elit ut magna viverra gravida. Donec rhoncus condimentum congue. Vivamus
-      consequat in ex et rhoncus.
+    desc: "Family movie time just got taken to a whole new level. Experience big
+      screen picture calibration perfection accompanied by multidimensional
+      surround sound to satisfy all family member’s personal tastes. The
+      epicness of the big screen theatre has just come home to you.  "
     title: Home Theater
     type: img_third_right
   - type: divider

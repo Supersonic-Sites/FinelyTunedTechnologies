@@ -1,16 +1,16 @@
 ---
 title: Home Automation Services & Packages
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-  aliquam nibh, quis tincidunt ante. Vivamus sit amet diam et velit aliquam
-  aliquam at ut neque.
+description: "Realize your ideal lifestyle with reliable home automation
+  services for residential, commercial, and large scale project use. "
 components:
   - cta2: Contact Us
-    img: /img/gallery-image-1.jpg
+    img: /img/newpic.jpg
     cta_link: quote/
     img_alt: Smart Home Automation Services
     cta: Get A Quote
     desc: Vancouver's top certified professional smart automation services. Over 30
-      years of experience. Commercial, residential & large scale projects.
+      years of experience. Serving commercial, residential & large scale
+      projects.
     cta2_link: contact/
     title1: Make Life Better With Smart
     cta2_select: true
@@ -22,14 +22,21 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Maximizing Living Space with Smart Technologies
+    title: Maximize Living Space with Smart Technologies
     title_size: medium
     desc_select: true
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris
-      sapien. Ut semper maximus pulvinar. Quisque lacinia, elit eget bibendum
-      tincidunt, arcu metus euismod augue, a tristique augue velit dictum velit.
-      Sed euismod, metus a suscipit fringilla, nunc velit aliquam ante, vitae
-      lacinia odio risus ut lacus. Morbi finibus maximus dolor.
+    desc: How do you envision your ideal lifestyle? Imagine yourself coming home or
+      arriving at the office, opening the door, and with one voice command, your
+      ideal lightening turns on and the room temperature has already been preset
+      for your arrival. No more wasting time and space fiddling with
+      lightswitches, thermostats, or entertainment devices. With automation
+      services, you get to choose and regulate your environment effortlessly
+      with the aid of a dependable technology that is completely hidden.
+      <br><br>Finely Tuned Technologies offers you robustly engineered cutting
+      edge technology that compliments your space and budget. We pick products
+      that work right the first time, systems designed to standards. You’re not
+      buying a box, but a smart technology designed and installed by experts.
+      What can we do for you?
   - type: divider
     bg_color: white
   - type: cards_third_icon
@@ -40,33 +47,33 @@ components:
         aos: fade
         icon: "#lightbulb-on"
         title: Lighting
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: Get the perfect mood lighting first try every time with our automated
+          wireless lighting system. Transform your property’s lighting system
+          into a smart home within hours.
       - cta: Call To Action
         cta_link: contact/
         aos: none
         icon: "#lock"
         title: Security
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: "Know your property is safe and secure at all times. Stay connected to
+          anyone at home whether on site or away. Door locks, security cameras,
+          and video doorbells are here for you. "
       - cta: Call To Action
         cta_link: contact/
         aos: none
         icon: "#heat"
         title: Heating
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: Reliable technology allows you to control the room temperature and home
+          environment with ease. Remotely manage the temperature even when away
+          from home.
       - cta: Call To Action
         cta_link: contact/
         aos: none
         icon: "#computer-speaker"
         title: Audio Visual
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: "Enjoy perfectly calibrated audio and visual systems to get the most out
+          of your sensory experience. Appreciate entertainment from the kitchen
+          to the family room. "
       - cta: Call To Action
         cta_link: contact/
         aos: fade
@@ -80,9 +87,9 @@ components:
         aos: fade
         icon: "#film"
         title: Home Theater
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: "The big screen and multidimensional sound has just come home to you. Our
+          precise calibrations allow you to experience the art as close to the
+          original product as possible. "
   - type: divider
     bg_color: white
   - type: gallery
@@ -101,10 +108,16 @@ components:
     bg_color: white
     cta_select: true
     img_alt: Picture of someone in their home enjoying home automation
-    cta: Call To Action
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-      libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-      pharetra lacus, nec egestas augue gravida nec.
+    cta: Contact Us
+    desc: Who enjoys spending time running around a property turning off lights
+      before leaving for the day? Who has had to drive back home after leaving
+      to make sure that they actually locked the door? <br><br>Smart Technology
+      provides peace of mind when it comes to security and a true lifestyle
+      upgrade with its automated appliances, lighting, heating, and other
+      systems. Automation technology benefits residential private homes to whole
+      apartment buildings, to commercial properties. Embrace efficiency,
+      maximize your space, and streamline your morning routine or business
+      operations today.
     title: What Can A Smart Home or Smart Building Do For You?
     type: img_half_right
   - type: divider2x
@@ -152,34 +165,57 @@ components:
   - type: testimonial_half
     bg_color: white
     testimonials:
-      - name: Erica Bailey
+      - name: Jeff M.
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
         img_alt: Description of the picture here
         position: CEO at Tulip.com
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
-      - name: Erica Bailey
+        desc: Finely Tuned Technologies (FTT) was referred to me many, many years ago. I
+          needed to calibrate my Media Room projector and my surround sound
+          system. It quickly became evident that Richard was an expert in his
+          field, a stickler for detail and exactness which is truly hard to find
+          these days. Richard has always responded to my electronics needs in
+          the most professional and expeditious way. I recently had FTT install
+          a 'Smart Home' system throughout my house that controls security
+          cameras, music, lights, heating and leak detection. Richard installed
+          all the Smart Home equipment to his usual exacting standard and I am
+          very pleased with the result. I highly recommend the services of
+          Finely Tuned Technologies.
+      - name: Brandon B.
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
         img_alt: Description of the picture here
         position: CEO at Tulip.com
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
-      - name: Erica Bailey
+        desc: I am VERY HAPPY with the service, professionalism you and your team have
+          provided. You have a solid crew, you guys leave the job cleaner than
+          when you got there and I can see why you are known as the authority
+          out here in the Greater Vancouver Area. Your expertise and above and
+          beyond attitude combined with your high level of attention to detail
+          is a hard quality to find and its appreciated!
+      - name: Dr. Sharma S
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
         img_alt: Description of the picture here
         position: CEO at Tulip.com
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
-      - name: Erica Bailey
+        desc: >+
+          I recently had a voice activated home automation system installed by
+          Richard Stokes @ Finely Tuned Technologies. As with his A/V and home
+          theatre skills (which I have used for 15 yrs) Richard displays
+          thorough knowledge and ability with his subject. His services are
+          timely, efficient and unparalleled , and he is readily available for
+          any queries before and after services = impeccable.  I would have no
+          hesitation in recommending him for your needs.
+
+      - name: Bill M.
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
         img_alt: Description of the picture here
         position: CEO at Tulip.com
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: >+
+          I recently had Richard Stokes (Finely Tuned Technologies) adjust and
+          upgrade my home theatre. It was a pleasure to watch him work –
+          relentless at getting everything as perfect as possible. I had the
+          system upgraded to high definition and WOW what a difference. It feels
+          like you could walk into the picture, as it is so real now. Thank you,
+          Richard, for all your care and expertise and providing a
+          movie-watching experience that is second to none.
+
   - type: divider
     bg_color: white
   - type: heading_full
