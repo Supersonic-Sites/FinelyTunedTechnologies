@@ -109,8 +109,8 @@ components:
         cta_link: none
         cta: none
         desc: As professionals, we pick and choose only the best products, built to the
-          highest standards, easy to navigate, and reliable. If you have any
-          questions about the technology, we’re happy to help.
+          highest standards, easy to navigate, and reliable. Wondering how it
+          works? We'll be happy to explain.
         subtitle: Highest Standards
         title: none
         shadow_select: true
