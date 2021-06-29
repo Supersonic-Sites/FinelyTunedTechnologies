@@ -56,9 +56,9 @@ components:
         aos: none
         icon: "#heat"
         title: Heating
-        desc: "Reliable technology allows you to control the room temperature and home
-          environment with ease. Remotely manage the temperature even off site.
-          "
+        desc: Reliable technology allows you to control the room temperature and home
+          environment with ease. Remotely manage the temperature even when away
+          from home.
       - cta: Call To Action
         cta_link: contact/
         aos: none
@@ -80,9 +80,9 @@ components:
         aos: fade
         icon: "#film"
         title: Home Theater
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: "The big screen and multidimensional sound has just come home to you.
+          Relish precisely calibrated picture and sound for the best possible
+          sensory experience. "
   - type: divider
     bg_color: white
   - type: gallery
