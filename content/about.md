@@ -80,9 +80,9 @@ components:
         title_size: small
         cta_link: none
         cta: none
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus
-          velit quis metus fringilla, auctor suscipit dui aliquam. Vivamus
-          sodales tristique neque, in posuere lorem pellentesque feugiat.
+        desc: "We bring 30 years of experience, certified expertise, and cutting edge
+          knowledge to the table. We guarantee our clients are served products
+          built to the highest standards, easy to navigate, and reliable. "
         subtitle: Specialized Knowledge
         title: "#"
         shadow_select: true
