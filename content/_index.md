@@ -4,9 +4,9 @@ description: "Realize your ideal lifestyle with reliable home automation
   services for residential, commercial, and large scale project use. "
 components:
   - cta2: Contact Us
-    img: /img/newpic.jpg
+    img: /img/domotic-and-smart-automation-services.jpg
     cta_link: quote/
-    img_alt: Smart Home Automation Services
+    img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Get A Quote
     desc: Vancouver's top certified professional smart automation services. Over 30
       years of experience. Serving commercial, residential & large scale
