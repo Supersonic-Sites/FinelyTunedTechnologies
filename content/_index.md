@@ -29,11 +29,11 @@ components:
       How do you envision your ideal lifestyle? Imagine yourself coming home,
       opening the door, and with one voice command, your mood lightening turns
       on, your favourite playlist is playing in the kitchen, and the room
-      temperature has already been preset for your arrival. No more fiddling
-      with lightswitches, thermostats, or entertainment devices. With home
-      automation services, you get to choose and regulate your environment
-      effortlessly with the aid of a dependable technology that is completely
-      hidden.<br><br>
+      temperature has already been preset for your arrival. No more wasting time
+      and space fiddling with lightswitches, thermostats, or entertainment
+      devices. With home automation services, you get to choose and regulate
+      your environment effortlessly with the aid of a dependable technology that
+      is completely hidden.<br><br>
 
 
       Finely Tuned Technologies offers you robustly engineered cutting edge technology that compliments your home and budget. We pick products that work right the first time, systems designed to standards. You’re not buying a box, but a smart technology designed and installed by experts. What can we do for you?
