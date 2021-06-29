@@ -36,11 +36,11 @@ components:
         title: Commercial
         aos: none
         icon: "#building"
-        desc: We are professionals here to help professionals. Automate your building
-          and manage your property from wherever you are. Enjoy smart property
-          access through video intercom. This cloud-based software and
-          touchscreen hardware provides secure, convenient, and affordable
-          property access from a smartphone.
+        desc: "We are professionals here to help professionals. Automate your building
+          and manage your property from wherever you are. Control the lights,
+          heating, air, security and more from an unique app based system. Using
+          our engineering background and standards, we only work with quality
+          researched products that will always deliver results.  "
       - cta: Call To Action
         cta_link: contact/
         title: Large Projects
