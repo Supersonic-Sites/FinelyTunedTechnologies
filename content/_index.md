@@ -4,7 +4,7 @@ description: "Realize your ideal lifestyle with reliable home automation
   services for residential, commercial, and large scale project use. "
 components:
   - cta2: Contact Us
-    img: /img/gallery-image-1.jpg
+    img: /img/newpic.jpg
     cta_link: quote/
     img_alt: Smart Home Automation Services
     cta: Get A Quote
