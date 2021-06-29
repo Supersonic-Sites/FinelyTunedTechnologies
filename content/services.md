@@ -128,11 +128,11 @@ components:
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
     cta: Contact Us
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
-      lacus mi. Aenean purus leo, facilisis et consectetur auctor, tempus id
-      dui. Curabitur ac massa metus. Donec placerat elit eros. Praesent tempor
-      elit ut magna viverra gravida. Donec rhoncus condimentum congue. Vivamus
-      consequat in ex et rhoncus.
+    desc: "Wake up every morning to your favourite playlist or the news channel on
+      the tv. Podcasts, audiobooks, music, or video entertainment are readily
+      available throughout the day from the family room to the kitchen. We
+      calibrate audio and video systems to the ideal settings so you can get the
+      most out of the sensory experience. "
     title: Audio Visual System
     type: img_third_right
   - type: divider2x
