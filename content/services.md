@@ -97,11 +97,11 @@ components:
     img_alt: Security Camera connected to an a smart grid system with finely tuned
       technologies
     cta: Contact Us
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
-      lacus mi. Aenean purus leo, facilisis et consectetur auctor, tempus id
-      dui. Curabitur ac massa metus. Donec placerat elit eros. Praesent tempor
-      elit ut magna viverra gravida. Donec rhoncus condimentum congue. Vivamus
-      consequat in ex et rhoncus.
+    desc: "Feel safe and secure at all times with our automated security system.
+      Stay connected with anyone in the house whether at home or away through
+      two-way talk. Check on any room through Live View video to keep an eye on
+      what matters most. Converse clearly and safely with people at the front
+      door without opening the door. "
     title: Security System Automation
     type: img_third_right
   - type: divider2x
