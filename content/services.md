@@ -111,7 +111,7 @@ components:
     bg_color: white
     cta_select: true
     img_alt: Automated Heating System for Smart Home and Offices
-    cta: Contact Us
+    cta: Get A Quote
     desc: "No more fiddling with the thermostat. Control your ideal environment with
       our automated heating systems. Easily manage a comfortable room
       temperature. Remotely set the temperature even if you’re not at home.
@@ -126,7 +126,7 @@ components:
     bg_color: white
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
-    cta: Contact Us
+    cta: Get A Quote
     desc: "Wake up every morning to your favourite playlist or the news channel on
       the tv. Podcasts, audiobooks, music, or video entertainment are readily
       available throughout the day from the family room to the kitchen. We
@@ -142,7 +142,7 @@ components:
     bg_color: white
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
-    cta: Contact Us
+    cta: Get A Quote
     desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
       lacus mi. Aenean purus leo, facilisis et consectetur auctor, tempus id
       dui. Curabitur ac massa metus. Donec placerat elit eros. Praesent tempor
@@ -158,7 +158,7 @@ components:
     bg_color: white
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
-    cta: Contact Us
+    cta: Get A Quote
     desc: "Family movie time just got taken to a whole new level. Experience big
       screen picture calibration perfection accompanied by multidimensional
       surround sound to satisfy all family member’s personal tastes. The
@@ -170,6 +170,6 @@ components:
   - type: cta
     bg_color: primary
     title: We're Here To Help. Reach Out With Any Questions.
-    cta: Contact Us Today
+    cta: Get A Quote
     cta_link: quotes/
 ---
