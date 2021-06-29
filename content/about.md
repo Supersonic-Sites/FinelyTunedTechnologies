@@ -81,8 +81,8 @@ components:
         cta_link: none
         cta: none
         desc: "We bring 30 years of experience, certified expertise, and cutting edge
-          knowledge to the table. We guarantee our clients are served products
-          built to the highest standards, easy to navigate, and reliable. "
+          knowledge to the table. We understand the ins and outs of the
+          technology and guarantee a reliable service and installation. "
         subtitle: Specialized Knowledge
         title: "#"
         shadow_select: true
