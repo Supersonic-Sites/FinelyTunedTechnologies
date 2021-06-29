@@ -47,9 +47,9 @@ components:
         cta: contact
         desc: We are professionals here to help professionals. Automate your building
           and manage your property from wherever you are. Enjoy smart property
-          access through video intercom with ButterflyMX technology. This
-          cloud-based software and touchscreen hardware provides secure,
-          convenient, and affordable property access from a smartphone.
+          access through video intercom. This cloud-based software and
+          touchscreen hardware provides secure, convenient, and affordable
+          property access from a smartphone.
         subtitle: Commercial
         title: Commercial
         title_color: black
