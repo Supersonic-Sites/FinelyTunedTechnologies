@@ -5,7 +5,7 @@ description: "Realize your ideal lifestyle with reliable home automation
 components:
   - cta2: Contact Us
     img: /img/domotic-and-smart-automation-services.jpg
-    cta_link: quote/
+    cta_link: quotes/
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Get A Quote
     desc: Vancouver's top certified professional smart automation services. Over 30
