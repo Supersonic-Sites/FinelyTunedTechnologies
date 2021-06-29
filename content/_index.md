@@ -33,9 +33,8 @@ components:
       with lightswitches, thermostats, or entertainment devices. With home
       automation services, you get to choose and regulate your environment
       effortlessly with the aid of a dependable technology that is completely
-      hidden.
+      hidden.<br><br>
 
-      <br><br>
 
       Finely Tuned Technologies offers you robustly engineered cutting edge technology that compliments your home and budget. We pick products that work right the first time, systems designed to standards. You’re not buying a box, but a smart technology designed and installed by experts. What can we do for you?
   - type: divider
