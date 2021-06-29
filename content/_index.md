@@ -1,8 +1,7 @@
 ---
 title: Home Automation Services & Packages
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-  aliquam nibh, quis tincidunt ante. Vivamus sit amet diam et velit aliquam
-  aliquam at ut neque.
+description: "Realize your ideal lifestyle with reliable home automation
+  services for residential, commercial, and large scale project use. "
 components:
   - cta2: Contact Us
     img: /img/gallery-image-1.jpg
