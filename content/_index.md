@@ -27,7 +27,7 @@ components:
     desc_select: true
     desc: How do you envision your ideal lifestyle? Imagine yourself coming home or
       arriving at the office, opening the door, and with one voice command, your
-      ideal lightening turns on and the room temperature has already been preset
+      ideal lighting turns on and the room temperature has already been preset
       for your arrival. No more wasting time and space fiddling with
       lightswitches, thermostats, or entertainment devices. With automation
       services, you get to choose and regulate your environment effortlessly
