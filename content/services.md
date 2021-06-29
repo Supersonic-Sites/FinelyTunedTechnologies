@@ -160,11 +160,10 @@ components:
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
     cta: Contact Us
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
-      lacus mi. Aenean purus leo, facilisis et consectetur auctor, tempus id
-      dui. Curabitur ac massa metus. Donec placerat elit eros. Praesent tempor
-      elit ut magna viverra gravida. Donec rhoncus condimentum congue. Vivamus
-      consequat in ex et rhoncus.
+    desc: "Family movie time just got taken to a whole new level. Experience big
+      screen picture calibration perfection accompanied by multidimensional
+      surround sound to satisfy all family member’s personal tastes. The
+      epicness of the big screen theatre has just come home to you.  "
     title: Home Theater
     type: img_third_right
   - type: divider
