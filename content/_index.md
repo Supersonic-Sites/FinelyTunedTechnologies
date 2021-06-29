@@ -48,9 +48,9 @@ components:
         aos: none
         icon: "#lock"
         title: Security
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: "Know your property is safe and secure at all times. Stay connected to
+          anyone at home whether on site or away. Door locks, security cameras,
+          and video doorbells are here for you. "
       - cta: Call To Action
         cta_link: contact/
         aos: none
