@@ -108,9 +108,9 @@ components:
         title_size: small
         cta_link: none
         cta: none
-        desc: As professionals, we pick and choose only the best products, built to the
+        desc: "As professionals, we pick and choose only the best products, built to the
           highest standards, easy to navigate, and reliable. Wondering how it
-          works? We'll be happy to explain.
+          works? We'll be happy to explain. Don't hesitate to ask. "
         subtitle: Highest Standards
         title: none
         shadow_select: true
