@@ -108,9 +108,9 @@ components:
         title_size: small
         cta_link: none
         cta: none
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus
-          velit quis metus fringilla, auctor suscipit dui aliquam. Vivamus
-          sodales tristique neque, in posuere lorem pellentesque feugiat.
+        desc: As professionals, we pick and choose only the best products, built to the
+          highest standards, easy to navigate, and reliable. If you have any
+          questions about the technology, we’re happy to help.
         subtitle: Highest Standards
         title: none
         shadow_select: true
