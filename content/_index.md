@@ -40,9 +40,9 @@ components:
         aos: fade
         icon: "#lightbulb-on"
         title: Lighting
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: Get the perfect mood lighting first try every time with our automated
+          wireless lighting system. Transform your property’s lighting system
+          into a smart home within hours.
       - cta: Call To Action
         cta_link: contact/
         aos: none
