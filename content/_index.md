@@ -117,7 +117,7 @@ components:
       systems. Automation technology benefits residential private homes to whole
       apartment buildings, to commercial properties. Embrace efficiency,
       maximize your space, and streamline your morning routine or business
-      operations.
+      operations today.
     title: What Can A Smart Home or Smart Building Do For You?
     type: img_half_right
   - type: divider2x
