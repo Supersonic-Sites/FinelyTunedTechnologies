@@ -23,14 +23,17 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Maximizing Living Space with Smart Technologies
+    title: Maximize Living Space with Smart Technologies
     title_size: medium
     desc_select: true
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris
-      sapien. Ut semper maximus pulvinar. Quisque lacinia, elit eget bibendum
-      tincidunt, arcu metus euismod augue, a tristique augue velit dictum velit.
-      Sed euismod, metus a suscipit fringilla, nunc velit aliquam ante, vitae
-      lacinia odio risus ut lacus. Morbi finibus maximus dolor.
+    desc: How do you envision your ideal lifestyle? Imagine yourself coming home,
+      opening the door, and with one voice command, your mood lightening turns
+      on, your favourite playlist is playing in the kitchen, and the room
+      temperature has already been preset for your arrival. No more fiddling
+      with lightswitches, thermostats, or entertainment devices. With home
+      automation services, you get to choose and regulate your environment
+      effortlessly with the aid of a dependable technology that is completely
+      hidden.
   - type: divider
     bg_color: white
   - type: cards_third_icon
