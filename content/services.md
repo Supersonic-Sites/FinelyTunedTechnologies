@@ -29,10 +29,11 @@ components:
         title_size: small
         cta_link: none
         cta: none
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel nisi
-          eleifend, egestas tortor id, pharetra turpis. Ut risus justo, sodales
-          et urna eu, rhoncus cursus quam. Proin congue ante sed sapien commodo
-          cursus. "
+        desc: "Your home is the place to take care of yourself. A place for comfort and
+          relaxation. Why not personalize and perfect your environment? Our home
+          automation system allows you to control music, entertainment,
+          temperature, mood lighting, you name it, with ease. Rest knowing
+          you’re in a secure and safely monitored home. "
         subtitle: Residential
         title: Residential
         title_color: black
