@@ -39,8 +39,8 @@ components:
         desc: "We are professionals here to help professionals. Automate your building
           and manage your property from wherever you are. Control the lights,
           heating, air, security and more from an unique app based system. Using
-          our engineering background and standards, we only work with quality
-          researched products that will always deliver results.  "
+          our engineering standards, we only work with researched products that
+          will always deliver results.  "
       - cta: Call To Action
         cta_link: contact/
         title: Large Projects
