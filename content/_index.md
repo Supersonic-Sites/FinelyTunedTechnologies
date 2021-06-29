@@ -56,9 +56,9 @@ components:
         aos: none
         icon: "#heat"
         title: Heating
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: "Reliable technology allows you to control the room temperature and home
+          environment with ease. Remotely manage the temperature even off site.
+          "
       - cta: Call To Action
         cta_link: contact/
         aos: none
