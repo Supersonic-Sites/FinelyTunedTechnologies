@@ -80,9 +80,9 @@ components:
         aos: fade
         icon: "#film"
         title: Home Theater
-        desc: "The big screen and multidimensional sound has just come home to you.
-          Relish precisely calibrated picture and sound for the best possible
-          sensory experience. "
+        desc: "The big screen and multidimensional sound has just come home to you. Our
+          precise calibrations allow you to experience the art as close to the
+          original product as possible. "
   - type: divider
     bg_color: white
   - type: gallery
