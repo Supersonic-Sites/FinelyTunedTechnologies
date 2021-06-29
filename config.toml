@@ -93,3 +93,8 @@ weight = "4"
 name = "Contact"
 url = "contact/"
 weight = "5"
+
+[[menu.main]]
+name = "Get A Quote"
+url = "quotes/"
+weight = "6"

@@ -16,13 +16,30 @@
   background-attachment: fixed;
   background-size: cover;
 }
+.coolheading {
+  color: mix(#fff, #e91e63, 85%) !important;
+	text-shadow: 
+		-0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+		0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+		0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+		0.015em 0.015em mix(#fff, #e91e63, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+		0.035em 0.035em 0 mix(#fff, #e91e63, 72%) !important;
+}
 .herobg {
   background-image: linear-gradient(180deg, rgba(238,241,234,1) 0%, rgba(238,241,234,0.75) 15%, rgba(238,241,234,0.75) 85%, rgba(238,241,234,0.75) 100%), url('/img/texture.jpg');
 }
 .cover {
   background-image: linear-gradient(180deg, rgb(238,241,234,0.05) 0%, rgba(238,241,234,0.75) 100%), url('/img/banner.jpg');
 }
-
+#desktop_menu li:nth-last-child(1) a {
+  @apply transition duration-500 py-4 px-10 md:text-xl text-xl rounded-sm shadow-2xl hover:shadow-sm text-center hover:shadow-sm font-bold bg-primary text-white border-2 border-primary hover:border-primary hover:bg-transparent hover:text-primary;
+}
+#desktop_menu li:nth-last-child(1) {
+  border: none; 
+}
 .star-fill {
   fill: #ff9529 !important;
 }

@@ -27,7 +27,7 @@
             {{ end }}
 
             {{ if .desc_select }}
-            <p class="mt-6 max-w-5xl mx-auto text-black text-{{ .align }} text-xl tracking-wider">{{ .desc }}</p>
+            <p class="mt-6 max-w-5xl mx-auto text-black text-{{ .align }} text-xl tracking-wider">{{ .desc | safeHTML  }}</p>
             {{ end }}           
         {{ else }}
 
