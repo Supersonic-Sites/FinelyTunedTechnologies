@@ -80,11 +80,11 @@ components:
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
     cta: Contact Us
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
-      lacus mi. Aenean purus leo, facilisis et consectetur auctor, tempus id
-      dui. Curabitur ac massa metus. Donec placerat elit eros. Praesent tempor
-      elit ut magna viverra gravida. Donec rhoncus condimentum congue. Vivamus
-      consequat in ex et rhoncus.
+    desc: Say goodbye to lightswitches and wires and say hello to a wireless
+      dream-come-true lighting system. Within hours, witness your home
+      transformed into an easy to use and reliable smart home based on
+      award-winning technology. From now on, immediate, perfect mood lighting is
+      only a voice command away.
     title: Smart Lighting Automation
     type: img_third_right
   - type: divider2x
