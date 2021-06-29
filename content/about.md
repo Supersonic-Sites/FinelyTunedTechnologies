@@ -94,9 +94,9 @@ components:
         title_size: small
         cta_link: none
         cta: none
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus
-          velit quis metus fringilla, auctor suscipit dui aliquam. Vivamus
-          sodales tristique neque, in posuere lorem pellentesque feugiat.
+        desc: We prioritize a fast response time so we can address your needs in the
+          moment. If you need a quote or any kind of assistance, we're always
+          available and ready to help.
         subtitle: Quick Response Time
         title: none
         shadow_select: true
