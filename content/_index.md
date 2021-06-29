@@ -152,34 +152,54 @@ components:
   - type: testimonial_half
     bg_color: white
     testimonials:
-      - name: Erica Bailey
+      - name: Dr. Sharma S
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
         img_alt: Description of the picture here
         position: CEO at Tulip.com
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
-      - name: Erica Bailey
+        desc: >+
+          I recently had a voice activated home automation system installed by
+          Richard Stokes @ Finely Tuned Technologies. As with his A/V and home
+          theatre skills (which I have used for 15 yrs) Richard displays
+          thorough knowledge and ability with his subject. His services are
+          timely, efficient and unparalleled , and he is readily available for
+          any queries before and after services = impeccable.  I would have no
+          hesitation in recommending him for your needs.
+
+      - name: Jeff M.
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
         img_alt: Description of the picture here
         position: CEO at Tulip.com
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
-      - name: Erica Bailey
+        desc: Finely Tuned Technologies (FTT) was referred to me many, many years ago. I
+          needed to calibrate my Media Room projector and my surround sound
+          system. It quickly became evident that Richard was an expert in his
+          field, a stickler for detail and exactness which is truly hard to find
+          these days. Richard has always responded to my electronics needs in
+          the most professional and expeditious way. I recently had FTT install
+          a 'Smart Home' system throughout my house that controls security
+          cameras, music, lights, heating and leak detection. Richard installed
+          all the Smart Home equipment to his usual exacting standard and I am
+          very pleased with the result. I highly recommend the services of
+          Finely Tuned Technologies.
+      - name: Murray L.
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
         img_alt: Description of the picture here
         position: CEO at Tulip.com
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
-      - name: Erica Bailey
+        desc: >+
+          By George I think you’ve got it! There is enough going on here to keep
+          me amused for a few lifetimes. Thanks for your patience and
+          persistence.  It exceeds my ideas of what a sound system could be.
+          Thank you.
+
+      - name: Brandon B.
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
         img_alt: Description of the picture here
         position: CEO at Tulip.com
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: I am VERY HAPPY with the service, professionalism you and your team have
+          provided. You have a solid crew, you guys leave the job cleaner than
+          when you got there and I can see why you are known as the authority
+          out here in the Greater Vancouver Area. Your expertise and above and
+          beyond attitude combined with your high level of attention to detail
+          is a hard quality to find and its appreciated!
   - type: divider
     bg_color: white
   - type: heading_full
