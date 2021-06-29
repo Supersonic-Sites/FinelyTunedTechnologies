@@ -11,14 +11,14 @@
         {{ if .aos_select }}
         data-aos="{{ .aos }}" data-aos-duration="800"
         {{ end }}
-        width="484px"
-        height="484px" 
+        width="200px"
+        height="62px" 
         data-srcset="
-            {{ .img }}?nf_resize=smartcrop&w=300&h=300 300w,
-            {{ .img }}?nf_resize=smartcrop&w=484&h=484 484w,
-            {{ .img }}?nf_resize=smartcrop&w=528&h=528 528w"
+            {{ .img }}?nf_resize=smartcrop&w=300 300w,
+            {{ .img }}?nf_resize=smartcrop&w=484 484w,
+            {{ .img }}?nf_resize=smartcrop&w=528 528w"
         sizes="(max-width: 468px) 400px, 484px"
-        data-src="{{ .img }}?nf_resize=smartcrop&w=484&h=484"
+        data-src="{{ .img }}?nf_resize=smartcrop&w=484"
          />
 
       </div>
