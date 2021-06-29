@@ -74,11 +74,11 @@ components:
     bg_color: white
   - img: /img/lighting.jpg
     aos: none
-    cta_link: contact/
+    cta_link: quotes/
     bg_color: white
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
-    cta: Contact Us
+    cta: Get A Quote
     desc: Say goodbye to lightswitches and wires and say hello to a wireless
       dream-come-true lighting system. Within hours, witness your home
       transformed into an easy to use and reliable smart home based on
@@ -90,12 +90,12 @@ components:
     bg_color: white
   - img: /img/security-automation.jpg
     aos: none
-    cta_link: contact/
+    cta_link: quotes/
     bg_color: white
     cta_select: true
     img_alt: Security Camera connected to an a smart grid system with finely tuned
       technologies
-    cta: Contact Us
+    cta: Get A Quote
     desc: "Feel safe and secure at all times with our automated security system.
       Stay connected with anyone in the house whether at home or away through
       two-way talk. Check on any room through Live View video to keep an eye on
@@ -107,7 +107,7 @@ components:
     bg_color: white
   - img: /img/charlotte-stowe-lxitrizzplc-unsplash.jpg
     aos: none
-    cta_link: contact/
+    cta_link: quotes/
     bg_color: white
     cta_select: true
     img_alt: Automated Heating System for Smart Home and Offices
@@ -122,7 +122,7 @@ components:
     bg_color: white
   - img: /img/sam-moqadam-xy0dk2pqsoq-unsplash.jpg
     aos: none
-    cta_link: contact/
+    cta_link: quotes/
     bg_color: white
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
@@ -138,7 +138,7 @@ components:
     bg_color: white
   - img: /img/network-wifi.jpg
     aos: none
-    cta_link: contact/
+    cta_link: quotes/
     bg_color: white
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
@@ -154,7 +154,7 @@ components:
     bg_color: white
   - img: /img/home-theater.jpg
     aos: none
-    cta_link: contact/
+    cta_link: quotes/
     bg_color: white
     cta_select: true
     img_alt: Lamp connected to an automated system with finely tuned technologies
@@ -171,5 +171,5 @@ components:
     bg_color: primary
     title: We're Here To Help. Reach Out With Any Questions.
     cta: Contact Us Today
-    cta_link: contact/
+    cta_link: quotes/
 ---
