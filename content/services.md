@@ -113,11 +113,10 @@ components:
     cta_select: true
     img_alt: Automated Heating System for Smart Home and Offices
     cta: Contact Us
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
-      lacus mi. Aenean purus leo, facilisis et consectetur auctor, tempus id
-      dui. Curabitur ac massa metus. Donec placerat elit eros. Praesent tempor
-      elit ut magna viverra gravida. Donec rhoncus condimentum congue. Vivamus
-      consequat in ex et rhoncus.
+    desc: "No more fiddling with the thermostat. Control your ideal environment with
+      our automated heating systems. Easily manage a comfortable room
+      temperature. Remotely set the temperature even if you’re not at home.
+      Enjoy the ease of simple and reliable technology.  "
     title: Automated Heating Systems
     type: img_third_right
   - type: divider2x
