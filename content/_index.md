@@ -64,9 +64,9 @@ components:
         aos: none
         icon: "#computer-speaker"
         title: Audio Visual
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: "Enjoy perfectly calibrated audio and visual systems to get the most out
+          of your sensory experience. Appreciate entertainment from the kitchen
+          to the family room. "
       - cta: Call To Action
         cta_link: contact/
         aos: fade
