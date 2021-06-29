@@ -152,19 +152,6 @@ components:
   - type: testimonial_half
     bg_color: white
     testimonials:
-      - name: Dr. Sharma S
-        img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
-        img_alt: Description of the picture here
-        position: CEO at Tulip.com
-        desc: >+
-          I recently had a voice activated home automation system installed by
-          Richard Stokes @ Finely Tuned Technologies. As with his A/V and home
-          theatre skills (which I have used for 15 yrs) Richard displays
-          thorough knowledge and ability with his subject. His services are
-          timely, efficient and unparalleled , and he is readily available for
-          any queries before and after services = impeccable.  I would have no
-          hesitation in recommending him for your needs.
-
       - name: Jeff M.
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
         img_alt: Description of the picture here
@@ -180,6 +167,29 @@ components:
           all the Smart Home equipment to his usual exacting standard and I am
           very pleased with the result. I highly recommend the services of
           Finely Tuned Technologies.
+      - name: Brandon B.
+        img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
+        img_alt: Description of the picture here
+        position: CEO at Tulip.com
+        desc: I am VERY HAPPY with the service, professionalism you and your team have
+          provided. You have a solid crew, you guys leave the job cleaner than
+          when you got there and I can see why you are known as the authority
+          out here in the Greater Vancouver Area. Your expertise and above and
+          beyond attitude combined with your high level of attention to detail
+          is a hard quality to find and its appreciated!
+      - name: Dr. Sharma S
+        img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
+        img_alt: Description of the picture here
+        position: CEO at Tulip.com
+        desc: >+
+          I recently had a voice activated home automation system installed by
+          Richard Stokes @ Finely Tuned Technologies. As with his A/V and home
+          theatre skills (which I have used for 15 yrs) Richard displays
+          thorough knowledge and ability with his subject. His services are
+          timely, efficient and unparalleled , and he is readily available for
+          any queries before and after services = impeccable.  I would have no
+          hesitation in recommending him for your needs.
+
       - name: Bill M.
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
         img_alt: Description of the picture here
@@ -193,16 +203,6 @@ components:
           Richard, for all your care and expertise and providing a
           movie-watching experience that is second to none.
 
-      - name: Brandon B.
-        img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
-        img_alt: Description of the picture here
-        position: CEO at Tulip.com
-        desc: I am VERY HAPPY with the service, professionalism you and your team have
-          provided. You have a solid crew, you guys leave the job cleaner than
-          when you got there and I can see why you are known as the authority
-          out here in the Greater Vancouver Area. Your expertise and above and
-          beyond attitude combined with your high level of attention to detail
-          is a hard quality to find and its appreciated!
   - type: divider
     bg_color: white
   - type: heading_full
