@@ -180,15 +180,18 @@ components:
           all the Smart Home equipment to his usual exacting standard and I am
           very pleased with the result. I highly recommend the services of
           Finely Tuned Technologies.
-      - name: Murray L.
+      - name: Bill M.
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
         img_alt: Description of the picture here
         position: CEO at Tulip.com
         desc: >+
-          By George I think you’ve got it! There is enough going on here to keep
-          me amused for a few lifetimes. Thanks for your patience and
-          persistence.  It exceeds my ideas of what a sound system could be.
-          Thank you.
+          I recently had Richard Stokes (Finely Tuned Technologies) adjust and
+          upgrade my home theatre. It was a pleasure to watch him work –
+          relentless at getting everything as perfect as possible. I had the
+          system upgraded to high definition and WOW what a difference. It feels
+          like you could walk into the picture, as it is so real now. Thank you,
+          Richard, for all your care and expertise and providing a
+          movie-watching experience that is second to none.
 
       - name: Brandon B.
         img: DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png
