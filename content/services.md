@@ -61,10 +61,11 @@ components:
         title_size: small
         cta_link: none
         cta: none
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel nisi
-          eleifend, egestas tortor id, pharetra turpis. Ut risus justo, sodales
-          et urna eu, rhoncus cursus quam. Proin congue ante sed sapien commodo
-          cursus. "
+        desc: "Our goal is to provide a service that will maximize your time and
+          lifestyle. We ensure that all your smart home systems are under one
+          app for utmost convenience. A maximum return on investment is
+          guaranteed. No matter how large your project, we pledge to offer the
+          best products to realize your perfect environment. "
         subtitle: Large Projects
         title: Large Projects
         shadow_select: false
