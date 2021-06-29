@@ -4,7 +4,7 @@ description: "Realize your ideal lifestyle with reliable home automation
   services for residential, commercial, and large scale project use. "
 components:
   - cta2: Contact Us
-    img: /img/harry-shelton-ppxhm0crzl4-unsplash.jpg
+    img: /img/newpic.jpg
     cta_link: quote/
     img_alt: Smart Home Automation Services
     cta: Get A Quote
@@ -27,7 +27,7 @@ components:
     desc_select: true
     desc: How do you envision your ideal lifestyle? Imagine yourself coming home or
       arriving at the office, opening the door, and with one voice command, your
-      ideal lighting turns on and the room temperature has already been preset
+      ideal lightening turns on and the room temperature has already been preset
       for your arrival. No more wasting time and space fiddling with
       lightswitches, thermostats, or entertainment devices. With automation
       services, you get to choose and regulate your environment effortlessly
