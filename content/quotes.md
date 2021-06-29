@@ -14,10 +14,12 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Lorem Ipsum
+    title: "What can we do for you? "
     title_size: medium
     desc_select: true
-    desc: Lorem Ipsum
+    desc: "We're here to help. Tell us about your exciting project or vision for
+      your home or commercial space. We prioritize a fast response time so we
+      can address your needs in the moment. "
   - type: divider_half
     bg_color: white
   - type: form_center_2
