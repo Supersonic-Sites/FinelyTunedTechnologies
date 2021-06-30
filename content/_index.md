@@ -135,9 +135,15 @@ components:
   - type: divider_half
     bg_color: white
   - type: faq_toggle
-    question: How to you make holy water?
-    answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-      adipisicing elit. Quas cupiditate laboriosam fugiat.
+    question: How long does it take to install a home automation system?
+    answer: It will depend on the type and depth of the system you would like to
+      install, ie. the Brilliant home automation controller can be installed and
+      programmed within hours. Each additional device (ie. lighting, security
+      camera, music system, window shades, garage door and climate control) can
+      also be installed and programmed within hours. In short, anywhere from one
+      day to less than a week for the average Brilliant home automation system,
+      depending on the number of automation device you decide to include in the
+      system.
     faqs:
       - question: How to you make holy water?
         answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
