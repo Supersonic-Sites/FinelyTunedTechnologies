@@ -128,9 +128,9 @@ components:
     align: center
     title: FAQ
     title_size: medium
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-      libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-      pharetra lacus, nec egestas augue gravida nec.
+    desc: "Read through our Frequently Asked Questions to learn more about Smart
+      Automation. Can't find the answer you're looking for? Reach out to us and
+      we'll be happy to help. "
     desc_select: true
   - type: divider_half
     bg_color: white
