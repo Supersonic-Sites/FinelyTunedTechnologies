@@ -150,9 +150,12 @@ components:
         answer: No you do not. All of the separate device apps are bundled together
           within the Brilliant app and can be accessed from anywhere you have a
           data and/or wi-fi connection.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: Do I need special wiring to install a home automation system?
+        answer: Some systems require dedicated wiring and some do not. The Brilliant
+          system works off of your home wi-fi. You simply replace your regular
+          light switch with a Brilliant Controller and/or a Brilliant Dimmer and
+          you have now installed the foundation for a whole house automation
+          system.
       - question: How to you make holy water?
         answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
           adipisicing elit. Quas cupiditate laboriosam fugiat.
