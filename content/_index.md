@@ -156,9 +156,17 @@ components:
           light switch with a Brilliant Controller and/or a Brilliant Dimmer and
           you have now installed the foundation for a whole house automation
           system.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: What kind of lighting do you recommend for the different areas within
+          a family home or condo?
+        answer: >-
+          Residential lighting types can broken down into three major
+          categories: general lighting, task lighting, and special event
+          lighting. Within those categories are three main lighting
+          requirements: daytime lighting, evening/nighttime lighting and
+          specialty lighting, such as specific or multi-colour
+          lighting.>br><br> 
+
+          Daylight lighting will have a more balanced red green and blue colour spectrum. This is important to compliment our natural circadian rhythm work day cycle. Evening and nighttime lighting has less blue light, which is very important for preparing us for our sleep cycle. Ideally, the lighting in your home should change from daytime to nighttime colour spectrum automatically. An automated lighting system can be programmed to do this for you.
       - question: How to you make holy water?
         answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
           adipisicing elit. Quas cupiditate laboriosam fugiat.
