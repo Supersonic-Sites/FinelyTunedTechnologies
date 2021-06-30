@@ -145,9 +145,11 @@ components:
       depending on the number of automation device you decide to include in the
       system.
     faqs:
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: Do I need a separate app installed on my mobile or tablet device to
+          control the multiple devices in the system?
+        answer: No you do not. All of the separate device apps are bundled together
+          within the Brilliant app and can be accessed from anywhere you have a
+          data and/or wi-fi connection.
       - question: How to you make holy water?
         answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
           adipisicing elit. Quas cupiditate laboriosam fugiat.
