@@ -12,7 +12,7 @@ components:
       years of experience. Serving commercial, residential & large scale
       projects.
     cta2_link: contact/
-    title1: Make Life Better With Smart
+    title1: Making Life Better With Smart
     cta2_select: true
     title2: Automation
     type: hero_half_img_diagonal
