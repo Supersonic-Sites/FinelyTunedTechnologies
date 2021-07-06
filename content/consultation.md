@@ -1,12 +1,12 @@
 ---
-title: Get A Quote
+title: Free Consultation
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
   aliquam nibh, quis tincidunt ante. Vivamus sit amet diam et velit aliquam
   aliquam at ut neque.
 components:
   - type: header_sub
     bg_color: primary
-    title: Get A Quote
+    title: Get A Free Consultation
     img: /img/finelytunedbanner1.jpg
   - type: divider
     bg_color: white
