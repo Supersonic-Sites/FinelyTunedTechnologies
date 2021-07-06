@@ -95,6 +95,6 @@ url = "contact/"
 weight = "5"
 
 [[menu.main]]
-name = "Get A Quote"
+name = "Free Consultation"
 url = "quotes/"
 weight = "6"
