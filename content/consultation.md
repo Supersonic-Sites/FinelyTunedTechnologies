@@ -14,7 +14,7 @@ components:
     id: none
     bg_color: white
     align: center
-    title: "What can we do for you? "
+    title: "Let's Talk About Your Project"
     title_size: medium
     desc_select: true
     desc: "We're here to help. Tell us about your exciting project or vision for
