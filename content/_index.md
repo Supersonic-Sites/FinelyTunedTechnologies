@@ -22,7 +22,7 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Maximize Living Space with Smart Technologies
+    title: Dependable • Reliable • Affordable
     title_size: medium
     desc_select: true
     desc: How do you envision your ideal lifestyle? Imagine yourself coming home or
