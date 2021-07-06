@@ -7,7 +7,7 @@ components:
     img: /img/domotic-and-smart-automation-services.jpg
     cta_link: quotes/
     img_alt: Smart Home Automation Specialist in Vancouver, BC
-    cta: Free Project Consultation
+    cta: Free Consultation
     desc: Enhancing your lifestyle. Vancouver's top certified professional smart
       automation services. Over 30 years of experience. Serving commercial,
       residential & large scale projects.
