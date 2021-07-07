@@ -8,9 +8,7 @@ components:
     cta_link: free-consultation/
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
-    desc: Enhance your lifestyle with Vancouver's top certified professional smart
-      automation service provider. Over 30 years of experience. Serving
-      commercial, residential & large scale projects.
+    desc: Enhance your lifestyle with Vancouver's top certified professional smart automation service provider. Brilliant™, ButterflyMX™ and THX Certified Installer with over 30 years of experience. Serving commercial, residential & large scale projects.
     cta2_link: contact/
     title1: Vancouver's Smart Home Automation
     cta2_select: true
@@ -22,7 +20,7 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Dependable • Reliable • Affordable
+    title: Smart Home Made Simple
     title_size: medium
     desc_select: true
     desc: Finely Tuned Technologies offers you robustly engineered cutting edge
@@ -162,7 +160,6 @@ components:
     bg_color: white
     cta_select: true
     img_alt: Picture of someone in their home enjoying home automation
-<<<<<<< HEAD
     cta: Free Consultation
     desc: >-
       Brilliant is an in-wall lighting and control system that makes it easy for
@@ -188,18 +185,6 @@ components:
 
       </ul>
     title: Fully Integrated Smart Home System
-=======
-    cta: Contact Us
-    desc: Automation technology benefits anything from commercial properties to
-      whole apartment buildings, to residential private homes. Embrace
-      efficiency, maximize your space, and streamline your business operations
-      or morning routine. Smart Technology enhances your environment, boosts
-      productivity, provides peace of mind when it comes to security, and
-      delivers a true lifestyle upgrade with its automated appliances, lighting,
-      heating, and other systems. Benefit from award-winning technology,
-      installed by professional engineers, today.
-    title: What Can A Smart Home or Smart Building Do For You?
->>>>>>> b4c604ab4c565131490da76a547f29de787d6656
     type: img_half_right
   - type: divider2x
     bg_color: white
