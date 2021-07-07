@@ -9,41 +9,6 @@ components:
     title: About Us
   - type: divider
     bg_color: white
-  - type: cards_fourth_img
-    bg_color: white
-    cards:
-      - img_alt: Smart Home Without The Struggle  Effortlessly control all of your smart
-          home devices from one, easy to access and easy to use, control panel
-          on your wall or a single app on your phone.
-        cta: Call To Action
-        cta_link: contact/
-        title: Brilliant Certified Expert
-        aos: none
-        img: /img/400_crop_5f5006ecedd87_5f4dbddf3ec3d.webp
-        desc: Brilliant Certified Expert
-      - img_alt: ButterflyMX Certified Installer
-        cta: Call To Action
-        cta_link: contact/
-        title: ButterflyMX Certified Installer
-        img: /img/butterflymx-certification.jpg
-        desc: ButterflyMX Certified Installer
-        aos: none
-      - img_alt: Imaging Science Foundation Certified
-        cta: Call To Action
-        cta_link: contact/
-        title: Imaging Science Foundation Certified Video Calibrator and Trainer
-        desc: Imaging Science Foundation Certified
-        aos: none
-        img: /img/isf_certified.jpg
-      - img_alt: THX Certified Expert
-        cta: Call To Action
-        cta_link: contact/
-        title: THX Certified Expert
-        aos: fade
-        desc: THX Certified Expert
-        img: /img/thx-certification.jpg
-  - type: divider
-    bg_color: white
   - img: /img/finely-tuned-technologies-navigation.jpg
     aos: none1
     cta_link: services/
