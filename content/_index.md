@@ -167,7 +167,7 @@ components:
     bg_color: white
     cta_select: true
     img_alt: Picture of someone in their home enjoying home automation
-    cta: Contact Us
+    cta: Free Consultation
     desc: >-
       As Brilliant® Pro Certified installer we provide fully integrated smart
       home solutions. We deliver an easy-to-use solution that the entire
