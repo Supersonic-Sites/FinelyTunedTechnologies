@@ -8,7 +8,10 @@ components:
     cta_link: free-consultation/
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
-    desc: Enhance your lifestyle with Vancouver's top certified professional smart automation service provider. Brilliant™, ButterflyMX™ and THX Certified Installer with over 30 years of experience. Serving commercial, residential & large scale projects.
+    desc: Enhance your lifestyle with Vancouver's top certified professional smart
+      automation service provider. Brilliant™, ButterflyMX™ and THX Certified
+      Installer with over 30 years of experience. Serving commercial,
+      residential & large scale projects.
     cta2_link: contact/
     title1: Vancouver's Smart Home Automation
     cta2_select: true
@@ -154,7 +157,7 @@ components:
         img: /img/nadine-shaabana-vr5-mfyo9wu-unsplash.jpg
   - type: divider2x
     bg_color: white
-  - img: /img/roberto-nickson-rejxpbskj3q-unsplash.jpg
+  - img: /img/brillanthome3.jpg
     aos: fade
     cta_link: free-consultation/
     bg_color: white
@@ -251,54 +254,6 @@ components:
           Richard, for all your care and expertise and providing a
           movie-watching experience that is second to none.
 
-  - type: divider_half
-    bg_color: white
-  - type: heading_full
-    id: none
-    bg_color: white
-    align: center
-    title: Our Certifications
-    title_size: small
-    desc: none
-  - type: divider_half
-    bg_color: white
-  - type: cards_fourth_img
-    bg_color: white
-    cards:
-      - img_alt: Smart Home Without The Struggle  Effortlessly control all of your smart
-          home devices from one, easy to access and easy to use, control panel
-          on your wall or a single app on your phone.
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: Brilliant Certified Expert
-        aos: fade-up
-        img: /img/400_crop_5f5006ecedd87_5f4dbddf3ec3d.webp
-        desc: Brilliant Certified Expert
-        aos_select: true
-      - img_alt: ButterflyMX Certified Installer
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: ButterflyMX Certified Installer
-        img: /img/butterflymx-certification.jpg
-        desc: ButterflyMX Certified Installer
-        aos: fade-up
-        aos_select: true
-      - img_alt: Imaging Science Foundation Certified
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: Imaging Science Foundation Certified Video Calibrator and Trainer
-        desc: Imaging Science Foundation Certified
-        aos: fade-up
-        img: /img/isf_certified.jpg
-        aos_select: true
-      - img_alt: THX Certified Expert
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: THX Certified Expert
-        aos: fade-up
-        desc: THX Certified Expert
-        img: /img/thx-certification.jpg
-        aos_select: true
   - type: divider
     bg_color: white
   - address4: Canada
