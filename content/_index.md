@@ -9,8 +9,9 @@ components:
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
     desc: Enhance your lifestyle with Vancouver's top certified professional smart
-      automation service provider. Brilliant™, ButterflyMX™ and THX Certified Installer With Over 30 years of experience. Serving
-      commercial, residential & large scale projects.
+      automation service provider. Brilliant™, ButterflyMX™ and THX Certified
+      Installer with over 30 years of experience. Serving commercial,
+      residential & large scale projects.
     cta2_link: contact/
     title1: Vancouver's Smart Home Automation
     cta2_select: true
@@ -22,17 +23,15 @@ components:
     id: none
     bg_color: white
     align: center
-    title: The Smart Home Made Simple
+    title: Smart Home Made Simple
     title_size: medium
     desc_select: true
-    desc: >-
-      Imagine yourself coming home or arriving at the office, opening the door,
-      and with one voice command, your ideal lightening turns on and the room
-      temperature has already been preset for your arrival. No more wasting time
-      and space fiddling with lightswitches, thermostats, or entertainment
-      devices. <br><br>
-
-      Brilliant™ is an in-wall lighting and control system that makes it easy for homeowners, families, guests to control lighting, doorbells, locks, cameras, music, climate, intercom, scenes, and more. It’s easy to install, integrates with the top brands in every smart home category, and transforms any house or apartment into an easy-to-use smart home.
+    desc: Finely Tuned Technologies offers you robustly engineered cutting edge
+      technology that compliments your building and budget. We pick products
+      that work right the first time, systems designed to standards. As a
+      Brilliant® Pro Certified installer we provide fully integrated smart home
+      solutions. We deliver an easy-to-use solution that the entire household
+      will use.<br><br>
   - type: divider
     bg_color: white
   - type: video_full
@@ -83,9 +82,9 @@ components:
         aos: fade-up
         icon: "#wifi"
         title: Network & Wifi
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: Capable of handling commercial needs, our high speed network is robust and
+          reliable.  Our system is designed for high performance and data
+          protection.
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
@@ -112,7 +111,7 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Types Of Project
+    title: Types Of Projects
     title_size: medium
     desc: "Read through our Frequently Asked Questions to learn more about Smart
       Automation. Can't find the answer you're looking for? Reach out to us and
@@ -161,22 +160,21 @@ components:
         img: /img/nadine-shaabana-vr5-mfyo9wu-unsplash.jpg
   - type: divider2x
     bg_color: white
-  - img: /img/roberto-nickson-rejxpbskj3q-unsplash.jpg
+  - img: /img/brillanthome3.jpg
     aos: fade
     cta_link: free-consultation/
     bg_color: white
     cta_select: true
     img_alt: Picture of someone in their home enjoying home automation
-    cta: Contact Us
-    desc: Who enjoys spending time running around a property turning off lights
-      before leaving for the day? Who has had to drive back home after leaving
-      to make sure that they actually locked the door? <br><br>Smart Technology
-      provides peace of mind when it comes to security and a true lifestyle
-      upgrade with its automated appliances, lighting, heating, and other
-      systems. Automation technology benefits residential private homes to whole
-      apartment buildings, to commercial properties. Embrace efficiency,
-      maximize your space, and streamline your morning routine or business
-      operations today.
+    cta: Free Consultation
+    desc: >-
+      Brilliant is an in-wall lighting and control system that makes it easy for
+      homeowners, families, guests to control lighting, doorbells, locks,
+      cameras, music, climate, intercom, scenes, and more. It’s easy to install,
+      integrates with the top brands in every smart home category, and
+      transforms any house or apartment into an easy-to-use smart home.<br><br>
+
+      Who enjoys spending time running around a property turning off lights before leaving for the day? Who has had to drive back home after leaving to make sure that they actually locked the door? <br><br>Smart Technology provides peace of mind when it comes to security and a true lifestyle upgrade with its automated appliances, lighting, heating, and other systems. Automation technology benefits residential private homes to whole apartment buildings, to commercial properties. Embrace efficiency, maximize your space, and streamline your morning routine or business operations today.
     title: Fully Integrated Smart Home System
     type: img_half_right
   - type: divider2x
@@ -244,54 +242,6 @@ components:
           Richard, for all your care and expertise and providing a
           movie-watching experience that is second to none.
 
-  - type: divider_half
-    bg_color: white
-  - type: heading_full
-    id: none
-    bg_color: white
-    align: center
-    title: Our Certifications
-    title_size: small
-    desc: none
-  - type: divider_half
-    bg_color: white
-  - type: cards_fourth_img
-    bg_color: white
-    cards:
-      - img_alt: Smart Home Without The Struggle  Effortlessly control all of your smart
-          home devices from one, easy to access and easy to use, control panel
-          on your wall or a single app on your phone.
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: Brilliant Certified Expert
-        aos: fade-up
-        img: /img/400_crop_5f5006ecedd87_5f4dbddf3ec3d.webp
-        desc: Brilliant Certified Expert
-        aos_select: true
-      - img_alt: ButterflyMX Certified Installer
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: ButterflyMX Certified Installer
-        img: /img/butterflymx-certification.jpg
-        desc: ButterflyMX Certified Installer
-        aos: fade-up
-        aos_select: true
-      - img_alt: Imaging Science Foundation Certified
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: Imaging Science Foundation Certified Video Calibrator and Trainer
-        desc: Imaging Science Foundation Certified
-        aos: fade-up
-        img: /img/isf_certified.jpg
-        aos_select: true
-      - img_alt: THX Certified Expert
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: THX Certified Expert
-        aos: fade-up
-        desc: THX Certified Expert
-        img: /img/thx-certification.jpg
-        aos_select: true
   - type: divider
     bg_color: white
   - address4: Canada
