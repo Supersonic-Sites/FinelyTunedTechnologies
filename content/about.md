@@ -129,6 +129,6 @@ components:
   - type: cta
     bg_color: primary
     title: We're Here To Help. Reach Out With Any Questions.
-    cta: Contact Us Today
-    cta_link: contact/
+    cta: Get A Free Consultation
+    cta_link: free-consultation/
 ---
