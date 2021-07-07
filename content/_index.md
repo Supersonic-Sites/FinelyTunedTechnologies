@@ -72,9 +72,8 @@ components:
         aos: fade-up
         icon: "#computer-speaker"
         title: Audio Visual
-        desc: "Enjoy perfectly calibrated audio and visual systems to get the most out
-          of your sensory experience. Appreciate entertainment from the kitchen
-          to the family room. "
+        desc: "Access high definition and perfectly calibrated audio and visual systems
+          designed for both commercial demands and residential use. "
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
