@@ -22,21 +22,21 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Dependable • Reliable • Affordable
+    title: Brilliant Smart Home System
     title_size: medium
     desc_select: true
-    desc: How do you envision your ideal lifestyle? Imagine yourself coming home or
-      arriving at the office, opening the door, and with one voice command, your
-      ideal lightening turns on and the room temperature has already been preset
-      for your arrival. No more wasting time and space fiddling with
-      lightswitches, thermostats, or entertainment devices. With automation
-      services, you get to choose and regulate your environment effortlessly
-      with the aid of a dependable technology that is completely hidden.
-      <br><br>Finely Tuned Technologies offers you robustly engineered cutting
-      edge technology that compliments your space and budget. We pick products
-      that work right the first time, systems designed to standards. You’re not
-      buying a box, but a smart technology designed and installed by experts.
-      What can we do for you?
+    desc: >-
+      magine yourself coming home or arriving at the office, opening the door,
+      and with one voice command, your ideal lightening turns on and the room
+      temperature has already been preset for your arrival. No more wasting time
+      and space fiddling with lightswitches, thermostats, or entertainment
+      devices. <br><br>
+
+      Brilliant is an in-wall lighting and control system that makes it easy for homeowners, families, guests to control lighting, doorbells, locks, cameras, music, climate, intercom, scenes, and more. It’s easy to install, integrates with the top brands in every smart home category, and transforms any house or apartment into an easy-to-use smart home.
+  - type: divider
+    bg_color: white
+  - type: video_full
+    VideoID: QIgocFKBjrc
   - type: divider
     bg_color: white
   - type: cards_third_icon
