@@ -46,27 +46,26 @@ components:
         aos: fade-up
         icon: "#lightbulb-on"
         title: Lighting
-        desc: Get the perfect mood lighting first try every time with our automated
-          wireless lighting system. Transform your property’s lighting system
-          into a smart home within hours.
+        desc: "Transform your property’s manual lighting into a smart system within
+          hours. Program lights to achieve the perfect level, no matter the time
+          of day. "
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
         aos: fade-up
         icon: "#lock"
         title: Security
-        desc: "Know your property is safe and secure at all times. Stay connected to
-          anyone at home whether on site or away. Door locks, security cameras,
-          and video doorbells are here for you. "
+        desc: We deliver professional security and surveillance. Know your property is
+          safe and secure at all times with our reliable monitoring systems.
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
         aos: fade-up
         icon: "#heat"
         title: Heating
-        desc: Reliable technology allows you to control the room temperature and home
-          environment with ease. Remotely manage the temperature even when away
-          from home.
+        desc: "Reliable technology allows you to control the building temperature and
+          office or home environment with ease. Remotely manage the temperature
+          even off site. "
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
