@@ -25,18 +25,11 @@ components:
     title: Dependable • Reliable • Affordable
     title_size: medium
     desc_select: true
-    desc: How do you envision your ideal lifestyle? Imagine yourself coming home or
-      arriving at the office, opening the door, and with one voice command, your
-      ideal lightening turns on and the room temperature has already been preset
-      for your arrival. No more wasting time and space fiddling with
-      lightswitches, thermostats, or entertainment devices. With automation
-      services, you get to choose and regulate your environment effortlessly
-      with the aid of a dependable technology that is completely hidden.
-      <br><br>Finely Tuned Technologies offers you robustly engineered cutting
-      edge technology that compliments your space and budget. We pick products
+    desc: Finely Tuned Technologies offers you robustly engineered cutting edge
+      technology that compliments your building and budget. We pick products
       that work right the first time, systems designed to standards. You’re not
-      buying a box, but a smart technology designed and installed by experts.
-      What can we do for you?
+      buying a box, but a smart technology designed and installed by engineers
+      and electrical experts. What can we do for you?
   - type: divider
     bg_color: white
   - type: cards_third_icon
