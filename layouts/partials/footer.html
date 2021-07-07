@@ -98,21 +98,15 @@
             </div>
 
             {{ if .Site.Params.schema.address_toggle }}
-            <address class="text-xl text-black mt-4 space-y-4 text-center md:text-left">
-
-              {{ .Site.Params.schema.address1 }},<br>
+            <address class="text-xl text-black mt-4 text-center md:text-left">
+             <div>{{ .Site.Params.schema.address1 }},</div>
               {{ if eq .Site.Params.schema.address2 "#" }}
-              <span></span>
               {{ else }}
-              {{ .Site.Params.schema.address2 }}<br>
+              <div>{{ .Site.Params.schema.address2 }}</div>
               {{ end }}
-              
-              {{ .Site.Params.schema.city }}, {{ .Site.Params.schema.region }}
-              <br>
-              {{ .Site.Params.schema.postalcode }}
-              <br>
-              {{ .Site.Params.schema.country }}
-
+              <div>{{ .Site.Params.schema.city }}, {{ .Site.Params.schema.region }}</div>
+              <div>{{ .Site.Params.schema.postalcode }}</div>
+              <div>{{ .Site.Params.schema.country }}</div>
             </address>
             {{ end }}
             
