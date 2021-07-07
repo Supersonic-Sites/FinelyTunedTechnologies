@@ -158,15 +158,14 @@ components:
     cta_select: true
     img_alt: Picture of someone in their home enjoying home automation
     cta: Contact Us
-    desc: Who enjoys spending time running around a property turning off lights
-      before leaving for the day? Who has had to drive back home after leaving
-      to make sure that they actually locked the door? <br><br>Smart Technology
-      provides peace of mind when it comes to security and a true lifestyle
-      upgrade with its automated appliances, lighting, heating, and other
-      systems. Automation technology benefits residential private homes to whole
-      apartment buildings, to commercial properties. Embrace efficiency,
-      maximize your space, and streamline your morning routine or business
-      operations today.
+    desc: Automation technology benefits anything from commercial properties to
+      whole apartment buildings, to residential private homes. Embrace
+      efficiency, maximize your space, and streamline your business operations
+      or morning routine. Smart Technology enhances your environment, boosts
+      productivity, provides peace of mind when it comes to security, and
+      delivers a true lifestyle upgrade with its automated appliances, lighting,
+      heating, and other systems. Benefit from award-winning technology,
+      installed by professional engineers, today.
     title: What Can A Smart Home or Smart Building Do For You?
     type: img_half_right
   - type: divider2x
