@@ -22,11 +22,11 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Brilliant Smart Home System
+    title: The Smart Home Made Simple
     title_size: medium
     desc_select: true
     desc: >-
-      magine yourself coming home or arriving at the office, opening the door,
+      Imagine yourself coming home or arriving at the office, opening the door,
       and with one voice command, your ideal lightening turns on and the room
       temperature has already been preset for your arrival. No more wasting time
       and space fiddling with lightswitches, thermostats, or entertainment
