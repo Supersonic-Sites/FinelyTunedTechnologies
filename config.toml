@@ -1,9 +1,9 @@
-title = "Finely Tuned Technology Inc."
-description = "Lorem Ipsum"
 languageCode = "en-ca"
-baseURL = "https://finelytunedtechnologies.netlify.app/"
 DefaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+baseURL = "https://finelytunedtechnologies.netlify.app/"
+title = "Finely Tuned Technology Inc."
+description = "Lorem Ipsum"
 
 [params]
 gtm = "GTM-T2757SM"
@@ -96,5 +96,5 @@ weight = "5"
 
 [[menu.main]]
 name = "Free Consultation"
-url = "consultation/"
+url = "free-consultation/"
 weight = "6"

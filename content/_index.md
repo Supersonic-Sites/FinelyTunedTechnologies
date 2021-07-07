@@ -5,7 +5,7 @@ description: "Realize your ideal lifestyle with reliable home automation
 components:
   - cta2: Contact Us
     img: /img/r-architecture-khpwe85ge38-unsplash.jpg
-    cta_link: quotes/
+    cta_link: free-consultation/
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
     desc: Enhancing your lifestyle with Vancouver's top certified professional smart
@@ -44,52 +44,58 @@ components:
     cards:
       - cta: Call To Action
         cta_link: contact/
-        aos: fade
+        aos: fade-up
         icon: "#lightbulb-on"
         title: Lighting
         desc: Get the perfect mood lighting first try every time with our automated
           wireless lighting system. Transform your property’s lighting system
           into a smart home within hours.
+        aos_select: true
       - cta: Call To Action
         cta_link: contact/
-        aos: none
+        aos: fade-up
         icon: "#lock"
         title: Security
         desc: "Know your property is safe and secure at all times. Stay connected to
           anyone at home whether on site or away. Door locks, security cameras,
           and video doorbells are here for you. "
+        aos_select: true
       - cta: Call To Action
         cta_link: contact/
-        aos: none
+        aos: fade-up
         icon: "#heat"
         title: Heating
         desc: Reliable technology allows you to control the room temperature and home
           environment with ease. Remotely manage the temperature even when away
           from home.
+        aos_select: true
       - cta: Call To Action
         cta_link: contact/
-        aos: none
+        aos: fade-up
         icon: "#computer-speaker"
         title: Audio Visual
         desc: "Enjoy perfectly calibrated audio and visual systems to get the most out
           of your sensory experience. Appreciate entertainment from the kitchen
           to the family room. "
+        aos_select: true
       - cta: Call To Action
         cta_link: contact/
-        aos: fade
+        aos: fade-up
         icon: "#wifi"
         title: Network & Wifi
         desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
           libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
           pharetra lacus, nec egestas augue gravida nec.
+        aos_select: true
       - cta: Call To Action
         cta_link: contact/
-        aos: fade
+        aos: fade-up
         icon: "#film"
         title: Home Theater
         desc: "The big screen and multidimensional sound has just come home to you. Our
           precise calibrations allow you to experience the art as close to the
           original product as possible. "
+        aos_select: true
   - type: divider
     bg_color: white
   - type: gallery
@@ -101,6 +107,59 @@ components:
       - img_alt: Please type in a description of the image
         img: /img/boardroom-automation.jpg
   - type: divider
+    bg_color: white
+  - type: heading_full
+    id: none
+    bg_color: white
+    align: center
+    title: Types Of Project
+    title_size: medium
+    desc: "Read through our Frequently Asked Questions to learn more about Smart
+      Automation. Can't find the answer you're looking for? Reach out to us and
+      we'll be happy to help. "
+    desc_select: false
+  - type: divider_half
+    bg_color: white
+  - type: cards_third_img
+    bg_color: white
+    cards:
+      - img_alt: Please type in a description of the image
+        cta: Call To Action
+        cta_link: contact/
+        title: Residential
+        aos_select: true
+        aos: fade-up
+        img: /img/home-automation.jpg
+        desc: "Your home is the place to take care of yourself. A place for comfort and
+          relaxation. Why not personalize and perfect your environment? Our home
+          automation system allows you to control music, entertainment,
+          temperature, mood lighting, you name it, with ease. Rest knowing
+          you’re in a secure and safely monitored home. "
+      - img_alt: Please type in a description of the image
+        cta: Call To Action
+        cta_link: contact/
+        title: Commercial
+        aos_select: true
+        aos: fade-up
+        desc: "We are professionals here to help professionals. Automate your building
+          and manage your property from wherever you are. Control the lights,
+          heating, air, security and more from an unique app based system. Using
+          our engineering standards, we only work with researched products that
+          will always deliver results. "
+        img: /img/domingo-alvarez-e-niv2v0idsv0-unsplash.jpg
+      - img_alt: Please type in a description of the image
+        cta: Call To Action
+        cta_link: contact/
+        title: Large Projects
+        desc: "Our goal is to provide a service that will maximize your time and
+          lifestyle. We ensure that all your smart home systems are under one
+          app for utmost convenience. A maximum return on investment is
+          guaranteed. No matter how large your project, we pledge to offer the
+          best products to realize your perfect environment. "
+        aos_select: true
+        aos: fade-up
+        img: /img/nadine-shaabana-vr5-mfyo9wu-unsplash.jpg
+  - type: divider2x
     bg_color: white
   - img: /img/roberto-nickson-rejxpbskj3q-unsplash.jpg
     aos: fade
@@ -121,53 +180,6 @@ components:
     title: What Can A Smart Home or Smart Building Do For You?
     type: img_half_right
   - type: divider2x
-    bg_color: white
-  - type: heading_full
-    id: none
-    bg_color: white
-    align: center
-    title: FAQ
-    title_size: medium
-    desc: "Read through our Frequently Asked Questions to learn more about Smart
-      Automation. Can't find the answer you're looking for? Reach out to us and
-      we'll be happy to help. "
-    desc_select: true
-  - type: divider_half
-    bg_color: white
-  - type: faq_toggle
-    question: How long does it take to install a home automation system?
-    answer: It will depend on the type and depth of the system you would like to
-      install, ie. the Brilliant home automation controller can be installed and
-      programmed within hours. Each additional device (ie. lighting, security
-      camera, music system, window shades, garage door and climate control) can
-      also be installed and programmed within hours. In short, anywhere from one
-      day to less than a week for the average Brilliant home automation system,
-      depending on the number of automation device you decide to include in the
-      system.
-    faqs:
-      - question: Do I need a separate app installed on my mobile or tablet device to
-          control the multiple devices in the system?
-        answer: No you do not. All of the separate device apps are bundled together
-          within the Brilliant app and can be accessed from anywhere you have a
-          data and/or wi-fi connection.
-      - question: Do I need special wiring to install a home automation system?
-        answer: Some systems require dedicated wiring and some do not. The Brilliant
-          system works off of your home wi-fi. You simply replace your regular
-          light switch with a Brilliant Controller and/or a Brilliant Dimmer and
-          you have now installed the foundation for a whole house automation
-          system.
-      - question: What kind of lighting do you recommend for the different areas within
-          a family home or condo?
-        answer: >-
-          Residential lighting types can broken down into three major
-          categories: general lighting, task lighting, and special event
-          lighting. Within those categories are three main lighting
-          requirements: daytime lighting, evening/nighttime lighting and
-          specialty lighting, such as specific or multi-colour lighting.
-          <br><br> 
-
-          Daylight lighting will have a more balanced red green and blue colour spectrum. This is important to compliment our natural circadian rhythm work day cycle. Evening and nighttime lighting has less blue light, which is very important for preparing us for our sleep cycle. Ideally, the lighting in your home should change from daytime to nighttime colour spectrum automatically. An automated lighting system can be programmed to do this for you.
-  - type: divider
     bg_color: white
   - type: heading_full
     id: none
@@ -232,7 +244,7 @@ components:
           Richard, for all your care and expertise and providing a
           movie-watching experience that is second to none.
 
-  - type: divider
+  - type: divider_half
     bg_color: white
   - type: heading_full
     id: none
@@ -252,30 +264,34 @@ components:
         cta: Call To Action
         cta_link: contact/
         title: Brilliant Certified Expert
-        aos: none
+        aos: fade-up
         img: /img/400_crop_5f5006ecedd87_5f4dbddf3ec3d.webp
         desc: Brilliant Certified Expert
+        aos_select: true
       - img_alt: ButterflyMX Certified Installer
         cta: Call To Action
         cta_link: contact/
         title: ButterflyMX Certified Installer
         img: /img/butterflymx-certification.jpg
         desc: ButterflyMX Certified Installer
-        aos: none
+        aos: fade-up
+        aos_select: true
       - img_alt: Imaging Science Foundation Certified
         cta: Call To Action
         cta_link: contact/
         title: Imaging Science Foundation Certified Video Calibrator and Trainer
         desc: Imaging Science Foundation Certified
-        aos: none
+        aos: fade-up
         img: /img/isf_certified.jpg
+        aos_select: true
       - img_alt: THX Certified Expert
         cta: Call To Action
         cta_link: contact/
         title: THX Certified Expert
-        aos: fade
+        aos: fade-up
         desc: THX Certified Expert
         img: /img/thx-certification.jpg
+        aos_select: true
   - type: divider
     bg_color: white
   - address4: Canada
@@ -292,6 +308,4 @@ components:
     address2: West Vancouver, BC
     address_toggle: true
     address3: V7V 1K3
-  - type: divider
-    bg_color: white
 ---
