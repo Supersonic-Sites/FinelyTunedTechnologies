@@ -40,9 +40,9 @@ components:
         aos: fade-up
         icon: "#lightbulb-on"
         title: Lighting
-        desc: Get the perfect mood lighting first try every time with our automated
-          wireless lighting system. Transform your property’s lighting system
-          into a smart home within hours.
+        desc: "Transform your property’s manual lighting into a smart system within
+          hours. Program lights to achieve the perfect level, no matter the time
+          of day. "
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
