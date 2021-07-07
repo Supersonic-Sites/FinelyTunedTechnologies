@@ -31,7 +31,7 @@ components:
       that work right the first time, systems designed to standards. As a
       Brilliant® Pro Certified installer we provide fully integrated smart home
       solutions. We deliver an easy-to-use solution that the entire household
-      will use.<br><br>
+      will use.
   - type: divider
     bg_color: white
   - type: video_full
@@ -169,8 +169,24 @@ components:
       homeowners, families, guests to control lighting, doorbells, locks,
       cameras, music, climate, intercom, scenes, and more. It’s easy to install,
       integrates with the top brands in every smart home category, and
-      transforms any house or apartment into an easy-to-use smart home.<br><br>
-      Who enjoys spending time running around a property turning off lights before leaving for the day? Who has had to drive back home after leaving to make sure that they actually locked the door? <br><br>Smart Technology provides peace of mind when it comes to security and a true lifestyle upgrade with its automated appliances, lighting, heating, and other systems. Automation technology benefits residential private homes to whole apartment buildings, to commercial properties. Embrace efficiency, maximize your space, and streamline your morning routine or business operations today.
+      transforms any house or apartment into an easy-to-use smart
+      home.<br><br>As Brilliant® Pro Certified installer we provide fully
+      integrated smart home solutions. We deliver an easy-to-use solution that
+      the entire household will use.
+
+      <br><br>
+
+      <ul>
+
+      <li class="text-xl ml-4" style="list-style: square;">No hub required</li>
+
+      <li class="text-xl ml-4" style="list-style: square;">No ongoing maintenance</li>
+
+      <li class="text-xl ml-4" style="list-style: square;">No techno-clutter</li>
+
+      <li class="text-xl ml-4" style="list-style: square;">No programming</li>
+
+      </ul>
     title: Fully Integrated Smart Home System
     type: img_half_right
   - type: divider2x
