@@ -1,10 +1,10 @@
 ---
-title: Home Automation Services & Packages
+title: Welcome
 description: "Realize your ideal lifestyle with reliable home automation
   services for residential, commercial, and large scale project use. "
 components:
   - cta2: Contact Us
-    img: /img/home-automation-mobile.jpg
+    img: /img/r-architecture-khpwe85ge38-unsplash.jpg
     cta_link: quotes/
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
