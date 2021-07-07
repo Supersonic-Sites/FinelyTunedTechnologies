@@ -9,7 +9,7 @@ components:
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
     desc: Enhance your lifestyle with Vancouver's top certified professional smart
-      automation service provider. Over 30 years of experience. Serving
+      automation service provider. Brilliant™, ButterflyMX™ and THX Certified Installer With Over 30 years of experience. Serving
       commercial, residential & large scale projects.
     cta2_link: contact/
     title1: Vancouver's Smart Home Automation
