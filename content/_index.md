@@ -112,7 +112,7 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Types Of Project
+    title: Types Of Projects
     title_size: medium
     desc: "Read through our Frequently Asked Questions to learn more about Smart
       Automation. Can't find the answer you're looking for? Reach out to us and
