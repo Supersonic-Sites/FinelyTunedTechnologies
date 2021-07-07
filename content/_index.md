@@ -43,7 +43,7 @@ components:
     bg_color: white
     cards:
       - cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         aos: fade-up
         icon: "#lightbulb-on"
         title: Lighting
@@ -52,7 +52,7 @@ components:
           into a smart home within hours.
         aos_select: true
       - cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         aos: fade-up
         icon: "#lock"
         title: Security
@@ -61,7 +61,7 @@ components:
           and video doorbells are here for you. "
         aos_select: true
       - cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         aos: fade-up
         icon: "#heat"
         title: Heating
@@ -70,7 +70,7 @@ components:
           from home.
         aos_select: true
       - cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         aos: fade-up
         icon: "#computer-speaker"
         title: Audio Visual
@@ -79,7 +79,7 @@ components:
           to the family room. "
         aos_select: true
       - cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         aos: fade-up
         icon: "#wifi"
         title: Network & Wifi
@@ -88,7 +88,7 @@ components:
           pharetra lacus, nec egestas augue gravida nec.
         aos_select: true
       - cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         aos: fade-up
         icon: "#film"
         title: Home Theater
@@ -125,7 +125,7 @@ components:
     cards:
       - img_alt: Please type in a description of the image
         cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         title: Residential
         aos_select: true
         aos: fade-up
@@ -137,7 +137,7 @@ components:
           you’re in a secure and safely monitored home. "
       - img_alt: Please type in a description of the image
         cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         title: Commercial
         aos_select: true
         aos: fade-up
@@ -149,7 +149,7 @@ components:
         img: /img/domingo-alvarez-e-niv2v0idsv0-unsplash.jpg
       - img_alt: Please type in a description of the image
         cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         title: Large Projects
         desc: "Our goal is to provide a service that will maximize your time and
           lifestyle. We ensure that all your smart home systems are under one
@@ -163,7 +163,7 @@ components:
     bg_color: white
   - img: /img/roberto-nickson-rejxpbskj3q-unsplash.jpg
     aos: fade
-    cta_link: contact/
+    cta_link: free-consultation/
     bg_color: white
     cta_select: true
     img_alt: Picture of someone in their home enjoying home automation
@@ -262,7 +262,7 @@ components:
           home devices from one, easy to access and easy to use, control panel
           on your wall or a single app on your phone.
         cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         title: Brilliant Certified Expert
         aos: fade-up
         img: /img/400_crop_5f5006ecedd87_5f4dbddf3ec3d.webp
@@ -270,7 +270,7 @@ components:
         aos_select: true
       - img_alt: ButterflyMX Certified Installer
         cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         title: ButterflyMX Certified Installer
         img: /img/butterflymx-certification.jpg
         desc: ButterflyMX Certified Installer
@@ -278,7 +278,7 @@ components:
         aos_select: true
       - img_alt: Imaging Science Foundation Certified
         cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         title: Imaging Science Foundation Certified Video Calibrator and Trainer
         desc: Imaging Science Foundation Certified
         aos: fade-up
@@ -286,7 +286,7 @@ components:
         aos_select: true
       - img_alt: THX Certified Expert
         cta: Call To Action
-        cta_link: contact/
+        cta_link: free-consultation/
         title: THX Certified Expert
         aos: fade-up
         desc: THX Certified Expert
