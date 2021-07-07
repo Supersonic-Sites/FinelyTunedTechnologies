@@ -49,9 +49,8 @@ components:
         aos: fade-up
         icon: "#lock"
         title: Security
-        desc: "Know your property is safe and secure at all times. Stay connected to
-          anyone at home whether on site or away. Door locks, security cameras,
-          and video doorbells are here for you. "
+        desc: We deliver professional security and surveillance. Know your property is
+          safe and secure at all times with our reliable monitoring systems.
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
