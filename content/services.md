@@ -23,7 +23,7 @@ components:
           lighting is only a voice command away.
         aos_select: false
         aos: none
-        img: /img/lighting.jpg
+        img: /img/patrick-tomasso-1ntfsnv-kls-unsplash.jpg
       - img_alt: Security Camera connected to an a smart grid system with finely tuned
           technologies
         cta: Call To Action
@@ -45,7 +45,7 @@ components:
           temperature. Remotely set the temperature even if you’re not at home.
           Enjoy the ease of simple and reliable technology. "
         aos: none
-        img: /img/charlotte-stowe-lxitrizzplc-unsplash.jpg
+        img: /img/robin-van-geenen-ybcjvoiwmxm-unsplash.jpg
       - img_alt: Picture of speakers and television automated with smart technologies
         cta: Call To Action
         cta_link: free-consultation/
@@ -56,7 +56,7 @@ components:
           kitchen. We calibrate audio and video systems to the ideal settings so
           you can get the most out of the sensory experience.
         aos: none
-        img: /img/sam-moqadam-xy0dk2pqsoq-unsplash.jpg
+        img: /img/kam-idris-l9-sfn04jdk-unsplash.jpg
       - img_alt: Picture of a mobile cellphone connected to a helpful home system
         cta: Call To Action
         cta_link: free-consultation/
