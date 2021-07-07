@@ -1,14 +1,14 @@
 ---
 title: Welcome
-description: "Realize your ideal lifestyle with reliable home automation
-  services for residential, commercial, and large scale project use. "
+description: Enhance your lifestyle with Vancouver's top certified professional
+  smart automation service provider.
 components:
   - cta2: Contact Us
     img: /img/r-architecture-khpwe85ge38-unsplash.jpg
     cta_link: free-consultation/
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
-    desc: Enhancing your lifestyle with Vancouver's top certified professional smart
+    desc: Enhance your lifestyle with Vancouver's top certified professional smart
       automation service provider. Over 30 years of experience. Serving
       commercial, residential & large scale projects.
     cta2_link: contact/
