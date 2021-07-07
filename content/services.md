@@ -13,14 +13,14 @@ components:
     id: none
     bg_color: white
     align: center
-    title: The Perfect Solution For Every Type Of Project.
+    title: Smart Automation Done Right
     title_size: medium
     desc_select: true
     desc: There are a lot of smart home products out there, but the problem is they
       haven't worked well with one another. We only work with the best quality
       products that are dependable, reliable and that will be good for the long
       haul without having to retrofit your home in any way, only a few hours of
-      work and your envrionment can be transformed with smart automation.
+      work and your environment can be transformed with smart automation.
   - type: divider
     bg_color: white
   - type: cards_third_img
