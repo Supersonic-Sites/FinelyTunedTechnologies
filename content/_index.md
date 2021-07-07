@@ -29,7 +29,7 @@ components:
       technology that compliments your building and budget. We pick products
       that work right the first time, systems designed to standards. You’re not
       buying a box, but a smart technology designed and installed by engineers
-      and electrical experts. What can we do for you?
+      and electrical experts.
   - type: divider
     bg_color: white
   - type: cards_third_icon
