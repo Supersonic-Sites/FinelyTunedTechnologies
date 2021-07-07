@@ -25,11 +25,18 @@ components:
     title: Dependable • Reliable • Affordable
     title_size: medium
     desc_select: true
-    desc: Finely Tuned Technologies offers you robustly engineered cutting edge
-      technology that compliments your building and budget. We pick products
+    desc: How do you envision your ideal lifestyle? Imagine yourself coming home or
+      arriving at the office, opening the door, and with one voice command, your
+      ideal lightening turns on and the room temperature has already been preset
+      for your arrival. No more wasting time and space fiddling with
+      lightswitches, thermostats, or entertainment devices. With automation
+      services, you get to choose and regulate your environment effortlessly
+      with the aid of a dependable technology that is completely hidden.
+      <br><br>Finely Tuned Technologies offers you robustly engineered cutting
+      edge technology that compliments your space and budget. We pick products
       that work right the first time, systems designed to standards. You’re not
-      buying a box, but a smart technology designed and installed by engineers
-      and electrical experts.
+      buying a box, but a smart technology designed and installed by experts.
+      What can we do for you?
   - type: divider
     bg_color: white
   - type: cards_third_icon
@@ -154,23 +161,22 @@ components:
         img: /img/nadine-shaabana-vr5-mfyo9wu-unsplash.jpg
   - type: divider2x
     bg_color: white
-  - img: /img/roberto-nickson-rejxpbskj3q-unsplash.jpg
+  - img: /img/brillant-home.jpg
     aos: fade
     cta_link: free-consultation/
     bg_color: white
     cta_select: true
     img_alt: Picture of someone in their home enjoying home automation
     cta: Contact Us
-    desc: Who enjoys spending time running around a property turning off lights
-      before leaving for the day? Who has had to drive back home after leaving
-      to make sure that they actually locked the door? <br><br>Smart Technology
-      provides peace of mind when it comes to security and a true lifestyle
-      upgrade with its automated appliances, lighting, heating, and other
-      systems. Automation technology benefits residential private homes to whole
-      apartment buildings, to commercial properties. Embrace efficiency,
-      maximize your space, and streamline your morning routine or business
-      operations today.
-    title: What Can A Smart Home or Smart Building Do For You?
+    desc: >-
+      As Brilliant® Pro Certified installer we provide fully integrated smart
+      home solutions. We deliver an easy-to-use solution that the entire
+      household will use.
+
+      <br><br>
+
+      Who enjoys spending time running around a property turning off lights before leaving for the day? Who has had to drive back home after leaving to make sure that they actually locked the door? <br><br>Smart Technology provides peace of mind when it comes to security and a true lifestyle upgrade with its automated appliances, lighting, heating, and other systems. Automation technology benefits residential private homes to whole apartment buildings, to commercial properties. Embrace efficiency, maximize your space, and streamline your morning routine or business operations today.
+    title: Fully Integrated Smart Home System
     type: img_half_right
   - type: divider2x
     bg_color: white
@@ -237,54 +243,6 @@ components:
           Richard, for all your care and expertise and providing a
           movie-watching experience that is second to none.
 
-  - type: divider_half
-    bg_color: white
-  - type: heading_full
-    id: none
-    bg_color: white
-    align: center
-    title: Our Certifications
-    title_size: small
-    desc: none
-  - type: divider_half
-    bg_color: white
-  - type: cards_fourth_img
-    bg_color: white
-    cards:
-      - img_alt: Smart Home Without The Struggle  Effortlessly control all of your smart
-          home devices from one, easy to access and easy to use, control panel
-          on your wall or a single app on your phone.
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: Brilliant Certified Expert
-        aos: fade-up
-        img: /img/400_crop_5f5006ecedd87_5f4dbddf3ec3d.webp
-        desc: Brilliant Certified Expert
-        aos_select: true
-      - img_alt: ButterflyMX Certified Installer
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: ButterflyMX Certified Installer
-        img: /img/butterflymx-certification.jpg
-        desc: ButterflyMX Certified Installer
-        aos: fade-up
-        aos_select: true
-      - img_alt: Imaging Science Foundation Certified
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: Imaging Science Foundation Certified Video Calibrator and Trainer
-        desc: Imaging Science Foundation Certified
-        aos: fade-up
-        img: /img/isf_certified.jpg
-        aos_select: true
-      - img_alt: THX Certified Expert
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: THX Certified Expert
-        aos: fade-up
-        desc: THX Certified Expert
-        img: /img/thx-certification.jpg
-        aos_select: true
   - type: divider
     bg_color: white
   - address4: Canada
