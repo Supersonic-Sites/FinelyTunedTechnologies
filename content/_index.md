@@ -32,7 +32,7 @@ components:
       and space fiddling with lightswitches, thermostats, or entertainment
       devices. <br><br>
 
-      Brilliant is an in-wall lighting and control system that makes it easy for homeowners, families, guests to control lighting, doorbells, locks, cameras, music, climate, intercom, scenes, and more. It’s easy to install, integrates with the top brands in every smart home category, and transforms any house or apartment into an easy-to-use smart home.
+      Brilliant™ is an in-wall lighting and control system that makes it easy for homeowners, families, guests to control lighting, doorbells, locks, cameras, music, climate, intercom, scenes, and more. It’s easy to install, integrates with the top brands in every smart home category, and transforms any house or apartment into an easy-to-use smart home.
   - type: divider
     bg_color: white
   - type: video_full
@@ -177,7 +177,7 @@ components:
       apartment buildings, to commercial properties. Embrace efficiency,
       maximize your space, and streamline your morning routine or business
       operations today.
-    title: What Can A Smart Home or Smart Building Do For You?
+    title: Fully Integrated Smart Home System
     type: img_half_right
   - type: divider2x
     bg_color: white
