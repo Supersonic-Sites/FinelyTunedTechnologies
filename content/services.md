@@ -13,8 +13,7 @@ components:
     id: none
     bg_color: white
     align: center
-    title: We install is the perfect system for every home or project, no matter the
-      size.
+    title: The Perfect Solution For Every Type Of Project.
     title_size: medium
     desc_select: true
     desc: There are a lot of smart home products out there, but the problem is they
