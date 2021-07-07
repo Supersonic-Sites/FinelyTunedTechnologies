@@ -58,9 +58,9 @@ components:
         aos: fade-up
         icon: "#heat"
         title: Heating
-        desc: Reliable technology allows you to control the room temperature and home
-          environment with ease. Remotely manage the temperature even when away
-          from home.
+        desc: "Reliable technology allows you to control the building temperature and
+          office or home environment with ease. Remotely manage the temperature
+          even off site. "
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
