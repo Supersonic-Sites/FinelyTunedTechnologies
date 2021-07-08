@@ -29,7 +29,7 @@ components:
     desc: Finely Tuned Technologies offers you robustly engineered cutting edge
       technology that compliments your building and budget. We pick products
       that work right the first time, systems designed to standards. As a
-      Brilliant® Pro Certified installer we provide fully integrated smart home
+      Brilliant® Pro Certified installer, we provide fully integrated smart home
       solutions. We deliver an easy-to-use solution that the entire household
       will use.
   - type: divider
