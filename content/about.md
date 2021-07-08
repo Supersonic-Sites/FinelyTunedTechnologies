@@ -25,7 +25,7 @@ components:
 
       About Our Founder<br><br>“It is so satisfying to help a customer and install an automatic system that compliments their personal needs and tastes. These technologies maximize one’s lifestyle, but they’re also artistically sensitive. It excites the artist in me.”<br>
 
-      - Richard Stokes, Owner/Operator<br><br> 
+      - Richard Stokes, Founder<br><br> 
        
       Richard brings 30 years of electrical expertise and a passion for home automation to Finely Tuned Technologies. Originally from Ireland, Richard began his electrical career with a 5 year apprenticeship with the Electricity Generation and Supply Board in Dublin. When he moved to Vancouver, Canada at the age of 36, he put his extensive history in electronic repairs to work as the manager of the Engineered Systems Division of A&B Sound, BC and Alberta.<br><br> 
        
