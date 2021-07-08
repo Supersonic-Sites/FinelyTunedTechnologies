@@ -18,9 +18,9 @@ components:
     desc_select: true
     desc: There are a lot of smart home products out there, but the problem is they
       haven't worked well with one another. We only work with the best quality
-      products that are dependable, reliable and that will be good for the long
-      haul without having to retrofit your home in any way. With only a few
-      hours of work, your environment can be transformed with smart automation.
+      products that are dependable, reliable, and will be good for the long haul
+      without having to retrofit your home in any way. With only a few hours of
+      work, your environment can be transformed with smart automation.
   - type: divider
     bg_color: white
   - type: cards_fourth_img
