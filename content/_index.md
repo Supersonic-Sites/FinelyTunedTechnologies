@@ -146,11 +146,11 @@ components:
         cta: Call To Action
         cta_link: free-consultation/
         title: Large Projects
-        desc: "Our goal is to provide a service that will maximize your time and
-          lifestyle. We ensure that all your smart home systems are under one
-          app for utmost convenience. A maximum return on investment is
-          guaranteed. No matter how large your project, we pledge to offer the
-          best products to realize your perfect environment. "
+        desc: Award-winning Brilliant® technology allows property managers to operate at
+          maximum efficiency, save time and money, and increase resident
+          satisfaction. Connect all your devices and all your controls under
+          this all-in-one app system for utmost convenience. Turn your property
+          into a smart property today.
         aos_select: true
         aos: fade-up
         img: /img/nadine-shaabana-vr5-mfyo9wu-unsplash.jpg
