@@ -79,9 +79,9 @@ components:
         aos: fade-up
         icon: "#wifi"
         title: Network & Wifi
-        desc: Capable of handling commercial needs, our high speed network is robust and
-          reliable.  Our system is designed for high performance and data
-          protection.
+        desc: "Our Brilliant® wireless network installation allows you to control
+          everything from your favourite devices anywhere on your
+          property.  It's user friendly and efficient. "
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
