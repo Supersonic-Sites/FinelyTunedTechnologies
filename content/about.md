@@ -17,16 +17,17 @@ components:
     img_alt: Picture of the founder of Finely Tuned Technologies Richard Stokes
     cta: Our Services
     desc: >
-      “It is so satisfying to help a customer and install an automatic system
-      that compliments their personal needs and tastes. These technologies
-      maximize one’s lifestyle, but they’re also artistically sensitive. It
-      excites the artist in me.”<br>
+      
+
+      Finely Tuned Technologies was founded by Richard Stokes in 2007 and brings 30 years of electrical engineering and technology expertise to the table.<br><br>
+
+      Technology has become an integral part of life and it continues to change and grow. We loved the potential in smart technology but found most systems unreliable, needy, and unnecessarily complex. We found the solution in the Brilliant® Smart Home System, a technology designed to work for the long run. Brilliant® unites all systems into one app, making it not only user friendly, efficient, and convenient, but affordable and dependable. At Finely Tuned Technologies, we’re proud to be a Brilliant Certified Expert, a ButterflyMX Certified Installer, Imaging Science Foundation Certified, and THX Certified Expert. Whether you have a large project, a commercial property, or a residential home, we’ve got your back. As experts in our field, we deliver stellar video and audio calibration, smart home installation, and as always, we prioritize customer service and are ready to answer any questions. <br><br>
+
+      About Our Founder<br><br>“It is so satisfying to help a customer and install an automatic system that compliments their personal needs and tastes. These technologies maximize one’s lifestyle, but they’re also artistically sensitive. It excites the artist in me.”<br>
 
       - Richard Stokes, Owner/Operator<br><br> 
        
-      Richard brings 30 years of electrical expertise and a passion for home automation to Finely Tuned Technologies. Desiring to support and promote technologies that enhance a person’s lifestyle, Richard is excited to see that technology has reached a point where it is not only user friendly, but reliable and affordable.<br><br>
-        
-      Originally from Ireland, Richard began his electrical career with a 5 year apprenticeship with the Electricity Generation and Supply Board in Dublin. When he moved to Vancouver, Canada at the age of 36, he put his extensive history in electronic repairs to work as the manager of the Engineered Systems Division of A&B Sound, BC and Alberta.<br><br> 
+      Richard brings 30 years of electrical expertise and a passion for home automation to Finely Tuned Technologies. Originally from Ireland, Richard began his electrical career with a 5 year apprenticeship with the Electricity Generation and Supply Board in Dublin. When he moved to Vancouver, Canada at the age of 36, he put his extensive history in electronic repairs to work as the manager of the Engineered Systems Division of A&B Sound, BC and Alberta.<br><br> 
        
       Over the ten years at Engineered Systems Division, Richard specialized in custom audio video and home theatre systems design and installation in both the residential and custom yacht industries. He also became both an instructor and certified calibrator with the Imaging Science Foundation and a certified design and installation technician for LucasfilmTHX. <br><br>
        
