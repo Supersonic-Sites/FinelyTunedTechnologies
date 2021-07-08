@@ -23,7 +23,7 @@ components:
 
       Technology has become an integral part of life and it continues to change and grow. We loved the potential in smart technology but found most systems unreliable, needy, and unnecessarily complex. We found the solution in the Brilliant® Smart Home System, a technology designed to work for the long run. Brilliant® unites all systems into one app, making it not only user friendly, efficient, and convenient, but affordable and dependable.<br><br>At Finely Tuned Technologies, we’re proud to be a Brilliant Certified Expert, a ButterflyMX Certified Installer, Imaging Science Foundation Certified, and THX Certified Expert. Whether you have a large project, a commercial property, or a residential home, we’ve got your back. As experts in our field, we deliver stellar video and audio calibration, smart home installation, and as always, we prioritize customer service and are ready to answer any questions. <br><br>
 
-      About Our Founder<br><br>“It is so satisfying to help a customer and install an automatic system that compliments their personal needs and tastes. These technologies maximize one’s lifestyle, but they’re also artistically sensitive. It excites the artist in me.”<br>
+      <b>About Our Founder</b><br><br>“It is so satisfying to help a customer and install an automatic system that compliments their personal needs and tastes. These technologies maximize one’s lifestyle, but they’re also artistically sensitive. It excites the artist in me.”<br>
 
       - Richard Stokes, Founder<br><br> 
        
