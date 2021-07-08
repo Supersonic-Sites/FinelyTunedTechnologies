@@ -79,9 +79,8 @@ components:
         aos: fade-up
         icon: "#wifi"
         title: Network & Wifi
-        desc: "Our Brilliant® wireless network installation allows you to control
-          everything from your favourite devices anywhere on your
-          property.  It's user friendly and efficient. "
+        desc: Our Brilliant® wireless network installation allows you to control
+          everything from your favourite devices anywhere on your property.
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
