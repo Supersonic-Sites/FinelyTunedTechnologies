@@ -1,9 +1,9 @@
-title = "Finely Tuned Technology Inc."
-description = "Lorem Ipsum"
 languageCode = "en-ca"
-baseURL = "https://finelytunedtechnologies.netlify.app/"
 DefaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+baseURL = "https://finelytunedtechnologies.netlify.app/"
+title = "Finely Tuned Technology Inc."
+description = "Lorem Ipsum"
 
 [params]
 gtm = "GTM-T2757SM"
@@ -11,7 +11,7 @@ servicename = "Home Automation Specialist"
 googlemap = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.174078753291!2d-123.17132518425437!3d49.32992297534308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54866f7ea187d183%3A0xa531c5ca655e8aba!2sFinely%20Tuned%20Technologies!5e0!3m2!1sen!2sca!4v1624565464925!5m2!1sen!2sca"
 sitename = "Finely Tuned Technologies"
 usebasin = "https://usebasin.com/f/72a7b6ac08d4"
-videoOn = false
+videoOn = true
 description = "Custom design and installation of home automation systems. Audio, video, temperature, security and everything in between."
 
 [params.schema]
@@ -95,6 +95,6 @@ url = "contact/"
 weight = "5"
 
 [[menu.main]]
-name = "Get A Quote"
-url = "quotes/"
+name = "Free Consultation"
+url = "free-consultation/"
 weight = "6"

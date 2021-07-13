@@ -1,20 +1,21 @@
 ---
-title: Home Automation Services & Packages
-description: "Realize your ideal lifestyle with reliable home automation
-  services for residential, commercial, and large scale project use. "
+title: Welcome
+description: Enhance your lifestyle with Vancouver's top certified professional
+  smart automation service provider.
 components:
   - cta2: Contact Us
-    img: /img/domotic-and-smart-automation-services.jpg
-    cta_link: quotes/
+    img: /img/r-architecture-khpwe85ge38-unsplash.jpg
+    cta_link: free-consultation/
     img_alt: Smart Home Automation Specialist in Vancouver, BC
-    cta: Get A Quote
-    desc: Vancouver's top certified professional smart automation services. Over 30
-      years of experience. Serving commercial, residential & large scale
-      projects.
+    cta: Free Consultation
+    desc: Enhance your lifestyle with Vancouver's top certified professional smart
+      automation service provider. Brilliant™, ButterflyMX™ and THX Certified
+      Installer with over 30 years of experience. Serving commercial,
+      residential & large scale projects.
     cta2_link: contact/
-    title1: Making Life Better With Smart
+    title1: Vancouver's Smart Home Automation
     cta2_select: true
-    title2: Automation
+    title2: Experts
     type: hero_half_img_diagonal
   - type: divider
     bg_color: white
@@ -22,74 +23,74 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Maximize Living Space with Smart Technologies
+    title: Smart Home Made Simple
     title_size: medium
     desc_select: true
-    desc: How do you envision your ideal lifestyle? Imagine yourself coming home or
-      arriving at the office, opening the door, and with one voice command, your
-      ideal lightening turns on and the room temperature has already been preset
-      for your arrival. No more wasting time and space fiddling with
-      lightswitches, thermostats, or entertainment devices. With automation
-      services, you get to choose and regulate your environment effortlessly
-      with the aid of a dependable technology that is completely hidden.
-      <br><br>Finely Tuned Technologies offers you robustly engineered cutting
-      edge technology that compliments your space and budget. We pick products
-      that work right the first time, systems designed to standards. You’re not
-      buying a box, but a smart technology designed and installed by experts.
-      What can we do for you?
+    desc: Finely Tuned Technologies offers you robustly engineered cutting edge
+      technology that compliments your building and budget. We pick products
+      that work right the first time, systems designed to standards. As a
+      Brilliant® Pro Certified installer, we provide fully integrated smart home
+      solutions. We deliver an easy-to-use solution that the entire household
+      will use.
+  - type: divider
+    bg_color: white
+  - type: video_full
+    VideoID: QIgocFKBjrc
   - type: divider
     bg_color: white
   - type: cards_third_icon
     bg_color: white
     cards:
       - cta: Call To Action
-        cta_link: contact/
-        aos: fade
+        cta_link: free-consultation/
+        aos: fade-up
         icon: "#lightbulb-on"
         title: Lighting
-        desc: Get the perfect mood lighting first try every time with our automated
-          wireless lighting system. Transform your property’s lighting system
-          into a smart home within hours.
+        desc: "Transform your property’s manual lighting into a smart system within
+          hours. Program lights to achieve the perfect level, no matter the time
+          of day. "
+        aos_select: true
       - cta: Call To Action
-        cta_link: contact/
-        aos: none
+        cta_link: free-consultation/
+        aos: fade-up
         icon: "#lock"
         title: Security
-        desc: "Know your property is safe and secure at all times. Stay connected to
-          anyone at home whether on site or away. Door locks, security cameras,
-          and video doorbells are here for you. "
+        desc: We deliver professional security and surveillance. Know your property is
+          safe and secure at all times with our reliable monitoring systems.
+        aos_select: true
       - cta: Call To Action
-        cta_link: contact/
-        aos: none
+        cta_link: free-consultation/
+        aos: fade-up
         icon: "#heat"
         title: Heating
-        desc: Reliable technology allows you to control the room temperature and home
-          environment with ease. Remotely manage the temperature even when away
-          from home.
+        desc: "Control the building temperature and office or home environment through
+          reliable technology. Remotely manage the temperature even off site. "
+        aos_select: true
       - cta: Call To Action
-        cta_link: contact/
-        aos: none
+        cta_link: free-consultation/
+        aos: fade-up
         icon: "#computer-speaker"
         title: Audio Visual
-        desc: "Enjoy perfectly calibrated audio and visual systems to get the most out
-          of your sensory experience. Appreciate entertainment from the kitchen
-          to the family room. "
+        desc: "Access high definition and perfectly calibrated audio and visual systems
+          designed for both commercial demands and residential use. "
+        aos_select: true
       - cta: Call To Action
-        cta_link: contact/
-        aos: fade
+        cta_link: free-consultation/
+        aos: fade-up
         icon: "#wifi"
         title: Network & Wifi
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-          libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-          pharetra lacus, nec egestas augue gravida nec.
+        desc: Our Brilliant® wireless network installation allows you to control
+          everything from your favourite devices anywhere on your property.
+        aos_select: true
       - cta: Call To Action
-        cta_link: contact/
-        aos: fade
+        cta_link: free-consultation/
+        aos: fade-up
         icon: "#film"
         title: Home Theater
-        desc: "The big screen and multidimensional sound has just come home to you. Our
-          precise calibrations allow you to experience the art as close to the
-          original product as possible. "
+        desc: "Our engineers precisely calibrate the big screen picture and
+          multidimensional sound to its closest original quality for top sensory
+          experience. "
+        aos_select: true
   - type: divider
     bg_color: white
   - type: gallery
@@ -102,56 +103,92 @@ components:
         img: /img/boardroom-automation.jpg
   - type: divider
     bg_color: white
-  - img: /img/roberto-nickson-rejxpbskj3q-unsplash.jpg
-    aos: fade
-    cta_link: contact/
-    bg_color: white
-    cta_select: true
-    img_alt: Picture of someone in their home enjoying home automation
-    cta: Contact Us
-    desc: Who enjoys spending time running around a property turning off lights
-      before leaving for the day? Who has had to drive back home after leaving
-      to make sure that they actually locked the door? <br><br>Smart Technology
-      provides peace of mind when it comes to security and a true lifestyle
-      upgrade with its automated appliances, lighting, heating, and other
-      systems. Automation technology benefits residential private homes to whole
-      apartment buildings, to commercial properties. Embrace efficiency,
-      maximize your space, and streamline your morning routine or business
-      operations today.
-    title: What Can A Smart Home or Smart Building Do For You?
-    type: img_half_right
-  - type: divider2x
-    bg_color: white
   - type: heading_full
     id: none
     bg_color: white
     align: center
-    title: FAQ
+    title: Types Of Projects
     title_size: medium
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam
-      libero, iaculis eget tristique et, varius sed nisi. Proin faucibus
-      pharetra lacus, nec egestas augue gravida nec.
-    desc_select: true
+    desc: "Read through our Frequently Asked Questions to learn more about Smart
+      Automation. Can't find the answer you're looking for? Reach out to us and
+      we'll be happy to help. "
+    desc_select: false
   - type: divider_half
     bg_color: white
-  - type: faq_toggle
-    question: How to you make holy water?
-    answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-      adipisicing elit. Quas cupiditate laboriosam fugiat.
-    faqs:
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-  - type: divider
+  - type: cards_third_img
+    bg_color: white
+    cards:
+      - img_alt: Please type in a description of the image
+        cta: Call To Action
+        cta_link: free-consultation/
+        title: Residential
+        aos_select: true
+        aos: fade-up
+        img: /img/home-automation.jpg
+        desc: "Your home is the place to take care of yourself. A place for comfort and
+          relaxation. Why not personalize and perfect your environment? Our home
+          automation system allows you to control music, entertainment,
+          temperature, mood lighting, you name it, with ease. Rest knowing
+          you’re in a secure and safely monitored home. "
+      - img_alt: Please type in a description of the image
+        cta: Call To Action
+        cta_link: free-consultation/
+        title: Commercial
+        aos_select: true
+        aos: fade-up
+        desc: "We are professionals here to help professionals. Automate your building
+          and manage your property from wherever you are. Control the lights,
+          heating, air, security and more from an unique app based system. Using
+          our engineering standards, we only work with researched products that
+          will always deliver results. "
+        img: /img/domingo-alvarez-e-niv2v0idsv0-unsplash.jpg
+      - img_alt: Please type in a description of the image
+        cta: Call To Action
+        cta_link: free-consultation/
+        title: Large Projects
+        desc: Award-winning Brilliant® technology allows property managers to operate at
+          maximum efficiency, save time and money, and increase resident
+          satisfaction. Connect all your devices and all your controls under
+          this all-in-one app system for utmost convenience. Turn your property
+          into a smart property today.
+        aos_select: true
+        aos: fade-up
+        img: /img/nadine-shaabana-vr5-mfyo9wu-unsplash.jpg
+  - type: divider2x
+    bg_color: white
+  - img: /img/brillanthome3.jpg
+    aos: fade
+    cta_link: free-consultation/
+    bg_color: white
+    cta_select: true
+    img_alt: Picture of someone in their home enjoying home automation
+    cta: Free Consultation
+    desc: >-
+      Brilliant is an in-wall lighting and control system that makes it easy for
+      homeowners, families, guests to control lighting, doorbells, locks,
+      cameras, music, climate, intercom, scenes, and more. It’s easy to install,
+      integrates with the top brands in every smart home category, and
+      transforms any house or apartment into an easy-to-use smart
+      home.<br><br>As Brilliant® Pro Certified installer we provide fully
+      integrated smart home solutions. We deliver an easy-to-use solution that
+      the entire household will use.
+
+      <br><br>
+
+      <ul>
+
+      <li class="text-xl ml-4" style="list-style: square;">No hub required</li>
+
+      <li class="text-xl ml-4" style="list-style: square;">No ongoing maintenance</li>
+
+      <li class="text-xl ml-4" style="list-style: square;">No techno-clutter</li>
+
+      <li class="text-xl ml-4" style="list-style: square;">No programming</li>
+
+      </ul>
+    title: Fully Integrated Smart Home System
+    type: img_half_right
+  - type: divider2x
     bg_color: white
   - type: heading_full
     id: none
@@ -218,50 +255,6 @@ components:
 
   - type: divider
     bg_color: white
-  - type: heading_full
-    id: none
-    bg_color: white
-    align: center
-    title: Our Certifications
-    title_size: small
-    desc: none
-  - type: divider_half
-    bg_color: white
-  - type: cards_fourth_img
-    bg_color: white
-    cards:
-      - img_alt: Smart Home Without The Struggle  Effortlessly control all of your smart
-          home devices from one, easy to access and easy to use, control panel
-          on your wall or a single app on your phone.
-        cta: Call To Action
-        cta_link: contact/
-        title: Brilliant Certified Expert
-        aos: none
-        img: /img/400_crop_5f5006ecedd87_5f4dbddf3ec3d.webp
-        desc: Brilliant Certified Expert
-      - img_alt: ButterflyMX Certified Installer
-        cta: Call To Action
-        cta_link: contact/
-        title: ButterflyMX Certified Installer
-        img: /img/butterflymx-certification.jpg
-        desc: ButterflyMX Certified Installer
-        aos: none
-      - img_alt: Imaging Science Foundation Certified
-        cta: Call To Action
-        cta_link: contact/
-        title: Imaging Science Foundation Certified Video Calibrator and Trainer
-        desc: Imaging Science Foundation Certified
-        aos: none
-        img: /img/isf_certified.jpg
-      - img_alt: THX Certified Expert
-        cta: Call To Action
-        cta_link: contact/
-        title: THX Certified Expert
-        aos: fade
-        desc: THX Certified Expert
-        img: /img/thx-certification.jpg
-  - type: divider
-    bg_color: white
   - address4: Canada
     bg_color: white
     phone: +1-604-619-3323
@@ -276,6 +269,4 @@ components:
     address2: West Vancouver, BC
     address_toggle: true
     address3: V7V 1K3
-  - type: divider
-    bg_color: white
 ---

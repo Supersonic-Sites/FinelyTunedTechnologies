@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /thank-you/
+Disallow: /admin/
+Sitemap: sitemap.xml

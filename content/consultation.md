@@ -1,12 +1,13 @@
 ---
-title: Get A Quote
+title: Free Consultation
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
   aliquam nibh, quis tincidunt ante. Vivamus sit amet diam et velit aliquam
   aliquam at ut neque.
+slug: free-consultation
 components:
   - type: header_sub
     bg_color: primary
-    title: Get A Quote
+    title: Free Consultation
     img: /img/finelytunedbanner1.jpg
   - type: divider
     bg_color: white
@@ -14,7 +15,7 @@ components:
     id: none
     bg_color: white
     align: center
-    title: "What can we do for you? "
+    title: Let's Talk About Your Project
     title_size: medium
     desc_select: true
     desc: "We're here to help. Tell us about your exciting project or vision for
