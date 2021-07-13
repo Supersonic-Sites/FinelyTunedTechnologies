@@ -18,11 +18,15 @@ command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 HUGO_VERSION = "0.79.1"
 
 [[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
   from = "https://x.netlify.app/"
   to = "https://www.domain.com/"
   status = 301
   force = true #COMMENT: ensure that we always redirect
-
 
 [[headers]]
 for = "/*.jpg"
