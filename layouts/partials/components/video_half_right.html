@@ -9,7 +9,7 @@
           <div class="mb-6">
             {{ if eq .bg_color "white" }}
             <h2
-              class="font-bold text-black capitalize text-3xl md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6">
+            class="font-bold text-black capitalize text-3xl md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6" style="line-height: 1.2 !important;">
               {{ .title }}
             </h2>
             <p class="text-xl text-black">{{ .desc | safeHTML }}</p>
@@ -22,23 +22,19 @@
           <p class="text-xl text-white">{{ .desc | safeHTML }}</p>
           </div>
           {{ end }}
-        {{ if .cta_select }}
-
-          <a href="{{ $.Site.BaseURL | absURL}}{{ .imgbox3.box3_cta_link }}"
-            class="transition duration-500 btn_primary md:w-72">
-            {{ .cta }}
-          </a>
-        
-        {{ else }}
-        <span></span>
-        {{ end }}
+          <a href="{{ $.Site.BaseURL | absURL}}free-consultation/"
+          class="transition duration-500 btn_primary md:w-72 mt-12">
+          Free Consultation
+        </a>
           </div>
       </div>
 
       <div class="col-span-12 md:col-span-6 order-1 md:order-2">
+        <div class="flex flex-row items-center">
         <div class="youtube w-full shadow-2xl" data-embed="{{ .VideoID }}">
           <div class="play-button"></div>
       </div>
+    </div>
       </div>
 
     </div>
