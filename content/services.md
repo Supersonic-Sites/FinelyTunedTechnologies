@@ -86,7 +86,7 @@ components:
           Goodnight.
         aos_select: false
         aos: none
-        img: /img/smart-lighting-hero-2-.jpg
+        img: /img/smart-lighting.jpg
       - img_alt: Security Camera connected to an a smart grid system with finely tuned
           technologies
         cta: Call To Action
@@ -112,14 +112,14 @@ components:
       - img_alt: Picture of speakers and television automated with smart technologies
         cta: Call To Action
         cta_link: free-consultation/
-        title: Audio Visual System
+        title: TV and Music Systems
         desc: Wake up every morning to your favourite playlist or the news channel on
           the tv. Podcasts, audiobooks, music, or video entertainment are
           readily available throughout the day from the family room to the
           kitchen. We calibrate audio and video systems to the ideal settings so
           you can get the most out of the sensory experience.
         aos: none
-        img: /img/kam-idris-l9-sfn04jdk-unsplash.jpg
+        img: /img/tv-music.jpg
       - img_alt: Picture of a mobile cellphone connected to a helpful home system
         cta: Call To Action
         cta_link: free-consultation/
@@ -130,17 +130,6 @@ components:
           a wireless network installation.
         aos: none
         img: /img/rodion-kutsaev-0vgg7cqtwco-unsplash.jpg
-      - img_alt: Projector connected to a helpful home system for home theaters
-        cta: Call To Action
-        cta_link: free-consultation/
-        title: Home Theater
-        desc: Family movie time just got taken to a whole new level. Experience big
-          screen picture calibration perfection accompanied by multidimensional
-          surround sound to satisfy all family member’s personal tastes. The
-          epicness of the big screen theatre has just come home to you.
-        aos_select: false
-        aos: none
-        img: /img/home-theater.jpg
   - type: divider2x
     bg_color: white
   - type: heading_full
