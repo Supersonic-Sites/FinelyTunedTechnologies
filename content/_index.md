@@ -144,7 +144,7 @@ components:
           satisfaction. We help you make your condos, gated communities,
           retirement homes or student accommodation access simple for owners,
           staff, residents, and visitors.
-        img: /img/multi-unit-residential-projects.jpg
+        img: /img/multi-unit.jpg
   - type: divider2x
     bg_color: white
   - img: /img/brillanthome3.jpg
