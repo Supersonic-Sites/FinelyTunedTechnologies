@@ -118,7 +118,7 @@ components:
     desc_select: false
   - type: divider_half
     bg_color: white
-  - type: cards_third_img
+  - type: cards_half_img
     bg_color: white
     cards:
       - img_alt: Please type in a description of the image
