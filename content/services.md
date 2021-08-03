@@ -16,11 +16,23 @@ components:
     title: Smart Automation Done Right
     title_size: medium
     desc_select: true
-    desc: There are a lot of smart home products out there, but the problem is they
-      haven't worked well with one another. We only work with the best quality
-      products that are dependable, reliable, and will be good for the long haul
-      without having to retrofit your home in any way. With only a few hours of
-      work, your environment can be transformed with smart automation.
+    desc: >-
+      There are a lot of smart home products available, but the problem to date
+      is that they 
+
+      haven't worked well with one another, until now. We found the perfect solution in both 
+
+      the Brilliant® Smart Home System and the ButterflyMX building access video intercom 
+
+      system, technologies designed for today and into the future. No special wiring required 
+
+      for new or retrofit system installation. Your environment transformed into a smart 
+
+      automated space within hours and not days. 
+  - type: divider
+    bg_color: white
+  - type: video_full
+    VideoID: Bgn8zZ9xbpw
   - type: divider
     bg_color: white
   - type: cards_fourth_img
