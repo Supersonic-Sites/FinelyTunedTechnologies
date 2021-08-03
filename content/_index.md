@@ -127,7 +127,7 @@ components:
         title: Residential
         aos_select: true
         aos: fade-up
-        img: /img/home-automation.jpg
+        img: /img/smart_living.png
         desc: "Your home is the place to take care of yourself. A place for comfort and
           relaxation. Why not personalize and perfect your environment? Our home
           automation system allows you to control music, entertainment,
