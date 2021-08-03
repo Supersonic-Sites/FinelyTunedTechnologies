@@ -76,15 +76,17 @@ components:
       - img_alt: Lamp connected to an automated system with finely tuned technologies
         cta: Call To Action
         cta_link: free-consultation/
-        title: Smart Lighting
-        desc: Say goodbye to lightswitches and wires and say hello to a wireless
-          dream-come-true lighting system. Within hours, witness your home
-          transformed into an easy to use and reliable smart home based on
-          award-winning technology. From now on, immediate, perfect mood
-          lighting is only a voice command away.
+        title: Lighting
+        desc: Within hours witness your existing home lighting transformed into an easy
+          to use and reliable fully automated system. Control your lighting and
+          shades via mobile App, voice assistant, motion detection, in home or
+          on the road. Experience the scientifically researched wellness
+          benefits of automated Human Centric Lighting. Program your personal
+          lighting scenes ie. Good morning, Away, Home, Dining, Movie,
+          Goodnight.
         aos_select: false
         aos: none
-        img: /img/patrick-tomasso-1ntfsnv-kls-unsplash.jpg
+        img: /img/smart-lighting-hero-2-.jpg
       - img_alt: Security Camera connected to an a smart grid system with finely tuned
           technologies
         cta: Call To Action
@@ -100,13 +102,13 @@ components:
       - img_alt: Smart heating system for homes and offices
         cta: Call To Action
         cta_link: free-consultation/
-        title: Automated Heating Systems
+        title: Automated Climate Control
         desc: "No more fiddling with the thermostat. Control your ideal environment with
           our automated heating systems. Easily manage a comfortable room
           temperature. Remotely set the temperature even if you’re not at home.
           Enjoy the ease of simple and reliable technology. "
         aos: none
-        img: /img/robin-van-geenen-ybcjvoiwmxm-unsplash.jpg
+        img: /img/robin-van-geenen-ybcjvoiwmxm-unsplash-1-.jpg
       - img_alt: Picture of speakers and television automated with smart technologies
         cta: Call To Action
         cta_link: free-consultation/
