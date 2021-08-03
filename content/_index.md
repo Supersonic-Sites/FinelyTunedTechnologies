@@ -121,13 +121,13 @@ components:
   - type: cards_half_img
     bg_color: white
     cards:
-      - img_alt: Please type in a description of the image
+      - img_alt: Residential Automation
         cta: Call To Action
         cta_link: free-consultation/
         title: Residential
         aos_select: true
         aos: fade-up
-        img: /img/smart_living.png
+        img: /img/home-automation.jpg
         desc: "Your home is the place to take care of yourself. A place for comfort and
           relaxation. Why not personalize and perfect your environment? Our home
           automation system allows you to control music, entertainment,
