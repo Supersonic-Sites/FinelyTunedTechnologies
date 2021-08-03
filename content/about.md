@@ -49,7 +49,7 @@ components:
 
       <br><br>
 
-      <h3 class="font-bold text-black capitalize text-3xl tracking-wider md:text-4xl lg:text-4xl my-4 md:my-0 md:mb-6" style="line-height: 1.2!important">About Our Founder</h3><br><br>
+      <strong>About Our Founder</strong><br><br>
 
       <blockquote>“It is very satisfying to provide a client with an automated and or audio video system
 
