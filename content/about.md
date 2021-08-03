@@ -47,22 +47,23 @@ components:
 
       systems, we prioritize customer service and are ready to answer any question.
 
-      <br><br>
+      <br>
 
-      <strong>About Our Founder</strong><br><br>
+      <h3 class="font-bold text-black capitalize text-3xl tracking-wider md:text-4xl lg:text-4xl my-4 md:my-0 md:mb-6" style="line-height:1.2!important">About Our Founder</h3><br><br>
 
-      <blockquote>“It is very satisfying to provide a client with an automated and or audio video system
+      “It is very satisfying to provide a client with an automated and or audio video system
 
       that compliments their personal technology needs and tastes. These custom designed 
 
       systems not only maximize one’s lifestyle, but they are also artistically sensitive. That 
 
-      excites the artist in me.”</blockquote><br>
+      excites the artist in me.”<br>
 
       - Richard Stokes, Founder
 
-      <br><br>
-       
+      <br>
+
+
       Richard brings many decades of electrical, audio video systems experience and a passion for home automation to Finely Tuned Technologies. Originally from Ireland, Richard began his electrical career with a 5 year apprenticeship with the Electricity Generation and Supply Board in Dublin. When he moved to Vancouver, Canada at the age of 36, he put his extensive history in audio video systems engineering to work as the manager of the Engineered Systems Division of A&B Sound, BC and Alberta.<br><br> 
        
       Over the ten years at Engineered Systems Division, Richard’s team specialized in  custom audio video and home theatre systems design and installation in both the residential and luxury yacht industries. He also became both an instructor and certified calibrator with the Imaging Science Foundation and a certified home theatre design and installation technician for LucasfilmTHX residential systems <br><br>
