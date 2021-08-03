@@ -127,7 +127,7 @@ components:
         title: Residential
         aos_select: true
         aos: fade-up
-        img: /img/smart_living.png
+        img: /img/home-automation.jpg
         desc: "Your home is the place to take care of yourself. A place for comfort and
           relaxation. Why not personalize and perfect your environment? Our home
           automation system allows you to control music, entertainment,
@@ -144,7 +144,7 @@ components:
           satisfaction. We help you make your condos, gated communities,
           retirement homes or student accommodation access simple for owners,
           staff, residents, and visitors.
-        img: /img/mf-hero-background_730x-2-.jpg
+        img: /img/multi-unit-residential.jpg
   - type: divider2x
     bg_color: white
   - img: /img/brillanthome3.jpg
@@ -276,4 +276,3 @@ components:
     address_toggle: true
     address3: V7V 1K3
 ---
-
