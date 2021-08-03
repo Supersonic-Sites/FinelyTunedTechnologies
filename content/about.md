@@ -18,8 +18,8 @@ components:
     cta: Our Services
     desc: >
       Finely Tuned Technologies was founded by Richard Stokes in 2007. Richard’s
-      team  brings 30 years of electrical engineering and audio video systems
-      design and installation expertise to the table. 
+      team  brings 30 years of electrical and audio video systems design and
+      installation expertise to the table. 
 
       <br><br>
 
