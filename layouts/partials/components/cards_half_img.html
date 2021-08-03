@@ -14,13 +14,13 @@
                     class="lazyload w-full mb-6" 
                     alt="{{ .img_alt }}"
                     width="600px"
-                    height="337px" 
+                    height="400px" 
                     data-srcset="
-                        {{ .img }}?nf_resize=smartcrop&w=400& 400w,
-                        {{ .img }}?nf_resize=smartcrop&w=500& 500w,
-                        {{ .img }}?nf_resize=smartcrop&w=900& 900w"
+                        {{ .img }}?nf_resize=fit&w=300 300w,
+                        {{ .img }}?nf_resize=fit&w=400 400w,
+                        {{ .img }}?nf_resize=&w=900 900w"
                     sizes="(max-width: 768px) 600px, 400px"
-                    data-src="{{ .img }}?nf_resize=smartcrop&w=400"
+                    data-src="{{ .img }}?nf_resize=smartcrop&w=300"
                      />
 
 
