@@ -65,7 +65,7 @@ components:
         cta_link: free-consultation/
         aos: fade-up
         icon: "#heat"
-        title: Heating
+        title: Climate Control
         desc: "Control the building temperature and office or home environment through
           reliable technology. Remotely manage the temperature even off site. "
         aos_select: true
@@ -110,7 +110,7 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Types Of Projects
+    title: Types of Projects
     title_size: medium
     desc: "Read through our Frequently Asked Questions to learn more about Smart
       Automation. Can't find the answer you're looking for? Reach out to us and
