@@ -128,11 +128,11 @@ components:
         aos_select: true
         aos: fade-up
         img: /img/home-automation.jpg
-        desc: "Your home is the place to take care of yourself. A place for comfort and
+        desc: "A home is a place to care for oneself. A place for comfort and
           relaxation. Why not personalize and perfect your environment? Our home
-          automation system allows you to control music, entertainment,
-          temperature, mood lighting, you name it, with ease. Rest knowing
-          you’re in a secure and safely monitored home. "
+          automation system allows you to control music, entertainment, climate,
+          mood lighting, you name it, with ease. Relax and unwind knowing you’re
+          in a secure and safely monitored home. "
       - img_alt: Please type in a description of the image
         cta: Call To Action
         cta_link: free-consultation/
