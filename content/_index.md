@@ -170,11 +170,13 @@ components:
 
       <li class="text-xl ml-4" style="list-style: square;">No hub required</li>
 
-      <li class="text-xl ml-4" style="list-style: square;">No ongoing maintenance</li>
-
       <li class="text-xl ml-4" style="list-style: square;">No techno-clutter</li>
 
-      <li class="text-xl ml-4" style="list-style: square;">No programming</li>
+      <li class="text-xl ml-4" style="list-style: square;">No ongoing maintenance</li>
+
+      <li class="text-xl ml-4" style="list-style: square;">No ongoing programming</li>
+
+      <li class="text-xl ml-4" style="list-style: square;">Automatic software updates</li>
 
       </ul>
     title: Fully Integrated Smart Home System
