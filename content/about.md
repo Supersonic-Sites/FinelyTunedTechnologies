@@ -16,7 +16,7 @@ components:
     cta_select: true
     img_alt: Picture of the founder of Finely Tuned Technologies Richard Stokes
     cta: Our Services
-    desc: >
+    desc: >-
       Finely Tuned Technologies was founded by Richard Stokes in 2007. Richard’s
       team  brings 30 years of electrical and audio video systems design and
       installation expertise to the table. 
@@ -51,7 +51,7 @@ components:
 
       <h3 class="font-bold text-black capitalize text-3xl tracking-wider md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6" style="line-height: 1.2 !important">About Our Founder</h3>
 
-      <br><br>
+      <br><p class="text-black text-xl tracking-wider">
 
       “It is very satisfying to provide a client with an automated and or audio video system
 
@@ -65,8 +65,10 @@ components:
 
       <br><br>
 
-      Richard brings many decades of electrical, audio video systems experience and a passion for home automation to Finely Tuned Technologies. Originally from Ireland, Richard began his electrical career with a 5 year apprenticeship with the Electricity Generation and Supply Board in Dublin. When he moved to Vancouver, Canada at the age of 36, he put his extensive history in audio video systems engineering to work as the manager of the Engineered Systems Division of A&B Sound, BC and Alberta.<br><br> 
-       
+      Richard brings many decades of electrical, audio video systems experience and a passion for home automation to Finely Tuned Technologies. Originally from Ireland, Richard began his electrical career with a 5 year apprenticeship with the Electricity Generation and Supply Board in Dublin. When he moved to Vancouver, Canada at the age of 36, he put his extensive history in audio video systems engineering to work as the manager of the Engineered Systems Division of A&B Sound, BC and Alberta.
+
+      <br><br> 
+
       Over the ten years at Engineered Systems Division, Richard’s team specialized in  custom audio video and home theatre systems design and installation in both the residential and luxury yacht industries. He also became both an instructor and certified calibrator with the Imaging Science Foundation and a certified home theatre design and installation technician for LucasfilmTHX residential systems <br><br>
 
       In 2007, Richard launched Finely Tuned Technologies. 
@@ -84,6 +86,8 @@ components:
       Richard is proud to offer top-quality services that now extend from residential to 
 
       commercial, and also cover large scale products. <br><br> 
+
+      </p>
     title: Dedicated to Higher Standards Of Living
     type: img_third_left
   - type: divider
