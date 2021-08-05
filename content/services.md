@@ -114,7 +114,7 @@ components:
         cta_link: free-consultation/
         title: TV and Music Systems
         desc: Wake up every morning to your favourite playlist or the news channel on
-          the tv. Podcasts, audiobooks, music, or video entertainment are
+          your TV. Podcasts, audiobooks, music, or video entertainment are
           readily available throughout the day from the family room to the
           kitchen. We calibrate audio and video systems to the ideal settings so
           you can get the most out of the sensory experience.
