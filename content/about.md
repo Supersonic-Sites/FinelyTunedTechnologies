@@ -47,9 +47,11 @@ components:
 
       systems, we prioritize customer service and are ready to answer any question.
 
-      <br>
+      <br><br>
 
-      <h3 class="font-bold text-black capitalize text-3xl tracking-wider md:text-4xl lg:text-4xl my-4 md:my-0 md:mb-6" style="line-height:1.2!important">About Our Founder</h3>
+      About Our Founder
+
+      <br>
 
       “It is very satisfying to provide a client with an automated and or audio video system
 
