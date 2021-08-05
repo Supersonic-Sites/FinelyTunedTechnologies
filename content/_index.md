@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Homepage
 description: Enhance your lifestyle with Vancouver's top certified professional
   smart automation service provider.
 components:
@@ -127,7 +127,7 @@ components:
         title: Residential
         aos_select: true
         aos: fade-up
-        img: /img/home-automation.jpg
+        img: /img/single-unit.jpg
         desc: "A home is a place to care for oneself. A place for comfort and
           relaxation. Why not personalize and perfect your environment? Our home
           automation system allows you to control music, entertainment, climate,
