@@ -49,9 +49,9 @@ components:
 
       <br><br>
 
-      About Our Founder
+      <h3 class="font-bold text-black capitalize text-3xl tracking-wider md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6" style="line-height: 1.2 !important"><strong>About Our Founder</strong>
 
-      <br>
+      <br><br>
 
       “It is very satisfying to provide a client with an automated and or audio video system
 
