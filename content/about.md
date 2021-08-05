@@ -19,7 +19,7 @@ components:
     desc: >-
       Finely Tuned Technologies was founded by Richard Stokes in 2007. Richard’s
       team  brings 30 years of electrical and audio video systems design and
-      installation expertise to the table. 
+      installation expertise to your project. 
 
       <br><br>
 
@@ -45,7 +45,7 @@ components:
 
       experts in the collective fields of home automation, audio video systems, home theatre 
 
-      systems, we prioritize customer service and are ready to answer any question.
+      systems, we prioritize customer service and are ready to answer your questions.
 
       <br><br>
 
