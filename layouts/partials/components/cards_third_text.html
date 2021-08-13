@@ -30,7 +30,7 @@
                     {{ end }}
                     {{ if .subtitle_select }}
                     <h3 class="font-bold text-center text-xl md:text-2xl text-gray-800 mb-6">
-                        {{ .subtitle }}
+                        {{ .subtitle | safeHTML }}
                     </h3>
                     {{ end }}
                     {{ if .divider_select }}
@@ -38,7 +38,7 @@
                     {{ end }}
 
                     <p class="text-center mb-6 md:mb-8 md:text-base text-gray-700">
-                        {{ .desc }}
+                        {{ .desc | safeHTML }}
                     </p>
                     {{ if .cta_select}}
                     <a href="{{ $.Site.BaseURL | absURL}}{{ .cta_link }}"
