@@ -9,10 +9,10 @@
           <div class="mb-6">
             {{ if eq .bg_color "white" }}
             <h2
-            class="font-bold text-black capitalize text-3xl md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6" style="line-height: 1.2 !important;">
-              {{ .title }}
+            class="font-bold text-gray-800 capitalize text-3xl md:text-4xl lg:text-5xl my-4 md:my-0 md:mb-6" style="line-height: 1.2 !important;">
+              {{ .title | safeHTML }}
             </h2>
-            <p class="text-xl text-black">{{ .desc | safeHTML }}</p>
+            <p class="text-xl text-gray-700">{{ .desc | safeHTML }}</p>
           </div>
           {{ else }}
           <h2
@@ -22,10 +22,7 @@
           <p class="text-xl text-white">{{ .desc | safeHTML }}</p>
           </div>
           {{ end }}
-          <a href="{{ $.Site.BaseURL | absURL}}free-consultation/"
-          class="transition duration-500 btn_primary md:w-72 mt-12">
-          Free Consultation
-        </a>
+
           </div>
       </div>
 

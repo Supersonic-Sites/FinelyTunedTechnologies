@@ -8,26 +8,26 @@
 
             {{ if eq .title_size "big" }}
 
-                <h2 class="custom-h2font-bold text-5xl md:text-6xl lg:text-7xl text-{{ .align }}  tracking-wider text-black" style="line-height: 1.2 !important;">
+                <h2 class="custom-h2font-bold text-5xl md:text-6xl lg:text-7xl text-{{ .align }}  tracking-wider text-gray-800" style="line-height: 1.2 !important;">
             {{ .title | safeHTML }}
                 </h2>
             {{ end }}
 
             {{ if eq .title_size "medium" }}
 
-            <h2 class="custom-h2 font-bold text-4xl md:text-5xl lg:text-6xl text-{{ .align }} tracking-wider text-black" style="line-height: 1.2 !important;">
+            <h2 class="custom-h2 font-bold text-4xl md:text-5xl lg:text-6xl text-{{ .align }} tracking-wider text-gray-800" style="line-height: 1.2 !important;">
             {{ .title | safeHTML }}
             </h2>
             {{ end }}
 
             {{ if eq .title_size "small" }}
-            <h2 class="custom-h2 font-bold text-3xl md:text-4xl lg:text-5xl text-{{ .align }} tracking-wider text-black" style="line-height: 1.2 !important;">
+            <h2 class="custom-h2 font-bold text-3xl md:text-4xl lg:text-5xl text-{{ .align }} tracking-wider text-gray-800" style="line-height: 1.2 !important;">
             {{ .title | safeHTML }}
             </h2>
             {{ end }}
 
             {{ if .desc_select }}
-            <p class="mt-6 max-w-5xl mx-auto text-black text-{{ .align }} text-xl tracking-wider">{{ .desc | safeHTML  }}</p>
+            <p class="mt-6 max-w-5xl mx-auto text-gray-700 text-{{ .align }} text-xl tracking-wider">{{ .desc | safeHTML  }}</p>
             {{ end }}           
         {{ else }}
 

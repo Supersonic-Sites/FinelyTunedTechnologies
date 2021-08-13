@@ -9,30 +9,19 @@ components:
     title: Services
   - type: divider
     bg_color: white
-  - type: heading_full
-    id: none
+  - type: video_half_right
     bg_color: white
-    align: center
-    title: Smart Automation Done Right
-    title_size: medium
-    desc_select: true
-    desc: >-
-      There are a lot of smart home products available, but the problem to date
-      is that they 
-
-      haven't worked well with one another, until now. We found the perfect solution in both 
-
-      the Brilliant® Smart Home System and the ButterflyMX building access video intercom 
-
-      system, technologies designed for today and into the future. No special wiring required 
-
-      for new or retrofit system installation. Your environment transformed into a smart 
-
-      automated space within hours and not days. 
-  - type: divider
-    bg_color: white
-  - type: video_full
     VideoID: Bgn8zZ9xbpw
+    title: Smart Automation Done <span class="text-primary">Right</span>
+    desc: There are a lot of smart home products available <span
+      class="text-primary">today</span>, but the <span
+      class="text-primary">reality</span> is they haven't worked well with one
+      another, until now. <strong>We found</strong> a perfect solution in both
+      the Brilliant® Smart Home System and the ButterflyMX building access video
+      intercom system, technologies designed for today and into the future. No
+      special wiring required for new or retrofit system installation. Your
+      environment transformed into a smart automated space within hours and not
+      days.
   - type: divider
     bg_color: white
   - type: cards_fourth_img
@@ -86,7 +75,7 @@ components:
           Goodnight.
         aos_select: false
         aos: none
-        img: /img/smart-lighting.jpg
+        img: /img/smart-lighting-hero-3-.jpg
       - img_alt: Security Camera connected to an a smart grid system with finely tuned
           technologies
         cta: Call To Action
@@ -98,15 +87,14 @@ components:
           people at the front door without opening the door. "
         aos: none
         title: Smart Security System
-        img: /img/security-automation.jpg
+        img: /img/home_security_automation.jpg
       - img_alt: Smart heating system for homes and offices
         cta: Call To Action
         cta_link: free-consultation/
         title: Automated Climate Control
-        desc: "No more fiddling with the thermostat. Control your ideal environment with
-          our automated heating systems. Easily manage a comfortable room
-          temperature. Remotely set the temperature even if you’re not at home.
-          Enjoy the ease of simple and reliable technology. "
+        desc: Program your ideal heating of cooling environment. Remotely set the
+          desired temperature while away from your home. Enjoy the ease of
+          simple and reliable technology.
         aos: none
         img: /img/robin-van-geenen-ybcjvoiwmxm-unsplash-1-.jpg
       - img_alt: Picture of speakers and television automated with smart technologies
@@ -130,6 +118,15 @@ components:
           a wireless network installation.
         aos: none
         img: /img/rodion-kutsaev-0vgg7cqtwco-unsplash.jpg
+      - img_alt: Home theater with the highest standards
+        cta: Call To Action
+        cta_link: contact/
+        title: Home Theater
+        desc: ‘Suspension of disbelief’ that is the movie directors single artistic
+          intention. Every soft whisper, dynamic explosion, colour intensity and
+          hue recreated to perfection by us in your home.
+        aos: "#"
+        img: /img/chauhan-moniz-3a0bs74t8zc-unsplash.jpg
   - type: divider2x
     bg_color: white
   - type: heading_full

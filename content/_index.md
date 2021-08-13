@@ -15,7 +15,7 @@ components:
     cta2_link: contact/
     title1: Vancouver's Smart Home Automation
     cta2_select: true
-    title2: Experts
+    title2: Specialists
     type: hero_half_img_diagonal
   - type: divider
     bg_color: white
@@ -23,7 +23,7 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Smart Home Made Simple
+    title: Smart Home Made <span class="text-primary">Simple</span>
     title_size: medium
     desc_select: true
     desc: >-
@@ -46,11 +46,9 @@ components:
         aos: fade-up
         icon: "#lightbulb-on"
         title: Lighting
-        desc: >-
-          Transform your new or existing property’s manual lighting and shading
-          into an  
-
-          automated system within hours. Achieve the perfect day and night-time lighting ambience automatically. 
+        desc: "Achieve the perfect day and night-time lighting ambience. Transform your
+          new or existing lighting and manual shading into an automated system
+          within hours. "
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
@@ -58,32 +56,33 @@ components:
         icon: "#lock"
         title: Security
         desc: >
-          Be the first to know when doors and windows open. Link all your alarm
-          components and view them on your mobile devices and so much more.
+          Be the first to know when doors and windows are being opened. Link all
+          your alarm components and view them on your mobile device.
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
         aos: fade-up
         icon: "#heat"
         title: Climate Control
-        desc: "Control the building temperature and office or home environment through
-          reliable technology. Remotely manage the temperature even off site. "
+        desc: Control the building, the office or your home environment through proven
+          and reliable technology. When off site, manage the temperature
+          remotely.
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
         aos: fade-up
         icon: "#computer-speaker"
         title: TV and Music System
-        desc: TV and music systems that provide both best lifestyle choice combined with
-          best picture and sound quality.
+        desc: TV and music systems that provide both best lifestyle choices combined
+          with best picture and sound quality.
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
         aos: fade-up
         icon: "#wifi"
         title: Network & Wifi
-        desc: "Commercial grade network and wifi systems are your guaranteed connection
-          to the  global community.  "
+        desc: Commercial grade network and Wi-Fi systems are your guaranteed connection
+          to the global community.
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
@@ -110,7 +109,7 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Types of Projects
+    title: <span class="text-primary>Smart</span> Living Spaces
     title_size: medium
     desc: "Read through our Frequently Asked Questions to learn more about Smart
       Automation. Can't find the answer you're looking for? Reach out to us and
@@ -128,23 +127,24 @@ components:
         aos_select: true
         aos: fade-up
         img: /img/single-unit.jpg
-        desc: "A home is a place to care for oneself. A place for comfort and
-          relaxation. Why not personalize and perfect your environment? Our home
-          automation system allows you to control music, entertainment, climate,
-          mood lighting, you name it, with ease. Relax and unwind knowing you’re
-          in a secure and safely monitored home. "
+        desc: A home is a place to care for oneself. A space for comfort and relaxation.
+          Why not personalize and perfect your environment? Our home automation
+          system allows you to control music, entertainment, climate, mood
+          lighting, all with ease. Relax and unwind knowing you are in a secure
+          and safely monitored home.
       - img_alt: Please type in a description of the image
         cta: Call To Action
         cta_link: free-consultation/
         title: Multi Residential Units
         aos_select: true
         aos: fade-up
-        desc: Award-winning ButtrtflyMX® technology allows property managers to operate
-          at maximum efficiency, save time and money, and increase resident
-          satisfaction. We help you make your condos, gated communities,
-          retirement homes or student accommodation access simple for owners,
-          staff, residents, and visitors.
-        img: /img/multi-unit.jpg
+        desc: Award-winning App-based ButtertflyMX™ video intercom building access
+          system, allows property managers to operate at maximum efficiency,
+          save time, money, and increase resident satisfaction. This video
+          intercom system makes your condos, gated communities, retirement homes
+          or student accommodation access simple for owners, staff, residents,
+          and visitors.
+        img: /img/multi-unit-1-.jpg
   - type: divider2x
     bg_color: white
   - img: /img/brillanthome3.jpg
@@ -155,18 +155,18 @@ components:
     img_alt: Picture of someone in their home enjoying home automation
     cta: Free Consultation
     desc: >-
-      Brilliant is an in-wall lighting and control system that makes it easy for
-      homeowners, families, guests to control lighting, shades, doorbells,
-      locks, cameras, music, climate, intercom, scenes, and more. It’s easy to
+      As a Brilliant® Pro Certified installation company, we provide fully
+      integrated smart home solutions. A Brilliant system makes it easy for
+      homeowners, families, and guests to control lighting, shades, doorbells,
+      locks, cameras, music, climate, intercom, scenes, and more. It is easy to
       install, integrates with the top brands in every smart home category, and
-      transforms any house or apartment into an easy-to-use smart
-      home.<br><br>As a Brilliant® Pro Certified installer we provide fully
-      integrated smart home solutions. We deliver an easy-to-use solution that
-      the entire household will use.
+      transforms any house or apartment into an easy-to-use smart home.
 
       <br><br>
 
       <ul>
+
+      <li class="text-xl ml-4" style="list-style: square;">No special wiring required</li>
 
       <li class="text-xl ml-4" style="list-style: square;">No hub required</li>
 
@@ -176,26 +176,26 @@ components:
 
       <li class="text-xl ml-4" style="list-style: square;">No ongoing programming</li>
 
-      <li class="text-xl ml-4" style="list-style: square;">Automatic software updates</li>
+      <li class="text-xl ml-4" style="list-style: square;">Automatic software update</li>
 
       </ul>
-    title: Fully Integrated Smart Home System
+    title: ' Fully <span class="text-primary">Integrated</span> Smart Home System'
     type: img_half_right
   - type: divider2x
     bg_color: white
   - type: video_half_right
     bg_color: white
     VideoID: 7vIJ1v3wZGs
-    title: App Based Building Access Video Intercom System
-    desc: >-
-      ButterflyMX is a modern building entry solution for residential,
-      commercial, and  mixed-use properties. Since 2015, ButterflyMX has been
+    title: <span class="text-primary">App Based</span> Building Access Video
+      Intercom System
+    desc: ButterflyMX is a modern building entry solution for residential,
+      commercial, and mixed-use properties. Since 2015, ButterflyMX has been
       installed in more than 2,800 properties, granting secure access to more
       than 250,000 units around the world. With features including video
-      calling, virtual keys, delivery PINs, PMS integrations, time and date-
-      stamped door release logs, simple 3-wire installation, 
-
-      and no new or retrofit wiring required between tenant and access system. 
+      calling, virtual keys, delivery PINs, Property Management System (PMS)
+      integrations, time and date-stamped door release logs, simple 3-wire
+      installation, and no new or retrofit wiring required between tenant and
+      access system.
   - type: divider2x
     bg_color: white
   - type: heading_full
