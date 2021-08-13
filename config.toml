@@ -1,9 +1,9 @@
-languageCode = "en-ca"
-DefaultContentLanguage = "en"
-disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
-baseURL = "https://finelytunedtechnologies.netlify.app/"
 title = "Finely Tuned Technology Inc."
 description = "Lorem Ipsum"
+languageCode = "en-ca"
+baseURL = "https://finelytunedtechnologies.netlify.app/"
+DefaultContentLanguage = "en"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 
 [params]
 gtm = "GTM-T2757SM"
@@ -16,9 +16,9 @@ description = "Custom design and installation of home automation systems. Audio,
 
 [params.schema]
 ogimage = "/img/home-automation-og.jpg"
-logofooter = "/img/finely-tuned-technologies-navigation.jpg"
+logofooter = "/img/finelytunedtechnologies_logo.webp"
 city = "West Vancouver"
-logo = "/img/finely-tuned-technologies-navigation.jpg"
+logo = "/img/finelytunedtechnologies_logo.webp"
 reservation = true
 phone = "+1-604-619-3323"
 priceRange = "$$$"
