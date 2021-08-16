@@ -95,14 +95,9 @@ components:
         aos_select: true
   - type: divider
     bg_color: white
-  - type: gallery
-    images:
-      - img_alt: Please type in a description of the image
-        img: /img/gallery-image-2.jpg
-      - img_alt: Please type in a description of the image
-        img: /img/robin-van-geenen-ybcjvoiwmxm-unsplash.jpg
-      - img_alt: Please type in a description of the image
-        img: /img/ralph-ravi-kayden-2d4laqalbda-unsplash.jpg
+  - type: header_sub2
+    bg_color: primary
+    title: smart People • smart Technology • smart Living
   - type: divider
     bg_color: white
   - type: heading_full

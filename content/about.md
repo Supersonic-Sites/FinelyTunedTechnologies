@@ -16,7 +16,7 @@ components:
     cta_select: true
     img_alt: Picture of the founder of Finely Tuned Technologies Richard Stokes
     cta: Our Services
-    desc: >-2
+    desc: >2
        “It is very satisfying to provide a client with an automated and/or home entertainment system that compliments their personal technology needs and tastes. Our custom designed systems not only enhance one’s lifestyle, but are also artistically sensitive. That is what excites the creative side of me.”<br>
       - Richard Stokes, Principal.<br><br>
 
@@ -37,11 +37,9 @@ components:
 
       Richard and his is proud to offer top-quality services that now extend from residential to commercial, to large-scale multi residential projects.
 
-      <br><br>
+      <br>
 
-      <h3 class="font-bold text-gray-800 capitalize text-3xl tracking-wider md:text-4xl my-4 md:my-0 md:mb-6" style="line-height: 1.2 !important">Finely Tuned Technologies</h3>
-
-      <br><p class="text-gray-700 text-xl tracking-wider">
+      <br>
 
       Technology continues to change and grow becoming an integral part of our day- to-day lives. It is our experience to date, that most automated systems to date have been unreliable, require regular maintenance, and are unnecessarily complex.<br><br>
 
@@ -52,8 +50,6 @@ components:
 
 
       As proven experts in the collective fields of home automation, audio video systems, and home theatre systems, we prioritize customer service and are always ready to answer your questions.
-
-      </p>
     title: <span class="text-primary">Dedicated</span> to Higher Standards Of Living
     type: img_third_left
   - type: divider
