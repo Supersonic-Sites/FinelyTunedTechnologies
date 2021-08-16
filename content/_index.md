@@ -1,7 +1,6 @@
 ---
 title: Homepage
-description: Enhance your lifestyle with Vancouver's top certified professional
-  smart automation service provider.
+description: Enhance your living space with Vancouver's experienced team of certified smart automation technologists. Brilliant™, ButterflyMX™ and THX Certified. 
 components:
   - cta2: Contact Us
     img: /img/r-architecture-khpwe85ge38-unsplash.jpg

@@ -23,8 +23,8 @@ HUGO_VERSION = "0.79.1"
   status = 404
 
 [[redirects]]
-  from = "https://x.netlify.app/"
-  to = "https://www.domain.com/"
+  from = "https://finelytunedtechnologies.netlify.app/"
+  to = "https://www.fttech.ca/"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 

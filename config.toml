@@ -1,7 +1,7 @@
 title = "Finely Tuned Technology Inc."
-description = "Lorem Ipsum"
+description = "Enhance your living space with Vancouver's experienced team of certified smart automation technologists. Brilliant™, ButterflyMX™ and THX Certified. "
 languageCode = "en-ca"
-baseURL = "https://finelytunedtechnologies.netlify.app/"
+baseURL = "https://www.fttech.ca/"
 DefaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 
@@ -12,7 +12,7 @@ googlemap = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.17407875
 sitename = "Finely Tuned Technologies"
 usebasin = "https://usebasin.com/f/72a7b6ac08d4"
 videoOn = true
-description = "Custom design and installation of home automation systems. Audio, video, temperature, security and everything in between."
+description = "Enhance your living space with Vancouver's experienced team of certified smart automation technologists. Brilliant™, ButterflyMX™ and THX Certified. "
 
 [params.schema]
 ogimage = "/img/home-automation-og.jpg"

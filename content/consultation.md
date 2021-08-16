@@ -1,8 +1,6 @@
 ---
 title: Free Consultation
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-  aliquam nibh, quis tincidunt ante. Vivamus sit amet diam et velit aliquam
-  aliquam at ut neque.
+description: Get a free consultation with Finely Tuned Technologies to see how we can help you with your automation project.
 slug: free-consultation
 components:
   - type: header_sub

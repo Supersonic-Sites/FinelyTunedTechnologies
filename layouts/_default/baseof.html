@@ -24,11 +24,11 @@
       {{ else }}
       <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
     {{ end }}
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />  
     
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
     
-    <!-- {{- partial "gtm-head" . }} -->
+    {{- partial "gtm-head" . }}
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
@@ -38,6 +38,6 @@
     {{- partial "footer" . }}
     
     {{- partial "script" . }}
-    <!-- {{- partial "gtm-body" . }} -->
+    {{- partial "gtm-body" . }}
     </body>
 </html>
