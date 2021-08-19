@@ -65,25 +65,26 @@ components:
         cta: Call To Action
         cta_link: free-consultation/
         title: Lighting
-        desc: Within hours witness your existing home lighting transformed into an easy
-          to use and reliable fully automated system. Control your lighting and
-          shades via mobile App, voice assistant, motion detection, in home or
-          on the road. Experience the scientifically researched wellness
-          benefits of automated Human Centric Lighting. Program your personal
-          lighting scenes ie. Good morning, Away, Home, Dining, Movie,
-          Goodnight.
+        desc: Experience the scientifically researched wellness benefits of Human
+          Centric Lighting. Within hours, witness your existing home lighting
+          transformed into an easy- to-use fully automated system. Control your
+          lighting and shades via a mobile app, voice assistant, motion
+          detection, at home or away. Program your personal lighting scenes. For
+          example, “Good Morning”, “Away”, “Home”, “Dining”, “Movie” and
+          “Goodnight”.
         aos_select: false
         aos: none
-        img: /img/smart-lighting-hero-3-.jpg
+        img: /img/smart-lighting-service3.jpg
       - img_alt: Security Camera connected to an a smart grid system with finely tuned
           technologies
         cta: Call To Action
         cta_link: free-consultation/
-        desc: "Feel safe and secure at all times with our automated security system.
-          Stay connected with anyone in the house whether at home or away
-          through two-way talk. Check on any room through Live View video to
-          keep an eye on what matters most. Converse clearly and safely with
-          people at the front door without opening the door. "
+        desc: Feel safe and secure at all times with an automated security system. Stay
+          connected with anyone in the house whether at home or away with the
+          integrated two-way audio-video intercom. Check on any room with
+          integrated “Live View” video to keep an eye on what matters most.
+          Converse clearly and safely with people at the front door without
+          opening the door.
         aos: none
         title: Smart Security System
         img: /img/home_security_automation.jpg
@@ -91,39 +92,40 @@ components:
         cta: Call To Action
         cta_link: free-consultation/
         title: Automated Climate Control
-        desc: Program your ideal heating of cooling environment. Remotely set the
+        desc: Program your ideal heating or cooling environment. Remotely set the
           desired temperature while away from your home. Enjoy the ease of
           simple and reliable technology.
         aos: none
-        img: /img/robin-van-geenen-ybcjvoiwmxm-unsplash-1-.jpg
+        img: /img/heating-system.jpg
       - img_alt: Picture of speakers and television automated with smart technologies
         cta: Call To Action
         cta_link: free-consultation/
         title: TV and Music Systems
         desc: Wake up every morning to your favourite playlist or the news channel on
-          your TV. Podcasts, audiobooks, music, or video entertainment are
-          readily available throughout the day from the family room to the
-          kitchen. We calibrate audio and video systems to the ideal settings so
-          you can get the most out of the sensory experience.
+          your TV. Podcasts, audiobooks, music or video entertainment are
+          readily available throughout the day in your home. We fine-tune your
+          audio and video systems to the ideal settings so you get the most out
+          of your sensory experience.
         aos: none
-        img: /img/tv-music.jpg
+        img: /img/tv-and-audio-system-automation.jpg
       - img_alt: Picture of a mobile cellphone connected to a helpful home system
         cta: Call To Action
         cta_link: free-consultation/
         title: Network & Wifi
-        desc: Connect your tablet, PC and smartphone to your home network and the
-          Internet with a comprehensive home wireless network. You can control
-          everything from your favourite devices anywhere on your property with
-          a wireless network installation.
+        desc: >-
+          Connect your entertainment systems, tablet, PC and
+
+          smartphone to your home network and the Internet with a comprehensive home wireless network. Control your home automation and home entertainment systems from your favourite devices anywhere on your property.
         aos: none
         img: /img/rodion-kutsaev-0vgg7cqtwco-unsplash.jpg
       - img_alt: Home theater with the highest standards
         cta: Call To Action
         cta_link: contact/
-        title: Home Theater
-        desc: ‘Suspension of disbelief’ that is the movie directors single artistic
-          intention. Every soft whisper, dynamic explosion, colour intensity and
-          hue recreated to perfection by us in your home.
+        title: Home Theatre
+        desc: “Suspension of Disbelief”. This is the movie directors single artistic
+          intention. Every soft whisper, dynamic musical soundtrack, colour
+          intensity and hue, recreated to perfection in your home by our THX and
+          ISF certified team.
         aos: "#"
         img: /img/chauhan-moniz-3a0bs74t8zc-unsplash.jpg
   - type: divider2x

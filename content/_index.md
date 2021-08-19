@@ -10,9 +10,9 @@ components:
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
     desc: Enhance your living space with Vancouver's experienced team of certified
-      smart automation technologists. Brilliant, ButterflyMX, THX and ISF
-      Certified. Serving commercial, residential and luxury marine projects for
-      over 30 years.
+      home automation and home entertainment specialists. Brilliant,
+      ButterflyMX, THX and ISF Certified. Serving commercial, residential and
+      luxury marine projects for over 30 years.
     cta2_link: contact/
     title1: Vancouver's Smart Home Automation
     cta2_select: true
@@ -28,12 +28,12 @@ components:
     title_size: medium
     desc_select: true
     desc: >-
-      <i>"We design client-centered Home Automation and Home Entertainment
-      Systems based on best  practices and current industry
-      standards."</i><br><br>
+      <i><span class="text-primary">"We design client-centered Home Automation
+      and Home Entertainment Systems based on best  practices and current
+      industry standards."</span></i><br><br>
 
 
-      Finely Tuned Technologies offers you robustly engineered leading edge technologies that will always compliment your living space and budget. We  do the research, the in-field testing and chose products that work right the first time, every time. As a Brilliant Pro Certified installers, we provide fully integrated home automation systems and deliver the perfect solution the entire household will use.
+      Finely Tuned Technologies offers you robustly engineered leading edge technologies that will always compliment your living space and budget. We do the research, the infield testing and choose products that work right the first time, every time. As Brilliant Pro Certified installers, we provide fully integrated home automation systems and deliver the perfect solution the entire household will use.
   - type: divider_half
     bg_color: white
   - type: video_full
@@ -164,17 +164,17 @@ components:
 
       <ul>
 
-      <li class="text-xl tracking-wide text-gray-700 ml-6" >Automatic software updates</li>
+      <li class="text-xl tracking-wide text-gray-700 ml-6" >No specialty wiring required</li>
+
+      <li class="text-xl tracking-wide text-gray-700 ml-6">No hub required</li>
 
       <li class="text-xl tracking-wide text-gray-700 ml-6">No ongoing programming</li>
 
-      <li class="text-xl tracking-wide text-gray-700 ml-6">No special wiring required</li>
-
-      <li class="text-xl tracking-wide text-gray-700 ml-6" >No hub required</li>
+      <li class="text-xl tracking-wide text-gray-700 ml-6" >No ongoing maintenance</li>
 
       <li class="text-xl tracking-wide text-gray-700 ml-6">No techno-clutter</li>
 
-      <li class="text-xl tracking-wide text-gray-700 ml-6">No ongoing maintenance</li>
+      <li class="text-xl tracking-wide text-gray-700 ml-6">Automatic software updates</li>
 
       </ul>
 
