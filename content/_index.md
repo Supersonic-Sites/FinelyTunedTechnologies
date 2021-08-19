@@ -1,6 +1,8 @@
 ---
 title: Homepage
-description: Enhance your living space with Vancouver's experienced team of certified smart automation technologists. Brilliant™, ButterflyMX™ and THX Certified. 
+description: Enhance your living space with Vancouver's experienced team of
+  certified smart automation technologists. Brilliant™, ButterflyMX™ and THX
+  Certified.
 components:
   - cta2: Contact Us
     img: /img/r-architecture-khpwe85ge38-unsplash.jpg
@@ -8,8 +10,8 @@ components:
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
     desc: Enhance your living space with Vancouver's experienced team of certified
-      smart automation technologists. Brilliant™, ButterflyMX™ and THX
-      Certified. Serving commercial, residential & luxury marine projects for
+      smart automation technologists. Brilliant, ButterflyMX, THX and ISF
+      Certified. Serving commercial, residential and luxury marine projects for
       over 30 years.
     cta2_link: contact/
     title1: Vancouver's Smart Home Automation
@@ -26,16 +28,17 @@ components:
     title_size: medium
     desc_select: true
     desc: >-
-      "We design Home Automation and Home Entertainment Systems based on
-      best  practices and current industry standards."<br><br>
+      <i>"We design client-centered Home Automation and Home Entertainment
+      Systems based on best  practices and current industry
+      standards."</i><br><br>
 
 
-      Finely Tuned Technologies offers you robustly engineered leading edge technology that compliments your living space and budget. We  do the research, the in-field testing and chose products that work right the first time, every time. As a Brilliant® Pro Certified installer, we provide fully integrated smart home solutions. We deliver an easy-to-use solution that the entire household will use.
-  - type: divider
+      Finely Tuned Technologies offers you robustly engineered leading edge technologies that will always compliment your living space and budget. We  do the research, the in-field testing and chose products that work right the first time, every time. As a Brilliant Pro Certified installers, we provide fully integrated home automation systems and deliver the perfect solution the entire household will use.
+  - type: divider_half
     bg_color: white
   - type: video_full
     VideoID: QIgocFKBjrc
-  - type: divider
+  - type: divider_half
     bg_color: white
   - type: cards_third_icon
     bg_color: white
@@ -45,7 +48,7 @@ components:
         aos: fade-up
         icon: "#lightbulb-on"
         title: Lighting
-        desc: "Achieve the perfect day and night-time lighting ambience. Transform your
+        desc: "Achieve the perfect day and nighttime lighting ambience. Transform your
           new or existing lighting and manual shading into an automated system
           within hours. "
         aos_select: true
@@ -63,15 +66,15 @@ components:
         aos: fade-up
         icon: "#heat"
         title: Climate Control
-        desc: Control the building, the office or your home environment through proven
-          and reliable technology. When off site, manage the temperature
-          remotely.
+        desc: Control the temperature of the building, the office or your home
+          environment through proven and reliable technology. When away, manage
+          the system remotely.
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
         aos: fade-up
         icon: "#computer-speaker"
-        title: TV and Music System
+        title: TV and Music Systems
         desc: TV and music systems that provide both best lifestyle choices combined
           with best picture and sound quality.
         aos_select: true
@@ -87,10 +90,11 @@ components:
         cta_link: free-consultation/
         aos: fade-up
         icon: "#film"
-        title: Home Theater
-        desc: "‘Suspension of disbelief’ that is the movie directors single artistic
-          intention. Every soft whisper, dynamic explosion,  colour intensity
-          and hue recreated to perfection by us in your home.  "
+        title: Home Theatre
+        desc: "“Suspension of Disbelief”. This is the movie directors single artistic
+          intention. Every soft whisper, dynamic musical soundtrack, colour
+          intensity and hue, recreated to perfection in your home by our THX and
+          ISF certified team. "
         aos_select: true
   - type: divider
     bg_color: white
@@ -122,22 +126,20 @@ components:
         aos: fade-up
         img: /img/single-unit.jpg
         desc: A home is a place to care for oneself. A space for comfort and relaxation.
-          Why not personalize and perfect your environment? Our home automation
-          system allows you to control music, entertainment, climate, mood
-          lighting, all with ease. Relax and unwind knowing you are in a secure
-          and safely monitored home.
+          Why not personalize and perfect your environment? A home automation
+          system allows you to control your personal space with ease. Relax and
+          unwind knowing you are in a secure and safely monitored home.
       - img_alt: Please type in a description of the image
         cta: Call To Action
         cta_link: free-consultation/
         title: Multi Residential Units
         aos_select: true
         aos: fade-up
-        desc: Award-winning App-based ButtertflyMX™ video intercom building access
+        desc: The award-winning cloud-based ButtertflyMX video intercom building access
           system, allows property managers to operate at maximum efficiency,
           save time, money, and increase resident satisfaction. This video
-          intercom system makes your condos, gated communities, retirement homes
-          or student accommodation access simple for owners, staff, residents,
-          and visitors.
+          intercom system simplifies building access for owners, staff,
+          residents, and visitors.
         img: /img/multi-unit-1-.jpg
   - type: divider2x
     bg_color: white
@@ -149,48 +151,50 @@ components:
     img_alt: Picture of someone in their home enjoying home automation
     cta: Free Consultation
     desc: >-
-      As a Brilliant® Pro Certified installation company, we provide fully
-      integrated smart home solutions. A Brilliant system makes it easy for
+      As a Brilliant Pro Certified installation company, we provide fully
+      integrated home automation solutions. A Brilliant system makes it easy for
       homeowners, families, and guests to control lighting, shades, doorbells,
       locks, cameras, music, climate, intercom, scenes, and more. It is easy to
-      install, integrates with the top brands in every smart home category, and
-      transforms any house or apartment into an easy-to-use smart home.
+      install, integrates with the top brands in every home automation category,
+      and transforms any house or apartment into an easy-to-use automated home.
 
       <br><br>
 
+      <div id="bulletpoint">
+
       <ul>
 
-      <li class="text-xl ml-4" style="list-style: square;">No special wiring required</li>
+      <li class="text-xl tracking-wide text-gray-700 ml-6" >Automatic software updates</li>
 
-      <li class="text-xl ml-4" style="list-style: square;">No hub required</li>
+      <li class="text-xl tracking-wide text-gray-700 ml-6">No ongoing programming</li>
 
-      <li class="text-xl ml-4" style="list-style: square;">No techno-clutter</li>
+      <li class="text-xl tracking-wide text-gray-700 ml-6">No special wiring required</li>
 
-      <li class="text-xl ml-4" style="list-style: square;">No ongoing maintenance</li>
+      <li class="text-xl tracking-wide text-gray-700 ml-6" >No hub required</li>
 
-      <li class="text-xl ml-4" style="list-style: square;">No ongoing programming</li>
+      <li class="text-xl tracking-wide text-gray-700 ml-6">No techno-clutter</li>
 
-      <li class="text-xl ml-4" style="list-style: square;">Automatic software update</li>
+      <li class="text-xl tracking-wide text-gray-700 ml-6">No ongoing maintenance</li>
 
       </ul>
-    title: ' Fully <span class="text-primary">Integrated</span> Smart Home System'
+
+      </div>
+    title: ' Fully <span class="text-primary">Integrated</span> Home Automation
+      System'
     type: img_half_right
   - type: divider2x
     bg_color: white
   - type: video_half_right
     bg_color: white
     VideoID: 7vIJ1v3wZGs
-    title: <span class="text-primary">App Based</span> Building Access Video
+    title: <span class="text-primary">Cloud-Based</span> Building Access Video
       Intercom System
-    desc: ButterflyMX is a modern building entry solution for residential,
-      commercial, and mixed-use properties. Since 2015, ButterflyMX has been
-      installed in more than 2,800 properties, granting secure access to more
-      than 250,000 units around the world. With features including video
-      calling, virtual keys, delivery PINs, Property Management System (PMS)
-      integrations, time and date-stamped door release logs, simple 3-wire
-      installation, and no new or retrofit wiring required between tenant and
-      access system.
-  - type: divider2x
+    desc: >-
+      ButterflyMX is an intuitive touch screen video intercom entry solution for
+      residential, commercial, and
+
+      mixed-use properties. Since 2015, ButterflyMX has been installed in more than 5,000 properties granting secure access to more than 250,000 units world wide. Features include video calling, virtual keys, delivery PINs, Property Management System (PMS) integrations, time and date-stamped door release logs, simple 3-wire installation and no new or retrofit wiring required between tenant and access system.
+  - type: divider
     bg_color: white
   - type: heading_full
     id: none

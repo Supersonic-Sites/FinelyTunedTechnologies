@@ -12,16 +12,16 @@ components:
   - type: video_half_right
     bg_color: white
     VideoID: Bgn8zZ9xbpw
-    title: Smart Automation Done <span class="text-primary">Right</span>
-    desc: There are a lot of smart home products available <span
-      class="text-primary">today</span>, but the <span
-      class="text-primary">reality</span> is they haven't worked well with one
-      another, until now. <strong>We found</strong> a perfect solution in both
-      the Brilliant® Smart Home System and the ButterflyMX building access video
-      intercom system, technologies designed for today and into the future. No
-      special wiring required for new or retrofit system installation. Your
-      environment transformed into a smart automated space within hours and not
-      days.
+    title: Home Automation Done <span class="text-primary">Right</span>
+    desc: >-
+      There are many home automation products available today, but the reality
+      is, they have not worked well with one another, until now. <strong>We
+      found</strong> a perfect solution with the combination of both the
+      Brilliant Home Automation System and the ButterflyMX cloud-based building
+      access video intercom system. Technologies designed for today and for the
+      future. No special wiring required to
+
+      install a new system or to retrofit an existing one. Your environment automated within hours and not days.
   - type: divider
     bg_color: white
   - type: cards_fourth_img
@@ -49,14 +49,14 @@ components:
         title: Imaging Science Foundation Certified Video Calibrator and Trainer
         desc: Imaging Science Foundation Certified
         aos: none
-        img: /img/isf_certified.jpg
+        img: /img/isf-certification-logo.jpg
       - img_alt: THX Certified Expert
         cta: Call To Action
         cta_link: contact/
         title: THX Certified Expert
         aos: fade
         desc: THX Certified Expert
-        img: /img/thx-certification.jpg
+        img: /img/thx-certification-logo.jpg
   - type: divider
     bg_color: white
   - type: cards_third_img
