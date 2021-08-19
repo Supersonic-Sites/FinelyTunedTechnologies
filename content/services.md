@@ -13,15 +13,14 @@ components:
     bg_color: white
     VideoID: Bgn8zZ9xbpw
     title: Home Automation Done <span class="text-primary">Right</span>
-    desc: >-
-      There are many home automation products available today, but the reality
+    desc: There are many home automation products available today, but the reality
       is, they have not worked well with one another, until now. <strong>We
       found</strong> a perfect solution with the combination of both the
       Brilliant Home Automation System and the ButterflyMX cloud-based building
       access video intercom system. Technologies designed for today and for the
-      future. No special wiring required to
-
-      install a new system or to retrofit an existing one. Your environment automated within hours and not days.
+      future. No special wiring required to install a new system or to retrofit
+      an existing one.<br><br>Your environment automated within hours and not
+      days.
   - type: divider
     bg_color: white
   - type: cards_fourth_img
@@ -136,44 +135,50 @@ components:
     title: Frequently Asked Questions
     title_size: medium
     desc_select: true
-    desc: "Read through our Frequently Asked Questions to learn more about Smart
-      Automation. Can't find the answer you're looking for? Reach out to us and
-      we'll be happy to help. "
+    desc: >-
+      Read our Frequently Asked Questions to learn more about our home
+      automation and home
+
+      entertainment systems. Can't find the information you are looking for? Reach out to us and we will be happy to assist.
   - type: divider_half
     bg_color: white
   - type: faq_toggle
     question: How long does it take to install a home automation system?
     answer: It will depend on the type and depth of the system you would like to
-      install, ie. the Brilliant home automation controller can be installed and
-      programmed within hours. Each additional device (ie. lighting, security
-      camera, music system, window shades, garage door and climate control) can
-      also be installed and programmed within hours. In short, anywhere from one
-      day to less than a week for the average Brilliant home automation system,
-      depending on the number of automation device you decide to include in the
-      system.
+      install. For example, the Brilliant home automation controller can be
+      installed and programmed in just a few hours. Each additional device,
+      lighting, security camera, music system, window shades, garage door and
+      climate control, can also be installed and programmed within hours. In
+      short, anywhere from one day to less than a week for the average Brilliant
+      home automation system, depending on the number of automation devices you
+      decide to include in the system.
     faqs:
       - question: Do I need a separate app installed on my mobile or tablet device to
           control the multiple devices in the system?
-        answer: No you do not. All of the separate device apps are bundled together
-          within the Brilliant app and can be accessed from anywhere you have a
-          data and/or wi-fi connection.
+        answer: No, you do not. All of the separate device apps are bundled together
+          within theBrilliant app and can be accessed from anywhere you have a
+          data or a Wi-Fi connection.
       - question: Do I need special wiring to install a home automation system?
-        answer: Some systems require dedicated wiring and some do not. The Brilliant
-          system works off of your home wi-fi. You simply replace your regular
-          light switch with a Brilliant Controller and/or a Brilliant Dimmer and
-          you have now installed the foundation for a whole house automation
-          system.
+        answer: Some systems require dedicated wiring. The Brilliant system does not as
+          it works with your home Wi-Fi. You simply replace your regular light
+          switch with a Brilliant Controller and you have now installed the
+          foundation for a whole house automation system.
       - question: What kind of lighting do you recommend for the different areas within
           a family home or condo?
         answer: >-
-          Residential lighting types can broken down into three major
+          Residential lighting options can be broken down into three major
           categories: general lighting, task lighting, and special event
-          lighting. Within those categories are three main lighting
-          requirements: daytime lighting, evening/nighttime lighting and
-          specialty lighting, such as specific or multi-colour lighting.
-          <br><br> 
+          lighting. Within these categories, there are three main lighting
+          requirements. Daytime lighting, evening or nighttime lighting and
+          specialty lighting, such as task specific or multi-coloured lighting.
+          Natural daylight lighting will have a more balanced red, green and
+          blue colour spectrum.<br><br>
 
-          Daylight lighting will have a more balanced red green and blue colour spectrum. This is important to compliment our natural circadian rhythm work day cycle. Evening and nighttime lighting has less blue light, which is very important for preparing us for our sleep cycle. Ideally, the lighting in your home should change from daytime to nighttime colour spectrum automatically. An automated lighting system can be programmed to do this for you.
+          This is important to compliment our 24-hour circadian rhythm cycle.<br><br>
+
+          Natural evening and nighttime lighting has less blue light, which is critical for a healthy sleep cycle. Similarly, just like natural sunrise and sunset lighting, the lighting in your home should change from daytime to nighttime colour spectrum automatically.<br><br>
+
+          An automated lightingsystem designed by Finely Tuned Technologies can be programmed to do this for you.
   - type: divider
     bg_color: white
   - type: cta
