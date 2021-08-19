@@ -162,9 +162,9 @@ components:
 
       <div id="bulletpoint">
 
-      <ul>
+      <ul style="list-style-type: circle">
 
-      <li class="text-xl tracking-wide text-gray-700 ml-6" >No specialty wiring required</li>
+      <li class="text-xl tracking-wide text-gray-700 ml-6" style=" >No specialty wiring required</li>
 
       <li class="text-xl tracking-wide text-gray-700 ml-6">No hub required</li>
 
