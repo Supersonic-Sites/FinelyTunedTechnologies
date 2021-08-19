@@ -5,7 +5,7 @@ description: Enhance your living space with Vancouver's experienced team of
   Certified.
 components:
   - cta2: Contact Us
-    img: /img/r-architecture-khpwe85ge38-unsplash.jpg
+    img: /img/smart-automation-services-vancouver.webp
     cta_link: free-consultation/
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
