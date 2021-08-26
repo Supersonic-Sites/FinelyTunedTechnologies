@@ -14,13 +14,12 @@ components:
     VideoID: Bgn8zZ9xbpw
     title: Home Automation Done <span class="text-primary">Right</span>
     desc: There are many home automation products available today, but the reality
-      is, they have not worked well with one another, until now. <strong>We
-      found</strong> a perfect solution with the combination of both the
-      Brilliant Home Automation System and the ButterflyMX cloud-based building
-      access video intercom system. Technologies designed for today and for the
-      future. No special wiring required to install a new system or to retrofit
-      an existing one.<br><br>Your environment automated within hours and not
-      days.
+      is, they have not worked well with one another, until now. We found a
+      perfect solution with the combination of both the Brilliant Home
+      Automation System and the ButterflyMX cloud-based building access video
+      intercom system. Technologies designed for today and for the future. No
+      special wiring required to install a new system or to retrofit an existing
+      one.<br><br>Your environment automated within hours and not days.
   - type: divider
     bg_color: white
   - type: cards_fourth_img
@@ -65,13 +64,13 @@ components:
         cta: Call To Action
         cta_link: free-consultation/
         title: Lighting
-        desc: Experience the scientifically researched wellness benefits of Human
+        desc: "Experience the scientifically researched wellness benefits of Human
           Centric Lighting. Within hours, witness your existing home lighting
-          transformed into an easy- to-use fully automated system. Control your
+          transformed into an easy-to-use fully automated system. Control your
           lighting and shades via a mobile app, voice assistant, motion
           detection, at home or away. Program your personal lighting scenes. For
-          example, “Good Morning”, “Away”, “Home”, “Dining”, “Movie” and
-          “Goodnight”.
+          example: “Good Morning”, “Away”, “Home”, “Dining”, “Movie” and
+          “Goodnight”."
         aos_select: false
         aos: none
         img: /img/smart-lighting-service3.jpg
@@ -111,7 +110,7 @@ components:
       - img_alt: Picture of a mobile cellphone connected to a helpful home system
         cta: Call To Action
         cta_link: free-consultation/
-        title: Network & Wifi
+        title: Network and Wi-Fi
         desc: >-
           Connect your entertainment systems, tablet, PC and
 
@@ -158,7 +157,7 @@ components:
       - question: Do I need a separate app installed on my mobile or tablet device to
           control the multiple devices in the system?
         answer: No, you do not. All of the separate device apps are bundled together
-          within theBrilliant app and can be accessed from anywhere you have a
+          within the Brilliant app and can be accessed from anywhere you have a
           data or a Wi-Fi connection.
       - question: Do I need special wiring to install a home automation system?
         answer: Some systems require dedicated wiring. The Brilliant system does not as
@@ -180,7 +179,7 @@ components:
 
           Natural evening and nighttime lighting has less blue light, which is critical for a healthy sleep cycle. Similarly, just like natural sunrise and sunset lighting, the lighting in your home should change from daytime to nighttime colour spectrum automatically.<br><br>
 
-          An automated lightingsystem designed by Finely Tuned Technologies can be programmed to do this for you.
+          An automated lighting system designed by Finely Tuned Technologies can be programmed to do this for you.
   - type: divider
     bg_color: white
   - type: cta

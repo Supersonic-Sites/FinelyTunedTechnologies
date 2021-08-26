@@ -9,7 +9,7 @@ components:
     title: About Us
   - type: divider
     bg_color: white
-  - img: /img/finelytunedtechnologies_logo.webp
+  - img: /img/fttlogo.webp
     aos: none1
     cta_link: services/
     bg_color: white
@@ -17,17 +17,18 @@ components:
     img_alt: Picture of the founder of Finely Tuned Technologies Richard Stokes
     cta: Our Services
     desc: >
-      <p class="text-base italic"> “It is very satisfying to provide a client
-      with an automated and/or home entertainment system that compliments their
-      personal technology needs and tastes. Our custom designed systems not only
-      enhance one’s lifestyle, but are also artistically sensitive. That is what
-      excites the creative side of me.”<br>
+      <p class="text-base italic"> <span class="text-primary">“It is very
+      satisfying to provide a client with an automated and/or home entertainment
+      system that compliments their personal technology needs and tastes. Our
+      custom designed systems not only enhance one’s lifestyle, but are also
+      artistically sensitive. That is what excites the creative side of
+      me.”</span><br>
 
       <span class="ml-2">- Richard Stokes, Principal.</p><br></p>
 
       <div class="text-xl text-gray-700 mb-6">
 
-      Richard began his career as a journeyman electrician in Dublin, Ireland. Upon completion of his electrical apprenticeship, Richard then progressed into the world of audio-video systems design and installation. He moved to Vancouver, Canada, in 1991. His extensive experience in audio video systems design and installation provided a solid foundation for the management of the Engineered Systems Division of A&B Sound, throughout western Canada.<br><br>
+      Richard began his career as a journeyman electrician in Dublin, Ireland. Upon completion of his electrical apprenticeship, Richard then progressed into the world of audio-video systems design and installation. He moved to Vancouver, Canada, in 1991. His extensive experience in audio-video systems design and installation provided a solid foundation for the management of the Engineered Systems Division of A&B Sound, throughout western Canada.<br><br>
 
       During the ten years as manager of the Engineered Systems Division, Richard’s team specialized in the design and installation of custom audio-video and home theatre systems for the residential and luxury yacht industries.<br><br>
 
@@ -45,7 +46,7 @@ components:
 
       <br>
 
-      As proven experts in the collective fields of home automation, audio video systems, and home theatre systems, we prioritize customer service and are available to answer your questions.<br><br>
+      As proven experts in the collective fields of home automation, audio-video systems, and home theatre systems, we prioritize customer service and are available to answer your questions.<br><br>
 
       </div>
     title: <span class="text-primary">Dedicated</span> to Higher Standards Of Living

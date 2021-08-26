@@ -82,7 +82,7 @@ components:
         cta_link: free-consultation/
         aos: fade-up
         icon: "#wifi"
-        title: Network & Wifi
+        title: Network and Wi-Fi
         desc: Commercial grade network and Wi-Fi systems are your guaranteed connection
           to the global community.
         aos_select: true
@@ -136,10 +136,10 @@ components:
         aos_select: true
         aos: fade-up
         desc: The award-winning cloud-based ButtertflyMX video intercom building access
-          system, allows property managers to operate at maximum efficiency,
-          save time, money, and increase resident satisfaction. This video
-          intercom system simplifies building access for owners, staff,
-          residents, and visitors.
+          system allows property managers to operate at maximum efficiency, save
+          time, money, and increase resident satisfaction. This video intercom
+          system simplifies building access for owners, staff, residents, and
+          visitors.
         img: /img/multi-unit-1-.jpg
   - type: divider2x
     bg_color: white

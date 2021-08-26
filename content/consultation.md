@@ -1,6 +1,7 @@
 ---
 title: Free Consultation
-description: Get a free consultation with Finely Tuned Technologies to see how we can help you with your automation project.
+description: Get a free consultation with Finely Tuned Technologies to see how
+  we can help you with your automation project.
 slug: free-consultation
 components:
   - type: header_sub
@@ -13,10 +14,10 @@ components:
     id: none
     bg_color: white
     align: center
-    title: Let's Talk About Your Project
+    title: Let's Talk About <span class="text-primary">Your</span> Project
     title_size: medium
     desc_select: true
-    desc: "We're here to help. Tell us about your exciting project or vision for
+    desc: "We are here to help. Tell us about your exciting project or vision for
       your home or commercial space. We prioritize a fast response time so we
       can address your needs in the moment. "
   - type: divider_half
