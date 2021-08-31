@@ -16,9 +16,9 @@ description = "Enhance your living space with Vancouver's experienced team of ce
 
 [params.schema]
 ogimage = "/img/home-automation-og.jpg"
-logofooter = "/img/fttlogo.webp"
+logofooter = "/img/fttlogo.jpg"
 city = "West Vancouver"
-logo = "/img/fttlogo.webp"
+logo = "/img/fttlogo.jpg"
 reservation = true
 phone = "+1-604-619-3323"
 priceRange = "$$$"

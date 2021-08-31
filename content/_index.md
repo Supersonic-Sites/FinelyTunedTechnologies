@@ -5,7 +5,7 @@ description: Enhance your living space with Vancouver's experienced team of
   Certified.
 components:
   - cta2: Contact Us
-    img: /img/smart-automation-services-vancouver.webp
+    img: /img/smart-automation-services-vancouver.jpg
     cta_link: free-consultation/
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
@@ -140,7 +140,7 @@ components:
           time, money, and increase resident satisfaction. This video intercom
           system simplifies building access for owners, staff, residents, and
           visitors.
-        img: /img/multi-unit-1-.jpg
+        img: /img/multi-unit-2-.jpg
   - type: divider2x
     bg_color: white
   - img: /img/brillanthome3.jpg
@@ -164,7 +164,7 @@ components:
 
       <ul style="list-style-type: circle">
 
-      <li class="text-xl tracking-wide text-gray-700 ml-6" style=" >No specialty wiring required</li>
+      <li class="text-xl tracking-wide text-gray-700 ml-6">No specialty wiring required</li>
 
       <li class="text-xl tracking-wide text-gray-700 ml-6">No hub required</li>
 

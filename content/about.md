@@ -9,7 +9,7 @@ components:
     title: About Us
   - type: divider
     bg_color: white
-  - img: /img/fttlogo.webp
+  - img: /img/fttlogo.jpg
     aos: none1
     cta_link: services/
     bg_color: white
@@ -17,10 +17,10 @@ components:
     img_alt: Picture of the founder of Finely Tuned Technologies Richard Stokes
     cta: Our Services
     desc: >
-      <p class="text-base italic"> <span class="text-primary">“It is very
-      satisfying to provide a client with an automated and/or home entertainment
-      system that compliments their personal technology needs and tastes. Our
-      custom designed systems not only enhance one’s lifestyle, but are also
+      <p class="italic"> <span class="text-primary">“It is very satisfying to
+      provide a client with an automated and/or home entertainment system that
+      compliments their personal technology needs and tastes. Our custom
+      designed systems not only enhance one’s lifestyle, but are also
       artistically sensitive. That is what excites the creative side of
       me.”</span><br>
 
@@ -34,7 +34,7 @@ components:
 
       In 2007, Richard launched Finely Tuned Technologies.<br><br>
 
-      As an instructor and certified calibrator with the Imaging Science Foundation (ISF), and a certified home theatre design and installation technician for THX residential systems, the company initially focused on providing a home theatre system calibration service to local retail outlets, the local film industry, video and gaming content creators, and residential clients.<br><br>
+      As an instructor and certified calibrator with the Imaging Science Foundation (ISF), and a certified home theatre design and installation technician for THX residential systems, Richard's company initially focused on providing a home theatre system calibration service to local retail outlets, the local film industry, video and gaming content creators, and residential clients.<br><br>
 
       With the current growth in home automation, Finely Tuned Technologies have recently partnered with leading edge companies in this category.<br><br>
 
