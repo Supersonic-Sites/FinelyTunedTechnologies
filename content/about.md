@@ -17,10 +17,10 @@ components:
     img_alt: Picture of the founder of Finely Tuned Technologies Richard Stokes
     cta: Our Services
     desc: >
-      <p class="italic"> <span class="text-primary">“It is very satisfying to
-      provide a client with an automated and/or home entertainment system that
-      compliments their personal technology needs and tastes. Our custom
-      designed systems not only enhance one’s lifestyle, but are also
+      <p class="text-xl italic"> <span class="text-primary">“It is very
+      satisfying to provide a client with an automated and/or home entertainment
+      system that compliments their personal technology needs and tastes. Our
+      custom designed systems not only enhance one’s lifestyle, but are also
       artistically sensitive. That is what excites the creative side of
       me.”</span><br>
 
