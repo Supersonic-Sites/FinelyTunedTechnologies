@@ -12,12 +12,12 @@
                     <img
                     class="lazyload mx-auto mb-4" 
                     alt="{{ .img_alt }}"
-                    width="150px"
-                    height="150px" 
+                    width="200px"
+                    height="200px" 
                     data-srcset="
-                        {{ .img }}?nf_resize=smartcrop&w=200&h=200 200w,
-                        {{ .img }}?nf_resize=smartcrop&w=400&h=400 400w,
-                        {{ .img }}?nf_resize=smartcrop&w=600&h=600 600w"
+                        {{ .img }}?nf_resize=fit&w=200&h=200 200w,
+                        {{ .img }}?nf_resize=fit&w=400&h=400 400w,
+                        {{ .img }}?nf_resize=fit&w=600&h=600 600w"
                     sizes="(min-width: 1440px) 600px, 200px"
 
                     data-src="{{ .img }}?nf_resize=smartcrop&w=200&h=200"
