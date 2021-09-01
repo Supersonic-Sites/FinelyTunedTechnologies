@@ -69,7 +69,8 @@ components:
           transformed into an easy-to-use fully automated system. Control your
           lighting and shades via a mobile app, voice assistant, motion
           detection, at home or away. Program your personal lighting scenes. For
-          example: Good Morning, Away, Home, Dining, Movie and Goodnight."
+          example: &nbsp; Good Morning, Away, Home, Dining, Movie and
+          Goodnight."
         aos_select: false
         aos: none
         img: /img/smart-lighting-service3.jpg
