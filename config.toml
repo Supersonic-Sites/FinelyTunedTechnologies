@@ -1,7 +1,7 @@
 title = "Finely Tuned Technology Inc."
 description = "Enhance your living space with Vancouver's experienced team of certified smart automation technologists. Brilliant™, ButterflyMX™ and THX Certified. "
 languageCode = "en-ca"
-baseURL = "/"
+baseURL = "https://www.fttech.ca/"
 DefaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 
