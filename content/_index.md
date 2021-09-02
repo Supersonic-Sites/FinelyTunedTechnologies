@@ -122,18 +122,18 @@ components:
         cta: Call To Action
         cta_link: free-consultation/
         title: Residential
-        aos_select: true
+        aos_select: false
         aos: fade-up
         img: /img/single-unit.jpg
         desc: A home is a place to care for oneself. A space for comfort and relaxation.
           Why not personalize and perfect your environment? A home automation
           system allows you to control your personal space with ease. Relax and
           unwind knowing you are in a secure and safely monitored home.
-      - img_alt: Please type in a description of the image
+      - img_alt: Multi Residential Units Automation
         cta: Call To Action
         cta_link: free-consultation/
         title: Multi Residential Units
-        aos_select: true
+        aos_select: false
         aos: fade-up
         desc: The award-winning cloud-based ButtertflyMX video intercom building access
           system allows property managers to operate at maximum efficiency, save
