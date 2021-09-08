@@ -1,5 +1,5 @@
 ---
-title: Homepage
+title: Smart Home Automation Specialists
 description: Enhance your living space with Vancouver's experienced team of
   certified smart automation technologists. Brilliant™, ButterflyMX™ and THX
   Certified.
