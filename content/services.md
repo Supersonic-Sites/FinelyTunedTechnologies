@@ -119,7 +119,8 @@ components:
       - img_alt: Home theater with the highest standards
         cta: Call To Action
         cta_link: contact/
-        title: Home Theatre
+        title: Home Theatre<br><span class="font-bold text-center text-xl text-gray-800
+          mb-6">From Lens To Living Room</span>
         desc: “Suspension of Disbelief”. This is the movie directors single artistic
           intention. Every soft whisper, dynamic musical soundtrack, colour
           intensity and hue, recreated to perfection in your home by our THX and

@@ -11,21 +11,16 @@
                 <div class="flex flex-col items-center justify-items-end ">
                     
                     <img
-                    class="lazyload w-full mb-6" 
+                    class="lazyload w-full mb-6 object-cover h-52" 
                     alt="{{ .img_alt }}"
-                    width="300px"
-                    height="168px" 
-                    data-srcset="
-                        {{ .img }}?nf_resize=smartcrop&w=300&h=168 300w,
-                        {{ .img }}?nf_resize=smartcrop&w=400&h=225 400w,
-                        {{ .img }}?nf_resize=smartcrop&w=600&h=337 600w"
-                    sizes="(max-width: 768px) 600px, 300px"
-                    data-src="{{ .img }}?nf_resize=smartcrop&w=300&h=300"
+                    width="600px"
+                    height="400px" 
+                    src="{{ .img }}"
                      />
 
 
                     <h2 class="font-bold text-center text-2xl text-gray-800 mb-6">
-                        {{ .title }}
+                        {{ .title | safeHTML }}
                     </h2>
                     <p class="text-center mb-6 md:mb-8 text-base text-gray-700">
                         {{ .desc | safeHTML }}

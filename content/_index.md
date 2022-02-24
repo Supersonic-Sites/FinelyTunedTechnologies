@@ -10,11 +10,11 @@ components:
     img_alt: Smart Home Automation Specialist in Vancouver, BC
     cta: Free Consultation
     desc: Enhance your living space with Vancouver's experienced team of certified
-      home automation and home entertainment specialists. Brilliant,
-      ButterflyMX, THX and ISF Certified. Serving commercial, residential and
-      luxury marine projects for over 30 years.
+      home automation and home theatre specialists. Brilliant, ButterflyMX, THX
+      and ISF Certified. Serving commercial, residential and luxury marine
+      projects for over 30 years.
     cta2_link: contact/
-    title1: Vancouver's Smart Home Automation
+    title1: Vancouver’s Smart Home Automation and Home Theatre
     cta2_select: true
     title2: Specialists
     type: hero_half_img_diagonal
@@ -90,7 +90,8 @@ components:
         cta_link: free-consultation/
         aos: fade-up
         icon: "#film"
-        title: Home Theatre
+        title: Home Theatre<br><span class="font-bold text-center text-xl text-gray-800
+          mb-6">From Lens To Living Room</span>
         desc: "“Suspension of Disbelief”. This is the movie directors single artistic
           intention. Every soft whisper, dynamic musical soundtrack, colour
           intensity and hue, recreated to perfection in your home by our THX and
