@@ -63,13 +63,16 @@ components:
       - img_alt: Lamp connected to an automated system with finely tuned technologies
         cta: Call To Action
         cta_link: free-consultation/
-        title: Lighting
+        title: Lighting<br><span class="font-bold text-center text-base text-gray-800
+          mb-6">Wellness Lighting - Not Tuneable Lighting</span>
         desc: "Experience the scientifically researched wellness benefits of Human
-          Centric Lighting. Within hours, witness your existing home lighting
-          transformed into an easy-to-use fully automated system. Control your
-          lighting and shades via a mobile app, voice assistant, motion
-          detection, at home or away. Program your personal lighting scenes. For
-          example: &nbsp;Good Morning, Away, Home, Dining, Movie and Goodnight."
+          Centric Lighting. Transform your new or existing lighting and manual
+          shading into an automated system within hours. Within hours, witness
+          your existing home lighting transformed into an easy-to-use fully
+          automated system. Control your lighting and shades via a mobile app,
+          voice assistant, motion detection, at home or away. Program your
+          personal lighting scenes. For example: &nbsp;Good Morning, Away, Home,
+          Dining, Movie and Goodnight."
         aos_select: false
         aos: none
         img: /img/smart-lighting-service3.jpg
@@ -119,8 +122,8 @@ components:
       - img_alt: Home theater with the highest standards
         cta: Call To Action
         cta_link: contact/
-        title: Home Theatre<br><span class="font-bold text-center text-xl text-gray-800
-          mb-6">From Lens To Living Room</span>
+        title: Home Theatre<br><span class="font-bold text-center text-base
+          text-gray-800 mb-6">From Lens To Living Room</span>
         desc: “Suspension of Disbelief”. This is the movie directors single artistic
           intention. Every soft whisper, dynamic musical soundtrack, colour
           intensity and hue, recreated to perfection in your home by our THX and

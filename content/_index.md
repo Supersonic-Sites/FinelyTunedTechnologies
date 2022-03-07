@@ -47,10 +47,11 @@ components:
         cta_link: free-consultation/
         aos: fade-up
         icon: "#lightbulb-on"
-        title: Lighting
-        desc: "Achieve the perfect day and nighttime lighting ambience. Transform your
-          new or existing lighting and manual shading into an automated system
-          within hours. "
+        title: Lighting<br><span class="font-bold text-center text-base text-gray-800
+          mb-6">Wellness Lighting - Not Tuneable Lighting</span>
+        desc: Experience the scientifically researched wellness benefits of Human
+          Centric Lighting. Transform your new or existing lighting and manual
+          shading into an automated system within hours.
         aos_select: true
       - cta: Call To Action
         cta_link: free-consultation/
@@ -90,8 +91,8 @@ components:
         cta_link: free-consultation/
         aos: fade-up
         icon: "#film"
-        title: Home Theatre<br><span class="font-bold text-center text-xl text-gray-800
-          mb-6">From Lens To Living Room</span>
+        title: Home Theatre<br><span class="font-bold text-center text-base
+          text-gray-800 mb-6">From Lens To Living Room</span>
         desc: "“Suspension of Disbelief”. This is the movie directors single artistic
           intention. Every soft whisper, dynamic musical soundtrack, colour
           intensity and hue, recreated to perfection in your home by our THX and
