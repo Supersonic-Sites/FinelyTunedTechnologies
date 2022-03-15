@@ -119,6 +119,12 @@ collections:
             fields:
                 - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
 
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+
           - label: "4 Columns Text Cards"
             name: "cards_fourth_text"
             widget: "object"

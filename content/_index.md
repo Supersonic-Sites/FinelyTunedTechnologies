@@ -4,6 +4,8 @@ description: Enhance your living space with Vancouver's experienced team of
   certified smart automation technologists. Brilliant™, ButterflyMX™ and THX
   Certified.
 components:
+  - type: banner
+    bg_color: white
   - cta2: Contact Us
     img: /img/smart-automation-services-vancouver.jpg
     cta_link: free-consultation/
