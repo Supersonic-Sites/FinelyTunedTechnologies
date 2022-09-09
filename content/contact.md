@@ -16,8 +16,8 @@ components:
     title: Get In Touch
     type: contact
     email: info@fttech.ca
-    address1: 2 - 2130 Marine Drive,
+    address1: 110 2243 Folkestone Way
     address2: West Vancouver, BC
     address_toggle: true
-    address3: V7V 1K3
+    address3: V7S 2Y7
 ---
